@@ -17,13 +17,13 @@
   },
   "dependencies": {
     "@a2a-js/sdk": "1.0.0-beta.0",
-    "@red-cup-engineering/a2a-contracted-agent-service": "2.0.5",
-    "@red-cup-engineering/a2a-rmn-part-service": "1.0.1",
-    "@red-cup-engineering/a2a-rmn-task-client-service": "1.1.1",
-    "@red-cup-engineering/relation-model-notation-json-codec": "0.0.2",
-    "@red-cup-engineering/relation-model-notation-runtime": "8.0.0",
-    "@red-cup-engineering/relation-model-notation-typing": "0.0.1",
-    "@red-cup-engineering/semantic-content-identify-service": "0.2.2"
+    "@red-cup-engineering/a2a-contracted-agent-service": "workspace:*",
+    "@red-cup-engineering/a2a-rmn-part-service": "workspace:*",
+    "@red-cup-engineering/a2a-rmn-task-client-service": "workspace:*",
+    "@red-cup-engineering/relation-model-notation-json-codec": "workspace:*",
+    "@red-cup-engineering/relation-model-notation-runtime": "workspace:*",
+    "@red-cup-engineering/relation-model-notation-typing": "workspace:*",
+    "@red-cup-engineering/semantic-content-identify-service": "workspace:*"
   },
   "license": "UNLICENSED"
 }
