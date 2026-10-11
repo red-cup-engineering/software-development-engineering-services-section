@@ -1,9 +1,9 @@
-import { join, resolve } from "node:path";
+import { resolve } from "node:path";
 import { eavtRow as entry } from "@red-cup-engineering/eavt-services-section/admit-row";
 import { appendEavtEntries } from "@red-cup-engineering/eavt-services-section/append-eavt-entries";
 import { readEavtEntries } from "@red-cup-engineering/eavt-services-section/read-eavt-entries";
 import { addressDesignMaterial } from "./semantic-content.mjs";
-import { walkPosixPathsSync } from "@red-cup-engineering/computer-filepath-engineering-services-section/walk-posix-paths";
+import { dataArtifactFiles } from "@red-cup-engineering/eavt-services-section/data-artifact-listing";
 
 const FEED = "software-design-inputs";
 export const ADMITTED_DEMAND_CATEGORY = "software-design.admitted-demand";
@@ -19,8 +19,8 @@ function texts(value) {
 function cloneOrNull(value) {
   return value === undefined ? null : structuredClone(value);
 }
-function filesBelow(directory) {
-  return walkPosixPathsSync({ root: directory, missing: "empty", paths: "absolute", result: "paths", symlinks: "skip", includeFile: ({ name }) => name === `${FEED}.jsonl` }).files;
+function feedFiles(root) {
+  return dataArtifactFiles(root, "log", { subject: FEED, match: (filename) => filename.endsWith(".jsonl") }).map((file) => file.path);
 }
 
 export function projectSoftwareDesignInputs({ actor, contract, effects, grant, offer, request }) {
@@ -112,7 +112,7 @@ export function createSoftwareDesignInputJournal({ root } = {}) {
     },
     query(category) {
       const rows = [];
-      for (const path of filesBelow(join(custodyRoot, "data", "logs"))) {
+      for (const path of feedFiles(custodyRoot)) {
         for (const row of readEavtEntries({path})) if (row.a === category) rows.push(structuredClone(row.v));
       }
       return Object.freeze(rows);
