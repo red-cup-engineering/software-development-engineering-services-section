@@ -21,7 +21,7 @@
     "node": ">=22"
   },
   "dependencies": {
-    "@red-cup-engineering/semantic-content-identify-service": "0.2.2",
+    "@red-cup-engineering/semantic-content-identify-service": "workspace:*",
     "@red-cup-engineering/semiotic-eavt-services-section": "workspace:*"
   }
 }
