@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { makeNiUri as rawNi } from "@red-cup-engineering/ni-uri-services-section";
+import { makeNiUri as rawNi } from "@red-cup-engineering/uri-services-section/ni-uri";
 import { runGit } from "./git-command.mjs";
 import { RECORD_KIND, identifyJson } from "./semantic-content.mjs";
 
