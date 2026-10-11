@@ -44,8 +44,11 @@ export function filesAt(repository, path, nested = []) {
 }
 
 /** Relative path -> the blobs that path held across the repository's history, newest first. */
+const primedRoot = (repository, path) => [...(primedHistories.get(repository) ?? new Map())].find(([root]) => !root || path === root || path.startsWith(`${root}/`));
+const isPrimed = (repository, path) => primedRoot(repository, path) !== undefined;
+
 export function historyAt(repository, path) {
-  const primed = [...(primedHistories.get(repository) ?? new Map())].find(([root]) => !root || path === root || path.startsWith(`${root}/`));
+  const primed = primedRoot(repository, path);
   const history = new Map();
   for (const [file, blobs] of primed ? primed[1] : pathHistory(repository, path)) {
     if (file.startsWith(under(path))) history.set(file.slice(under(path).length), blobs);
@@ -159,8 +162,11 @@ export function reconcile({ copyRepository, copyPath, ownerRepository, ownerPath
       else if (ownerPathBlobs.includes(c)) outcome = "owner-newer";
       else if (copyPathBlobs.includes(o)) outcome = "copy-newer";
       else {
+        // A copy whose history was primed sits in a large repository: following one file through renames there runs
+        // rename detection over every commit's whole tree, so its path history stands in. Missing a rename can only
+        // miss a shared blob, which leaves the file a conflict for a person rather than deciding it wrongly.
         const ownerBlobs = fileHistory(ownerRepository, `${under(ownerPath)}${relative}`);
-        const copyBlobs = fileHistory(copyRepository, `${under(copyPath)}${relative}`);
+        const copyBlobs = isPrimed(copyRepository, copyPath) ? copyPathBlobs : fileHistory(copyRepository, `${under(copyPath)}${relative}`);
         const copyHeld = new Set(copyBlobs);
         if (ownerBlobs.includes(c)) outcome = "owner-newer";
         else if (copyHeld.has(o)) outcome = "copy-newer";
