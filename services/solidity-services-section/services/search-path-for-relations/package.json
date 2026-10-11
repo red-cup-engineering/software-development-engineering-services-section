@@ -13,7 +13,6 @@
     "verify": "npm run check && npm test"
   },
   "dependencies": {
-    "@red-cup-engineering/search-path-for-relations": "workspace:*",
     "@red-cup-engineering/computer-filepath-engineering-services-section": "workspace:*"
   }
 }
