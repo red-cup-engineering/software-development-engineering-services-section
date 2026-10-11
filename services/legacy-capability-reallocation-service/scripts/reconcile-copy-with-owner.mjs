@@ -242,6 +242,8 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     process.stderr.write("usage: reconcile-copy-with-owner --copy-repo <dir> --copy <path> --owner-repo <dir> --owner <path> [--nested-copy <path>]... [--nested-owner <path>]... [--apply] [--report <file>]\n");
     process.exit(2);
   }
+  // Read the copy's history once, as a wave does: a copy in a large repository is then never followed file by file.
+  primeHistory(take("--copy-repo"), take("--copy"));
   const report = reconcile({
     copyRepository: take("--copy-repo"), copyPath: take("--copy"), ownerRepository: take("--owner-repo"), ownerPath: take("--owner"),
     nestedCopy: all("--nested-copy"), nestedOwner: all("--nested-owner"), apply: args.includes("--apply"),
