@@ -1,0 +1,191 @@
+{
+  "kind": "legacy-capability-reallocation-ledger/v3",
+  "repositoryRoot": "/home/emsenn/info",
+  "legacyRoot": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/lib/legacy/2025-12-20-semiotic-git",
+  "inventory": {
+    "sourceFiles": 3,
+    "excluded": []
+  },
+  "records": [
+    {
+      "id": "legacy-source:measure-git-semantics.sh:d0a9d05d0883bc00",
+      "source": {
+        "path": "measure-git-semantics.sh",
+        "sha256": "d0a9d05d0883bc00465c2b36445876ba29cf3d13af145cee4d41d535a6336484",
+        "bytes": 2231,
+        "extension": ".sh",
+        "kind": "code-module"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "git"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section",
+          "reason": "Git observations belong to version-control services.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:practices/large-files.md:1d6faf18659fbae3",
+      "source": {
+        "path": "practices/large-files.md",
+        "sha256": "1d6faf18659fbae3be49f3179edbafa18a9ae8e4ba85016b41cd79b98b4a0fb3",
+        "bytes": 1697,
+        "extension": ".md",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown",
+        "git",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section",
+          "reason": "Git observations belong to version-control services.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:semiotic-git.md:5bf40f4d22ada7b8",
+      "source": {
+        "path": "semiotic-git.md",
+        "sha256": "5bf40f4d22ada7b874a3d927e37458ce0af3e3f08dc6a645e1da0f45d7a556eb",
+        "bytes": 6867,
+        "extension": ".md",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown",
+        "git",
+        "publication",
+        "orchestration",
+        "research"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section",
+          "reason": "Git observations belong to version-control services.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/operations-services-section",
+          "reason": "Named multi-step execution belongs to operations.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/science-services-section",
+          "reason": "Scientific subject ownership is separate from the upstream Markdown carrier.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section"
+          ]
+        }
+      ]
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "git-history-provenance-interpretation",
+      "sourcePaths": [
+        "semiotic-git.md"
+      ],
+      "effect": "Interpret observed Git commit-parent history as bounded provenance evidence while preserving the distinction between Git object facts, mutable refs, and semantic or release claims.",
+      "carrier": "engineering-markdown-note",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+        "rationale": "The archive's formal claims are engineering/scientific interpretation, not a downstream semiotic-system protocol. Their Markdown carrier belongs downstream of SignCell; only Git facts belong in the Git code service.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section/content/text/documents/articles/notes/2026/09/25/2026-09-25-git-history-observation-and-provenance.md",
+            "effect": "Retains the commit-DAG provenance reading, identifies its valid carrier, and rejects unsupported modality, stability, and automatic-query-provenance claims."
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-code-development-system-services-section/apps/computer-code-development-engine/src/git/observation.mjs",
+            "effect": "Provides bounded portable observations of actual Git commit, reference, and tree evidence without assigning semantic meaning to it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "git-tag-reachability-observation",
+      "sourcePaths": [
+        "measure-git-semantics.sh"
+      ],
+      "effect": "Observe annotated Git tag objects, their target-commit reachability from a selected revision, branch reachability counts, and the selected commits outside all currently visible annotated tags.",
+      "carrier": "git-graph-observation",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section",
+        "rationale": "The legacy script's underlying useful work is Git graph observation. Its declared modal and release meanings are not Git facts, while the source's annotated-tag commands are partly invalid; one upstream Git observer now provides the reproducible observation.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-code-development-system-services-section/apps/computer-code-development-engine/src/git/observation.mjs",
+            "effect": "Observes annotated tags, exact object and commit IDs, tag reachability, selected-history counts, and local branch counts without declaring a release policy."
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-code-development-system-services-section/apps/computer-code-development-engine/test/git-repository-observation.test.mjs",
+            "effect": "Demonstrates that lightweight tags are excluded and that a selected untagged commit is reported separately from annotated-tag reachability."
+          }
+        ]
+      }
+    },
+    {
+      "id": "large-artifact-carrier-selection-guidance",
+      "sourcePaths": [
+        "practices/large-files.md"
+      ],
+      "effect": "Choose and document an appropriate carrier for large artifacts while retaining integrity and retrieval evidence and distinguishing local storage from remote availability.",
+      "carrier": "engineering-markdown-note",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+        "rationale": "The archive's GitHub-release preference is one possible operational policy, not a universal Git feature. The retained decision boundary and its Markdown explanation belong in the data-layer Markdown carrier, with LFS observation remaining in the Git code service.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section/content/text/documents/articles/notes/2026/09/25/2026-09-25-git-history-observation-and-provenance.md",
+            "effect": "Sets carrier selection on retrieval, retention, integrity, replication, and hosting requirements rather than a universal external-artifact rule."
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-code-development-system-services-section/apps/computer-code-development-engine/src/git/observation.mjs",
+            "effect": "Separates local Git LFS objects from evidence of remote availability so a cache count cannot be reported as publication."
+          }
+        ]
+      }
+    }
+  ],
+  "archiveDisposition": "purged"
+}

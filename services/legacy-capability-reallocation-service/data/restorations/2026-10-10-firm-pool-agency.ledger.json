@@ -1,0 +1,2283 @@
+{
+ "kind": "legacy-capability-restoration-ledger/v1",
+ "section": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency",
+ "restoredOnto": "a1ffdb7ca13ae318ceb1cd839f3f2197c0b85671",
+ "method": "The 59 firm-pool agency records agents deleted on 2026-10-03 (05be6df) and 2026-10-07 (5fe5116) were restored from history by the orchestrator session (#526). readAgency then showed the 41 works duplicating closure-carrying duties and the 2 forms as retired bindings, so #528 moved those 43 to 561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/ as data; the other 16 stay live.",
+ "units": [
+  {
+   "unit": "characters/bare-cedar-fog-inference-pool-worker.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/characters/bare-cedar-fog-inference-pool-worker.json",
+   "placement": "live-agency",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/characters/bare-cedar-fog-inference-pool-worker.json"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/characters",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/characters/bare-cedar-fog-inference-pool-worker.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/characters/bare-cedar-fog-inference-pool-worker.json",
+     "gitBlob": "47365af491dfecfbe2b4019eeb4d3bbd5bdeb8d9",
+     "sha256": "1dbd7ae3961b34626cff00d96b6a17edd4679ec522af68226c6a2316afec502d",
+     "bytes": 868,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "duties/direct-public-services.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/duties/direct-public-services.json",
+   "placement": "live-agency",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/duties/direct-public-services.json"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/duties",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/duties/direct-public-services.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/duties/direct-public-services.json",
+     "gitBlob": "ef0db0859b9ad3b5cdb7dd13838881b8df5777cf",
+     "sha256": "b0a684f981b5f315e81cf2f5aaf57a5770155d90c0d6f284a1f7fad9a6a83995",
+     "bytes": 1831,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "incumbencies/chatgpt-web-as-chief-financial-officer.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-financial-officer.json",
+   "placement": "live-agency",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-financial-officer.json"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-financial-officer.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-financial-officer.json",
+     "gitBlob": "41a443b94be969320996768d5a3451946ce33b57",
+     "sha256": "55e0a8868fd5cce87dc67c6e146f26fdff7e4fabcfa04a062f233ee86ca8bdcd",
+     "bytes": 779,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "incumbencies/chatgpt-web-as-chief-information-officer.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-information-officer.json",
+   "placement": "live-agency",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-information-officer.json"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-information-officer.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-information-officer.json",
+     "gitBlob": "cc78e402d10a65ac780e81d5f16c4026ee398b7b",
+     "sha256": "6a0a28f6d70c17f6bc6958f88dee46f5d985afa79506114f3b4939b18ae98078",
+     "bytes": 833,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "incumbencies/chatgpt-web-as-chief-public-services-officer.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-public-services-officer.json",
+   "placement": "live-agency",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-public-services-officer.json"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-public-services-officer.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-public-services-officer.json",
+     "gitBlob": "b795651771159d57e55351831f70027c9f87f43f",
+     "sha256": "d5e06a1edf2ef84ebc0f39acb6adab4264d253ce3e5e0cad1d34e7cc57ee0228",
+     "bytes": 726,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "incumbencies/chatgpt-web-as-chief-science-officer.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-science-officer.json",
+   "placement": "live-agency",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-science-officer.json"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-science-officer.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/incumbencies/chatgpt-web-as-chief-science-officer.json",
+     "gitBlob": "3b189cc1f06f6c14f3179aac86058b56a7913875",
+     "sha256": "49d25f4817f0177b654a9856448454574647dcee9ec6380e2bc83a107f0c9679",
+     "bytes": 780,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "offices/chief-public-services-officer.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/offices/chief-public-services-officer.json",
+   "placement": "live-agency",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/offices/chief-public-services-officer.json"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/offices",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/offices/chief-public-services-officer.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/offices/chief-public-services-officer.json",
+     "gitBlob": "c5516f6abaabd804c77b7b80c2fc0c204482eb2e",
+     "sha256": "898cc1e4b63dc9a0ba2d67e9199c2091db421dab9dd469018beb7089ee7c7682",
+     "bytes": 6331,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "skills/direct-public-services/SKILL.md",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/direct-public-services/SKILL.md",
+   "placement": "live-agency",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/direct-public-services/SKILL.md"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/direct-public-services",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/direct-public-services/SKILL.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/direct-public-services/SKILL.md",
+     "gitBlob": "1dd545ddfee0709050d8c28bc004b77f7d289ee6",
+     "sha256": "5bc871dfcabccd62be026c0af3cd965a3c3cd39ebcd565bba6a2f49a11aeb831",
+     "bytes": 6273,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "skills/two-claw-alignment/SKILL.md",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/SKILL.md",
+   "placement": "live-agency",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/SKILL.md"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/SKILL.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/SKILL.md",
+     "gitBlob": "2c6c9077c78008ce9420f928b07561fd2c074c39",
+     "sha256": "e6bf09c1e23a37741fdce63336376776655907f394cc346c3cdf40bda421ff86",
+     "bytes": 13544,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "skills/two-claw-alignment/alignment-work.mjs",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/alignment-work.mjs",
+   "placement": "live-agency",
+   "lostSourceFiles": 1,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/alignment-work.mjs"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/alignment-work.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/alignment-work.mjs",
+     "gitBlob": "fc0320831b8860efef95cd0f54a918df7f77fe18",
+     "sha256": "85101c2b4cbda30b051f77aae1620ba1100f543a0a894188df806805dbaa1d15",
+     "bytes": 6579,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "skills/two-claw-alignment/alignment-work.test.mjs",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/alignment-work.test.mjs",
+   "placement": "live-agency",
+   "lostSourceFiles": 1,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/alignment-work.test.mjs"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/alignment-work.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/alignment-work.test.mjs",
+     "gitBlob": "c239f4c5df98b6c09a966b3b02b1dc46510e4ec8",
+     "sha256": "f12df85a64ef04f2b4b518d97f27f7cc3de61bdd2c131a211ac8bc28bdd63679",
+     "bytes": 5144,
+     "mode": "100644",
+     "restoredBlob": "b3244b48df204ab531b5e948f337c3ad8c9275fc",
+     "note": "edited on main after the restoration; gitBlob is the live file, restoredBlob what #526 restored"
+    }
+   ]
+  },
+  {
+   "unit": "skills/two-claw-alignment/assay-alignment-cases.mjs",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/assay-alignment-cases.mjs",
+   "placement": "live-agency",
+   "lostSourceFiles": 1,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/assay-alignment-cases.mjs"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/assay-alignment-cases.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/assay-alignment-cases.mjs",
+     "gitBlob": "034b0abbe50e9987aecc1ef1e75df739167f0c5b",
+     "sha256": "f6611c0d8407b50cecb16f779707fd3b94efa42c1e7da6bafc19dbfd55471530",
+     "bytes": 7249,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "skills/two-claw-alignment/assay-alignment-cases.test.mjs",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/assay-alignment-cases.test.mjs",
+   "placement": "live-agency",
+   "lostSourceFiles": 1,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/assay-alignment-cases.test.mjs"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/assay-alignment-cases.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/assay-alignment-cases.test.mjs",
+     "gitBlob": "c8c0d7da03c0355865ad79c65ce2f220ba310331",
+     "sha256": "ebb768c9decdcb37a759cd5fa4bfde7d3358844eeea7c07ba686b70bf3b2759b",
+     "bytes": 2768,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "skills/two-claw-alignment/fixtures/market-offer.fixture.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures/market-offer.fixture.json",
+   "placement": "live-agency",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures/market-offer.fixture.json"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures/market-offer.fixture.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures/market-offer.fixture.json",
+     "gitBlob": "429f27e9b84e00feb3fa94e941a543b5524c86e9",
+     "sha256": "e590afb7fe5e0afd8c1f4450474de03b4725f18207d0b578254f040c5a211ef9",
+     "bytes": 4233,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "skills/two-claw-alignment/fixtures/software-package.fixture.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures/software-package.fixture.json",
+   "placement": "live-agency",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures/software-package.fixture.json"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures/software-package.fixture.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures/software-package.fixture.json",
+     "gitBlob": "082008f34e76dc53c760c5c8e93119eed964a8aa",
+     "sha256": "1127d368c9366a685c623c53064313fda845b832a41abaa58fa7a2ccc49b7880",
+     "bytes": 3482,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "skills/two-claw-alignment/fixtures/swarm-selective-stabilization.fixture.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures/swarm-selective-stabilization.fixture.json",
+   "placement": "live-agency",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored",
+   "activation": "activated",
+   "activations": [
+    {
+     "legacyPaths": [
+      "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures/swarm-selective-stabilization.fixture.json"
+     ],
+     "owner": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures",
+     "commit": "aa7aed85e1a",
+     "pullRequest": 526,
+     "evidence": [
+      "readAgency over 561-group-services-section on main a1ffdb7ca13: 0 problems"
+     ],
+     "note": "Restored straight into the live agency it was deleted from."
+    }
+   ],
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures/swarm-selective-stabilization.fixture.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/skills/two-claw-alignment/fixtures/swarm-selective-stabilization.fixture.json",
+     "gitBlob": "5906b7d5d0d9f5cca921da878e50e150fa9894e5",
+     "sha256": "3d1923b8ee80499bc22254d3878a98f2769b07194d468178200c9d7bf94be998",
+     "bytes": 4063,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "forms/junior-service-officer.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/forms/junior-service-officer.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/forms/junior-service-officer.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/forms/junior-service-officer.json",
+     "gitBlob": "c7399544789ad61312102dd7ae50a9a793ecec59",
+     "sha256": "d271b4712b784906577d32c605c2657862d27b08a0f6a71b23124d8da3640b5b",
+     "bytes": 2832,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "forms/senior-service-officer.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/forms/senior-service-officer.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "5fe511669e8628f19baeb3f9ff79aaef2a1f3b93",
+    "date": "2026-10-07",
+    "title": "Define Bare Cedar Fog as a source-owned GitHub Guix machine snapshot",
+    "pullRequest": 316,
+    "branch": "codex/github-guix-machine-snapshot",
+    "mergedBy": "f2ae8d5006b (Merge pull request #316)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/forms/senior-service-officer.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/forms/senior-service-officer.json",
+     "gitBlob": "380234049abe7c12cfb61b3f2d77f38bd35082ca",
+     "sha256": "044c441ac186b3771b999102160d9801fd42469b4625f82db5f6e33d390c5386",
+     "bytes": 2891,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/accounting-policy-and-book-integrity.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/accounting-policy-and-book-integrity.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/accounting-policy-and-book-integrity.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/accounting-policy-and-book-integrity.json",
+     "gitBlob": "9a80a0cccdee7a18c3995c59326fe76697414386",
+     "sha256": "8cce5ab8aad88df6a4a8f1a4e9098aace77451be3811f6c84af104517dec673b",
+     "bytes": 1336,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/allocating-authorized-company-resources.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/allocating-authorized-company-resources.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/allocating-authorized-company-resources.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/allocating-authorized-company-resources.json",
+     "gitBlob": "4128932e417fa3f3797f6eed84070e7ab8cab670",
+     "sha256": "bcab5003844958fff4edff130473035878f865825f2ba1ab099840e1aa469184",
+     "bytes": 684,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/appointing-and-coordinating-functional-leaders.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/appointing-and-coordinating-functional-leaders.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/appointing-and-coordinating-functional-leaders.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/appointing-and-coordinating-functional-leaders.json",
+     "gitBlob": "33ae90b73565b4c0acf6a2cdb699a83d57af4e71",
+     "sha256": "bbd354a975dea9a4afc9ee88aa02900244892e492d09174a6df3ffb7eb853b74",
+     "bytes": 745,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/budgets-and-forecasts.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/budgets-and-forecasts.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/budgets-and-forecasts.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/budgets-and-forecasts.json",
+     "gitBlob": "64b263a0b43832f38e5ccd7d1eb2b91c9acbe267",
+     "sha256": "32c34082b76e12e89523c971275cbace274a8c7a0872cf3fba2ef990d97a49e8",
+     "bytes": 925,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/capital-allocation-analysis.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/capital-allocation-analysis.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/capital-allocation-analysis.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/capital-allocation-analysis.json",
+     "gitBlob": "c78d0d34adc5786742dcc5135a9ce1d6f0167265",
+     "sha256": "763e7a1e439ef36a644f0ef8d9ef5bc3c0f6c0cb85f7cf1377401486920387a1",
+     "bytes": 977,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/cash-and-treasury-observation.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cash-and-treasury-observation.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/cash-and-treasury-observation.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cash-and-treasury-observation.json",
+     "gitBlob": "1d2fc2925bf382c8f564c76217536e4f2c5969a1",
+     "sha256": "9c344d93c87e9671180319f5f628574318c5796c4527cb5aee07395105d3111c",
+     "bytes": 977,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/ceo-authorized-resource-and-capital-oversight.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-authorized-resource-and-capital-oversight.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/ceo-authorized-resource-and-capital-oversight.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-authorized-resource-and-capital-oversight.json",
+     "gitBlob": "026228d21abbde865ebd585a6829b0fc8878fd53",
+     "sha256": "9374faf1a77da87ff829d594bc9de60b0d0ddb232ccbba305b0daf32c8fba941",
+     "bytes": 1061,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/ceo-board-liaison-and-performance.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-board-liaison-and-performance.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/ceo-board-liaison-and-performance.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-board-liaison-and-performance.json",
+     "gitBlob": "0c958a1bc287c20de0d93d7aba1d85905c9ed2ef",
+     "sha256": "bb476e7503d51e2bc9fe54ab1461a85ee9040fc0bd93186dcaab1b43d3f02b57",
+     "bytes": 986,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/ceo-culture-and-talent.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-culture-and-talent.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/ceo-culture-and-talent.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-culture-and-talent.json",
+     "gitBlob": "47bf2d6b4b28d9f17e8f9d3ec84d150ec1594015",
+     "sha256": "bfbde4ef1c3f76645ccfe782313839d7875a5af61b38f1711da5b81a83a1a1db",
+     "bytes": 1033,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/ceo-enterprise-risk-and-compliance.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-enterprise-risk-and-compliance.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/ceo-enterprise-risk-and-compliance.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-enterprise-risk-and-compliance.json",
+     "gitBlob": "ccf2247aff0744e962df7008f3ea0de193cc1986",
+     "sha256": "91bdc5c9b0496c9abd0b2ce485d0a1403395a0dc42c0e4ff5ce8305070c0c99a",
+     "bytes": 1075,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/ceo-enterprise-strategy.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-enterprise-strategy.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/ceo-enterprise-strategy.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-enterprise-strategy.json",
+     "gitBlob": "109761eb620d3ac640fb4f2f44f4d48d014d7ec1",
+     "sha256": "b0f5223a47fb6e414806f2616f1bf22e9b9b407d52f49554949499e9124e28b9",
+     "bytes": 969,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/ceo-executive-appointment-and-oversight.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-executive-appointment-and-oversight.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/ceo-executive-appointment-and-oversight.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-executive-appointment-and-oversight.json",
+     "gitBlob": "565092d8ca3b54f75e1cc341e1dad57e60ce65f5",
+     "sha256": "2377b362b4bb1e42b2998f08d3115a7492eebcf030d092bf6b88046c22e22f6f",
+     "bytes": 1100,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/ceo-public-representation.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-public-representation.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/ceo-public-representation.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/ceo-public-representation.json",
+     "gitBlob": "a1d05ca20673ecdc05cbe316e827a98ba45acfa2",
+     "sha256": "5f9a921011bb2310c6c0439135567f18f4b772ff3b151b05dee8e8df1c0b3ef4",
+     "bytes": 1002,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/cio-analyze-technology-procurement.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-analyze-technology-procurement.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/cio-analyze-technology-procurement.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-analyze-technology-procurement.json",
+     "gitBlob": "678bebfb3ef69cdb5eacfa7181384f7e797db7b5",
+     "sha256": "87afda86a620c8b7c079d41b8748135961b828af4de5e1d2f224f3c1dff618d8",
+     "bytes": 1020,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/cio-assure-information-continuity-and-recovery.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-assure-information-continuity-and-recovery.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/cio-assure-information-continuity-and-recovery.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-assure-information-continuity-and-recovery.json",
+     "gitBlob": "3af4c368afc4eae67566c6c3054edc43606d7dce",
+     "sha256": "4f938e28eedf3d038e1c60e1b61eb5fb1aa271bf617612b65639c2dbabc293ef",
+     "bytes": 1068,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/cio-direct-enterprise-systems-architecture.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-direct-enterprise-systems-architecture.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/cio-direct-enterprise-systems-architecture.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-direct-enterprise-systems-architecture.json",
+     "gitBlob": "618ab1267898e5b43d78ea1c12fc4eb1aadba753",
+     "sha256": "7724868a53189d83f8265c3b5a267ba284b095ed81117dad263a0a1f2f84a347",
+     "bytes": 1071,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/cio-direct-internal-it-operations.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-direct-internal-it-operations.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/cio-direct-internal-it-operations.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-direct-internal-it-operations.json",
+     "gitBlob": "17f0f14da97c6445766bc74a138e1213aca639bb",
+     "sha256": "25179c003c216dc62fc4d48520bac060b5a87835d4dad3669b0b4d28d3f91f0e",
+     "bytes": 1020,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/cio-govern-information-security-and-access.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-govern-information-security-and-access.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/cio-govern-information-security-and-access.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-govern-information-security-and-access.json",
+     "gitBlob": "d8ac7b773b560293377be9eccd708bea749c05e3",
+     "sha256": "cae6b0dd70b08307b66e46187cf3c5712a3bf4a0095afe17c8733b165c5e311c",
+     "bytes": 1032,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/cio-govern-internal-data-and-business-intelligence.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-govern-internal-data-and-business-intelligence.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/cio-govern-internal-data-and-business-intelligence.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-govern-internal-data-and-business-intelligence.json",
+     "gitBlob": "9841fed237d83f19630960f9dae1c969927eaf58",
+     "sha256": "e173713e8f66460b3e0b192f92be8c23172b9174bce46ae7d6fdeb3d5a3f4151",
+     "bytes": 1098,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/cio-manage-internal-platform-and-services.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-manage-internal-platform-and-services.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/cio-manage-internal-platform-and-services.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-manage-internal-platform-and-services.json",
+     "gitBlob": "61926da2cc5e423501ce2fd27742d2bdf0096da3",
+     "sha256": "23ad20dc898770cd8aaa3f96d40434eb7f04d233662e4b5f3e119f91197637fa",
+     "bytes": 1056,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/cio-provide-workplace-technology-support.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-provide-workplace-technology-support.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/cio-provide-workplace-technology-support.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cio-provide-workplace-technology-support.json",
+     "gitBlob": "3286ed80bacc564b128763045d8d0cd348e92fd9",
+     "sha256": "51d22ad733e12366bba09a4eddbd93b91ce6ced465f45f9f5f97f9b8b6f23f54",
+     "bytes": 1031,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/coordinating-knowledge-and-technology.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/coordinating-knowledge-and-technology.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/coordinating-knowledge-and-technology.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/coordinating-knowledge-and-technology.json",
+     "gitBlob": "a2a127829019331da433af744ddd6a586aa76057",
+     "sha256": "490e59b6291a21b56862eb87cdc50ff6a1ded85de68b7f75ec9dc90f693883bd",
+     "bytes": 1141,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/cto-customer-product-infrastructure-security.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cto-customer-product-infrastructure-security.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/cto-customer-product-infrastructure-security.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cto-customer-product-infrastructure-security.json",
+     "gitBlob": "78d7d685a37e13420152e4630eadc1af7fc21b97",
+     "sha256": "03a3051946517c0a98c61808a494b2f2aeae069ca45900137b60443d5aa28fe4",
+     "bytes": 843,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/cto-innovation-evaluation.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cto-innovation-evaluation.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/cto-innovation-evaluation.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cto-innovation-evaluation.json",
+     "gitBlob": "faba214f862904aa47022c070696c5d30506adfb",
+     "sha256": "3adc56e6f65eeffb2a18831c2b5b024c1a37a13892a54d714ed3fc862fdf5fc9",
+     "bytes": 839,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/cto-intellectual-property-and-technical-asset-stewardship.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cto-intellectual-property-and-technical-asset-stewardship.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/cto-intellectual-property-and-technical-asset-stewardship.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cto-intellectual-property-and-technical-asset-stewardship.json",
+     "gitBlob": "661987c233eae8ba9e27269793d7f0be1be12aa8",
+     "sha256": "c06820c8b1b223fd5d361b7ee9bc4e79bab68c75f561d1ac45d0fbe531b140cc",
+     "bytes": 914,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/cto-vendor-and-partner-technical-evaluation.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cto-vendor-and-partner-technical-evaluation.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/cto-vendor-and-partner-technical-evaluation.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/cto-vendor-and-partner-technical-evaluation.json",
+     "gitBlob": "c112158cc75d82d55ffc69027f75588326eef611",
+     "sha256": "83047b8df3abaa79b630f1135792cb0028e465d1d818768c945f4ff292eca9d5",
+     "bytes": 908,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/directing-business-portfolio-and-customer-commitments.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/directing-business-portfolio-and-customer-commitments.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/directing-business-portfolio-and-customer-commitments.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/directing-business-portfolio-and-customer-commitments.json",
+     "gitBlob": "f3c04777074f792df6e97965c22ce9583fe53c75",
+     "sha256": "4aa567905b82cacb2d499598654eccc59774cc6a724ce5beaa9db0777eeb85a2",
+     "bytes": 697,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/directing-engineering-execution.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/directing-engineering-execution.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/directing-engineering-execution.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/directing-engineering-execution.json",
+     "gitBlob": "19ce60c4c82a16a176602ca132542d5d441c8dcc",
+     "sha256": "7785f2180ca0a2684527257f518a32fa2560e9058c926286ee68f08bfdc45bfb",
+     "bytes": 1188,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/directing-technology-strategy-and-architecture.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/directing-technology-strategy-and-architecture.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/directing-technology-strategy-and-architecture.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/directing-technology-strategy-and-architecture.json",
+     "gitBlob": "9996744eb04e9b6b35994deb8c1b201fe37359b3",
+     "sha256": "15c880c8db1d239917daa8d0bf2ba3e1cea150f3dfecfd935b8c57abe7d859e5",
+     "bytes": 1061,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/distributing-accepted-technical-requirements.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/distributing-accepted-technical-requirements.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/distributing-accepted-technical-requirements.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/distributing-accepted-technical-requirements.json",
+     "gitBlob": "87491426932eb725e45d7b6cf3896fa2de1d6107",
+     "sha256": "e1cea25a5d76ad701cc6bf4d987bf1d09ece50596277268b5fc9c9ac7540f21c",
+     "bytes": 499,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/financial-reporting.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/financial-reporting.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/financial-reporting.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/financial-reporting.json",
+     "gitBlob": "6b2064233ebad4264e8fb92aa3f7d9f49f60abb8",
+     "sha256": "e5858b725cfd6c7406e706b762c503c0a1ac47c25e8df16fda1c46956b284c98",
+     "bytes": 1025,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/financial-risk-and-internal-control.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/financial-risk-and-internal-control.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/financial-risk-and-internal-control.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/financial-risk-and-internal-control.json",
+     "gitBlob": "1d34ad218ff1ff95e8da0a67b62c87f308582b5c",
+     "sha256": "0552f2687392200e9eceb9044a79ddfee2b724231447ca0875a9697d51c29314",
+     "bytes": 1150,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/found-a-section-through-the-founding-operator-rather-than-by-hand.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/found-a-section-through-the-founding-operator-rather-than-by-hand.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/found-a-section-through-the-founding-operator-rather-than-by-hand.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/found-a-section-through-the-founding-operator-rather-than-by-hand.json",
+     "gitBlob": "6eaa091831eae8ae97660541dacf1bc7e9e2ce57",
+     "sha256": "ebe6138f66d7c5de5281120926423487a2931c92dd81589d374104f9b3a08781",
+     "bytes": 680,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/leading-company-strategy-and-priorities.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/leading-company-strategy-and-priorities.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/leading-company-strategy-and-priorities.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/leading-company-strategy-and-priorities.json",
+     "gitBlob": "74990f5184daa6d7897f05e1f19afd21bf14e112",
+     "sha256": "f0b05177c6b8eefd4cac41242e0e5b72a12f3994188e7bafd132041719b3f533",
+     "bytes": 662,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/managing-company-risks-and-reserved-decisions.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/managing-company-risks-and-reserved-decisions.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/managing-company-risks-and-reserved-decisions.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/managing-company-risks-and-reserved-decisions.json",
+     "gitBlob": "99e9551664150caa2aff3949c5f9064d99151e87",
+     "sha256": "33a892a2f082db8772f1ea47cbb2fae44d734643a254dbbc1f1d040cd03d7a42",
+     "bytes": 680,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/normalizing-computer-code.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/normalizing-computer-code.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/normalizing-computer-code.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/normalizing-computer-code.json",
+     "gitBlob": "6cdf2f1999124cfbf06929c36c152f71eae9921a",
+     "sha256": "ddd325eb3bab6d254fbb2a7357fd3fa32d024198b06eb1ccd7e65f08ba47d326",
+     "bytes": 753,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/operating-work-lifecycle-and-staffing-allocation.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/operating-work-lifecycle-and-staffing-allocation.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/operating-work-lifecycle-and-staffing-allocation.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/operating-work-lifecycle-and-staffing-allocation.json",
+     "gitBlob": "ef9903917565d7390ce0eff50764012f39019b2f",
+     "sha256": "761a8d338c2eeb64d563bbdd41d5d9a46e29818f6071506eb7bf90b5791c0e56",
+     "bytes": 1309,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/product-and-offer-formation.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/product-and-offer-formation.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/product-and-offer-formation.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/product-and-offer-formation.json",
+     "gitBlob": "fb3dde3f6ab7c8e041fb1adb0b6c4a6fbcf19c3f",
+     "sha256": "f2af7a13f98a5661675a2d57db9dd58d32a4e2e731b0775eb83d17582f018c1b",
+     "bytes": 1326,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/resource-stewardship.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/resource-stewardship.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/resource-stewardship.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/resource-stewardship.json",
+     "gitBlob": "06113fb45016eae1a70ad50827586c32a5431627",
+     "sha256": "426a98c9c2924f80ddcd053314a70d684c4c04972926cf1434e958ca01505eea",
+     "bytes": 1252,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/reviewing-company-performance.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/reviewing-company-performance.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/reviewing-company-performance.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/reviewing-company-performance.json",
+     "gitBlob": "92e319222cbd2cedc78415b594b9de760b2d17d5",
+     "sha256": "7c80aec5d695a4e4243a471498fac933ada9661fbea759eb058e570642ecd4aa",
+     "bytes": 657,
+     "mode": "100644"
+    }
+   ]
+  },
+  {
+   "unit": "works/standardizing-computer-code.json",
+   "restoredTo": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/standardizing-computer-code.json",
+   "placement": "firm-pool-legacy",
+   "lostSourceFiles": 0,
+   "deletedBy": {
+    "commit": "05be6df09edc60075e9d3e9cd2bd8b11767945b5",
+    "date": "2026-10-03",
+    "title": "Lane 6: the enterprise governs itself, and nobody owns it",
+    "pullRequest": null,
+    "branch": "lane-6/session-lane",
+    "mergedBy": "88567526f7d (Integrate lane-6/session-lane into main)"
+   },
+   "restoredBy": {
+    "commit": "aa7aed85e1a",
+    "pullRequests": [
+     526,
+     528
+    ],
+    "session": "orchestrator"
+   },
+   "state": "restored-legacy",
+   "activation": "kept-as-data",
+   "note": "Kept as data, not activated: works folded into closure-carrying duties (readAgency: one work, one record); forms retired (formed-from rejected). Moved out of the live agency by #528; readAgency over the live 561 Group agency reads 0 problems without them.",
+   "files": [
+    {
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/agency/works/standardizing-computer-code.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/lib/legacy/restored-firm-pool-2026-10-10/lib/agency/works/standardizing-computer-code.json",
+     "gitBlob": "a0b122c7e29083bc9ebf193cb35fd9b964f6724d",
+     "sha256": "9c8d69ea133009ffb7c5caf9f6cad8236cc4745d5023da17c0280137841d7b34",
+     "bytes": 790,
+     "mode": "100644"
+    }
+   ]
+  }
+ ]
+}

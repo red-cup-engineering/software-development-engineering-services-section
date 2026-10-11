@@ -1,0 +1,2079 @@
+{
+  "kind": "legacy-capability-reallocation-ledger/v3",
+  "repositoryRoot": "/home/emsenn/info",
+  "legacyRoot": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/lib/legacy/2025-12-08-semiotic-publisher-script",
+  "inventory": {
+    "sourceFiles": 54,
+    "excluded": []
+  },
+  "records": [
+    {
+      "id": "legacy-source:.gitignore:a07fce64ca0b6513",
+      "source": {
+        "path": ".gitignore",
+        "sha256": "a07fce64ca0b651398ce71be18b4752a38a560a68ed1e668e3ea8a08277b2151",
+        "bytes": 102,
+        "extension": ".gitignore",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:examples/content/a.md:c946e4108eb23edb",
+      "source": {
+        "path": "examples/content/a.md",
+        "sha256": "c946e4108eb23edb730946067fea617e7aba32de76675f6f397b1668779fa12c",
+        "bytes": 105,
+        "extension": ".md",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:examples/content/b.md:fb428ffbfb872b2c",
+      "source": {
+        "path": "examples/content/b.md",
+        "sha256": "fb428ffbfb872b2c73d0528843d78ca176a16ddd7e57d37fa67d6c59f0252de6",
+        "bytes": 139,
+        "extension": ".md",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:examples/content/html.md:71a6a63261db550c",
+      "source": {
+        "path": "examples/content/html.md",
+        "sha256": "71a6a63261db550c8ff9bb5bfedda328ebc361e625fec8f479613b30082c672b",
+        "bytes": 180,
+        "extension": ".md",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:examples/universe.yaml:be98c2e6d6dd0445",
+      "source": {
+        "path": "examples/universe.yaml",
+        "sha256": "be98c2e6d6dd04459abd0030d36206b93fc1918e0b4a10809f0dd872eaa93372",
+        "bytes": 200,
+        "extension": ".yaml",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:pyproject.toml:748a9f625fca3593",
+      "source": {
+        "path": "pyproject.toml",
+        "sha256": "748a9f625fca3593ef1c5bf63c10d40e663891acd078f6058e9076266fc8ed47",
+        "bytes": 539,
+        "extension": ".toml",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:README.md:de695bad8ed7cba4",
+      "source": {
+        "path": "README.md",
+        "sha256": "de695bad8ed7cba43a93bb7d47aa9512cbc962b03c529eaa933b106fcab05f16",
+        "bytes": 454,
+        "extension": ".md",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:semantics-syntax-and-semiotics.md:87f7a08de2578fef",
+      "source": {
+        "path": "semantics-syntax-and-semiotics.md",
+        "sha256": "87f7a08de2578fef240d99af27bb06c8ae99c2051c20da261475dc63873846de",
+        "bytes": 6900,
+        "extension": ".md",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown",
+        "publication",
+        "orchestration",
+        "research"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/operations-services-section",
+          "reason": "Named multi-step execution belongs to operations.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/science-services-section",
+          "reason": "Scientific subject ownership is separate from the upstream Markdown carrier.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:semiotic-publisher.md:fdf9ba060605110a",
+      "source": {
+        "path": "semiotic-publisher.md",
+        "sha256": "fdf9ba060605110ad89c27da70f0c3ec4a3eaff42437c1001d102aa7dba21755",
+        "bytes": 14314,
+        "extension": ".md",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown",
+        "network",
+        "publication",
+        "orchestration",
+        "research"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section",
+          "reason": "Transport follows admitted carrier data.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/operations-services-section",
+          "reason": "Named multi-step execution belongs to operations.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/science-services-section",
+          "reason": "Scientific subject ownership is separate from the upstream Markdown carrier.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:signs-signals-and-systems.md:99a0091541788de8",
+      "source": {
+        "path": "signs-signals-and-systems.md",
+        "sha256": "99a0091541788de866bac73b2d2c26187a82dd1c4ebf7cda967be52ed3b1bd26",
+        "bytes": 6057,
+        "extension": ".md",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown",
+        "network",
+        "publication",
+        "orchestration",
+        "research"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section",
+          "reason": "Transport follows admitted carrier data.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/operations-services-section",
+          "reason": "Named multi-step execution belongs to operations.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/science-services-section",
+          "reason": "Scientific subject ownership is separate from the upstream Markdown carrier.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/__init__.py:f02befc2935e2460",
+      "source": {
+        "path": "src/ssc_universe/__init__.py",
+        "sha256": "f02befc2935e24608e1c6c96fc6b3e28bf2927562690af5e363f0c318bc7f4a8",
+        "bytes": 120,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/annterm.py:7e59e6448b5cfa49",
+      "source": {
+        "path": "src/ssc_universe/annterm.py",
+        "sha256": "7e59e6448b5cfa495d6ef74fd8f73c40a55ac4779e455b04e854803ee9a5d1ba",
+        "bytes": 3269,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "AnnTerm",
+        "AtomTerm",
+        "extend",
+        "FailureTerm",
+        "interpret",
+        "is_refinement_of",
+        "KeyValTerm",
+        "parse_ann_term",
+        "ProvenanceHistory",
+        "ProvenanceStep",
+        "RefTerm",
+        "singleton",
+        "surface"
+      ],
+      "imports": [
+        "__future__",
+        "dataclasses",
+        "typing"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/cache.py:5caca4c0b3240a59",
+      "source": {
+        "path": "src/ssc_universe/cache.py",
+        "sha256": "5caca4c0b3240a59c3f1f3a66833d88d978f1f4749a01f72990c5702e68bff18",
+        "bytes": 9291,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "__init__",
+        "_compute_signature",
+        "_load_path",
+        "CacheManager",
+        "clear",
+        "default_cache_dir",
+        "entry_info",
+        "list_entries",
+        "load",
+        "load_latest",
+        "path_for_signature",
+        "resolve_version",
+        "store"
+      ],
+      "imports": [
+        "__future__",
+        ".config",
+        ".repo",
+        ".sscu_model",
+        "datetime",
+        "hashlib",
+        "importlib",
+        "os",
+        "pathlib",
+        "pickle",
+        "typing"
+      ],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/cli.py:891293a8f57878b2",
+      "source": {
+        "path": "src/ssc_universe/cli.py",
+        "sha256": "891293a8f57878b23c950b38baaff7cc2842c84aaf2bb81c35d7c444425e9984",
+        "bytes": 14168,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "_run",
+        "_sink_from_out",
+        "main",
+        "parse_args"
+      ],
+      "imports": [
+        "__future__",
+        ".cache",
+        ".config",
+        ".console",
+        ".delta",
+        ".eval_core",
+        ".manifest",
+        ".projections.filtering",
+        ".projections.single_html",
+        ".projections.site_static",
+        ".serialization",
+        ".sinks",
+        "argparse",
+        "json",
+        "pathlib",
+        "sys"
+      ],
+      "signals": [
+        "markdown",
+        "publication",
+        "cli"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/config.py:44b4e5bda99d8a87",
+      "source": {
+        "path": "src/ssc_universe/config.py",
+        "sha256": "44b4e5bda99d8a876d4a057a398b362f2af230c7bf582bb6eb8c8dc3deb10a85",
+        "bytes": 1921,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "_merge",
+        "hash",
+        "load",
+        "mode",
+        "publish_filters",
+        "UniverseConfig"
+      ],
+      "imports": [
+        "__future__",
+        ".",
+        "dataclasses",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "typing"
+      ],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/console.py:34c35c96d6becf3f",
+      "source": {
+        "path": "src/ssc_universe/console.py",
+        "sha256": "34c35c96d6becf3f8358da981ac4535c2f5e111ebf990c0601f97bdd0f11fbf7",
+        "bytes": 1004,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "_emit",
+        "ConsoleReporter",
+        "detail",
+        "error",
+        "info",
+        "section",
+        "success",
+        "warning"
+      ],
+      "imports": [
+        "__future__",
+        "dataclasses",
+        "sys",
+        "typing"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/delta.py:9f09163fa1e74aa2",
+      "source": {
+        "path": "src/ssc_universe/delta.py",
+        "sha256": "9f09163fa1e74aa24edaa2fa6119529b6235ae47df9e950146be2108de9c63cc",
+        "bytes": 3059,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "_ann_snapshot",
+        "_references_snapshot",
+        "compute_delta",
+        "delta_to_dict",
+        "DeltaSummary"
+      ],
+      "imports": [
+        "__future__",
+        ".sscu_model",
+        "dataclasses",
+        "typing"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/eval_core.py:343b39d85c46051b",
+      "source": {
+        "path": "src/ssc_universe/eval_core.py",
+        "sha256": "343b39d85c46051b9b5eaaad2ee1e7c8872244d57c75c1a56eda09553bf0b650",
+        "bytes": 7785,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "__init__",
+        "_aggregate_concepts",
+        "_evaluate_concept",
+        "evaluate",
+        "EvaluationOptions",
+        "Evaluator"
+      ],
+      "imports": [
+        "__future__",
+        ".annterm",
+        ".config",
+        ".identity",
+        ".ingest",
+        ".repo",
+        ".sscu_model",
+        "dataclasses",
+        "pathlib",
+        "typing"
+      ],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/identity.py:3e9e444486929f02",
+      "source": {
+        "path": "src/ssc_universe/identity.py",
+        "sha256": "3e9e444486929f0238f2a07a6a7430e48162c57b0bfff1c6cd3513a4656528ce",
+        "bytes": 1463,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "equivalents",
+        "find",
+        "from_same_as",
+        "IdentityGroupoid",
+        "representative",
+        "transport",
+        "union"
+      ],
+      "imports": [
+        "__future__",
+        "dataclasses",
+        "typing"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/ingest.py:3a652a9c0aaf140e",
+      "source": {
+        "path": "src/ssc_universe/ingest.py",
+        "sha256": "3a652a9c0aaf140ea33467bfed60d2e05c346f30895530d023caa910c252cd2e",
+        "bytes": 5656,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "__init__",
+        "_derive_id",
+        "_exogenous_metadata",
+        "_first_heading",
+        "_parse_file",
+        "_split_frontmatter",
+        "Ingestor",
+        "IngestResult",
+        "load",
+        "slugify"
+      ],
+      "imports": [
+        "__future__",
+        ".",
+        ".annterm",
+        ".sscu_model",
+        "dataclasses",
+        "datetime",
+        "mimetypes",
+        "pathlib",
+        "re",
+        "typing"
+      ],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/manifest.py:f9f6362987d3e4d9",
+      "source": {
+        "path": "src/ssc_universe/manifest.py",
+        "sha256": "f9f6362987d3e4d97f4fcdb0d5d8276d7e91051a737a490acfd5dbb36b031f36",
+        "bytes": 2383,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "build_manifest"
+      ],
+      "imports": [
+        "__future__",
+        ".sscu_model",
+        "typing"
+      ],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/markdown_parse.py:8b53870367dc218d",
+      "source": {
+        "path": "src/ssc_universe/markdown_parse.py",
+        "sha256": "8b53870367dc218db1d27d039f39d5b31156387257bb9b41f18e64cdfb59dd95",
+        "bytes": 6879,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "__init__",
+        "_apply_code_block_annotations",
+        "_Bleach",
+        "_extract_code_block_annotations",
+        "_rewrite_callouts",
+        "_rewrite_wikilinks",
+        "clean",
+        "flush_pending",
+        "MarkdownRenderer",
+        "normalize_target",
+        "render",
+        "repl",
+        "repl_transclusion",
+        "repl_wikilink",
+        "target_href"
+      ],
+      "imports": [
+        "__future__",
+        ".ingest",
+        "bleach",
+        "html",
+        "json",
+        "markdown_it",
+        "markdown_it.renderer",
+        "re"
+      ],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/projections/__init__.py:0508e470f47f14f4",
+      "source": {
+        "path": "src/ssc_universe/projections/__init__.py",
+        "sha256": "0508e470f47f14f4bc6b12987747df07882ffd7cf8b0cf70b8e48f3e5f8316b0",
+        "bytes": 255,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [],
+      "imports": [
+        ".filtering",
+        ".ordering",
+        ".single_html",
+        ".site_static"
+      ],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/projections/filtering.py:cbf0eb1bb33d25d7",
+      "source": {
+        "path": "src/ssc_universe/projections/filtering.py",
+        "sha256": "cbf0eb1bb33d25d75332c01865db5c85e210622ab83d8906a84275b27900e441",
+        "bytes": 1199,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "_matches",
+        "published_representatives"
+      ],
+      "imports": [
+        "__future__",
+        "..sscu_model",
+        "typing"
+      ],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/projections/ordering.py:f436997404c18d68",
+      "source": {
+        "path": "src/ssc_universe/projections/ordering.py",
+        "sha256": "f436997404c18d6800ec4daa4512a44f7428f7799878e41623ef9d0bf9345c37",
+        "bytes": 809,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "canonical_order"
+      ],
+      "imports": [
+        "__future__",
+        "..sscu_model",
+        "typing"
+      ],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/projections/single_html.py:eb094ec422a1327e",
+      "source": {
+        "path": "src/ssc_universe/projections/single_html.py",
+        "sha256": "eb094ec422a1327e01ef6abcc1ed71da4946d2c83563750d9aa3833aae506ed7",
+        "bytes": 31849,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "_format_value",
+        "render_single"
+      ],
+      "imports": [
+        "__future__",
+        "..annterm",
+        "..markdown_parse",
+        "..sscu_model",
+        ".styles",
+        "jinja2",
+        "json",
+        "pathlib",
+        "typing"
+      ],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/projections/site_static.py:9c7a432c05132d2b",
+      "source": {
+        "path": "src/ssc_universe/projections/site_static.py",
+        "sha256": "9c7a432c05132d2b05082cc68a3d0118a4ac7f3495e67561eceeb025e037ecf4",
+        "bytes": 47468,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "_env",
+        "_format_value",
+        "_manual_page",
+        "_rel_manifest",
+        "_render_delta_entries",
+        "_sitemap_xml",
+        "_style_for",
+        "_style_tag",
+        "render_site"
+      ],
+      "imports": [
+        "__future__",
+        "..annterm",
+        "..markdown_parse",
+        "..sscu_model",
+        ".ordering",
+        ".styles",
+        "hashlib",
+        "jinja2",
+        "json",
+        "os",
+        "pathlib",
+        "typing"
+      ],
+      "signals": [
+        "markdown",
+        "network",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section",
+          "reason": "Transport follows admitted carrier data.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/projections/styles.py:fd06045aafdad7a3",
+      "source": {
+        "path": "src/ssc_universe/projections/styles.py",
+        "sha256": "fd06045aafdad7a34313ccd0b983595b5c0940273cea25b0ff9815dc4f32f1fe",
+        "bytes": 8311,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "_minify_css",
+        "base_stylesheet",
+        "stylesheet_asset"
+      ],
+      "imports": [
+        "hashlib",
+        "pathlib",
+        "re"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/provenance.py:3721f314f3eeafc1",
+      "source": {
+        "path": "src/ssc_universe/provenance.py",
+        "sha256": "3721f314f3eeafc185a19db4f5d2dc74ce84945cfe6c1d20250f88caa0f100e1",
+        "bytes": 142,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [],
+      "imports": [
+        "__future__",
+        ".annterm"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/repo.py:cca6adbc78e58ba6",
+      "source": {
+        "path": "src/ssc_universe/repo.py",
+        "sha256": "cca6adbc78e58ba6e23fa575ef94ce7c177588a0ebe22a7867ad2631a00e8db9",
+        "bytes": 1524,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "compute_repo_fingerprint"
+      ],
+      "imports": [
+        "__future__",
+        "hashlib",
+        "pathlib",
+        "subprocess"
+      ],
+      "signals": [
+        "git"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section",
+          "reason": "Git observations belong to version-control services.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/serialization.py:77e9fa42d33fad0a",
+      "source": {
+        "path": "src/ssc_universe/serialization.py",
+        "sha256": "77e9fa42d33fad0ac63e54ecebde14850ce172f949aa82c6a05fd612f4f0510f",
+        "bytes": 3953,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "_jsonable",
+        "_serialize_fragment",
+        "_serialize_provenance",
+        "_serialize_semantic",
+        "serialize_instance"
+      ],
+      "imports": [
+        "__future__",
+        ".annterm",
+        ".sscu_model",
+        "datetime",
+        "typing"
+      ],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/sinks.py:962b305a579c75ca",
+      "source": {
+        "path": "src/ssc_universe/sinks.py",
+        "sha256": "962b305a579c75ca8c1d77a1e8225e0dde771660f4424fe0af62b52b4834052d",
+        "bytes": 1515,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "__init__",
+        "DirectorySink",
+        "FileSink",
+        "StdoutSink",
+        "write",
+        "ZipSink"
+      ],
+      "imports": [
+        "__future__",
+        "io",
+        "json",
+        "pathlib",
+        "shutil",
+        "tempfile",
+        "typing",
+        "zipfile"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/sscu_model.py:663f0bd2fdab9509",
+      "source": {
+        "path": "src/ssc_universe/sscu_model.py",
+        "sha256": "663f0bd2fdab950907baba2107338ab62e74336c6a4e186541e008237cdae92f",
+        "bytes": 2090,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "canonical_for",
+        "ClosureTrace",
+        "Concept",
+        "Fragment",
+        "representative",
+        "sem_fragment",
+        "SemanticContribution",
+        "UniverseInstance"
+      ],
+      "imports": [
+        "__future__",
+        ".annterm",
+        "dataclasses",
+        "typing"
+      ],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/templates/base.html:88e94f7bf0341dec",
+      "source": {
+        "path": "src/ssc_universe/templates/base.html",
+        "sha256": "88e94f7bf0341dec409c9d9975c7f495cac8443e27ff1d8b66f86c5c121eee3a",
+        "bytes": 1075,
+        "extension": ".html",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/templates/index.html:1a5a884f2388d17f",
+      "source": {
+        "path": "src/ssc_universe/templates/index.html",
+        "sha256": "1a5a884f2388d17fce10e71894af6fde68cc56ebe9a456cfb84bffa9f7e0b2f7",
+        "bytes": 14693,
+        "extension": ".html",
+        "kind": "text-carrier"
+      },
+      "exports": [
+        "matchesFilters",
+        "populateFilters",
+        "renderResults",
+        "results",
+        "searchData",
+        "searchInput",
+        "setStatus",
+        "status",
+        "statusFilter",
+        "targetFilter"
+      ],
+      "imports": [],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/templates/page.html:351f7c27e82d7283",
+      "source": {
+        "path": "src/ssc_universe/templates/page.html",
+        "sha256": "351f7c27e82d7283c253983ffb78edf851f942f6e8b39046cd0e99540534a4c5",
+        "bytes": 9515,
+        "extension": ".html",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/templates/single.html:fb9c5eedea765503",
+      "source": {
+        "path": "src/ssc_universe/templates/single.html",
+        "sha256": "fb9c5eedea7655038de26c24eba8b10f08a825383702eb2e8929e34e85fd7653",
+        "bytes": 21756,
+        "extension": ".html",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/templates/tag.html:dd8c53509c9b0823",
+      "source": {
+        "path": "src/ssc_universe/templates/tag.html",
+        "sha256": "dd8c53509c9b08233342221d50cc49983c12662a10c7056e4d64290bb6fd9e2d",
+        "bytes": 1144,
+        "extension": ".html",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/ssc_universe/yaml_loader.py:8826b1c3acba1777",
+      "source": {
+        "path": "src/ssc_universe/yaml_loader.py",
+        "sha256": "8826b1c3acba1777983923df7a1036ed65f34ffa9be10eb672874c634693749d",
+        "bytes": 2537,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "_indent",
+        "_parse_scalar",
+        "parse_block",
+        "safe_load"
+      ],
+      "imports": [
+        "__future__",
+        "ast",
+        "typing",
+        "yaml"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/support.py:4cbd1fa40683078f",
+      "source": {
+        "path": "tests/support.py",
+        "sha256": "4cbd1fa40683078fec51d7b3ade7168495cff26b2d90195ba0c90f7ec5ebc2c3",
+        "bytes": 215,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [],
+      "imports": [
+        "__future__",
+        "pathlib"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/test_cache_behavior.py:26a06ad4f8cfe6a6",
+      "source": {
+        "path": "tests/test_cache_behavior.py",
+        "sha256": "26a06ad4f8cfe6a60d46aec109fe90bd7121584f9e77d68e88cdbec91294015a",
+        "bytes": 3915,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "prepare_workspace",
+        "test_cache_hit_and_miss",
+        "test_cli_manifest_reports_cache_status",
+        "test_manifest_delta_against_cached_state"
+      ],
+      "imports": [
+        "json",
+        "pathlib",
+        "shutil",
+        "ssc_universe.cache",
+        "ssc_universe.cli",
+        "ssc_universe.config",
+        "ssc_universe.eval_core",
+        "support"
+      ],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/test_cli_cache_clear.py:dccfc41af6f6d656",
+      "source": {
+        "path": "tests/test_cli_cache_clear.py",
+        "sha256": "dccfc41af6f6d65698c4a559def245e952e36ef7c85fa1d4c633f369595482bf",
+        "bytes": 4824,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "test_cache_clear_removes_signature",
+        "test_cache_list_reports_entries",
+        "test_cache_list_verbose_metadata"
+      ],
+      "imports": [
+        "ssc_universe.cli",
+        "support"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/test_cli_eval_json.py:42cafbd2821cfd3b",
+      "source": {
+        "path": "tests/test_cli_eval_json.py",
+        "sha256": "42cafbd2821cfd3bf5cb1340b8c8a73eb9bebda74b885684014abfbab5c54a1f",
+        "bytes": 1216,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "test_eval_json_can_write_to_file",
+        "test_eval_json_outputs_fragments_and_semantics"
+      ],
+      "imports": [
+        "json",
+        "ssc_universe.cli",
+        "support"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/test_cli_lang_override.py:62dab4d35434f2e6",
+      "source": {
+        "path": "tests/test_cli_lang_override.py",
+        "sha256": "62dab4d35434f2e60a2b37012aa3cbf1cffbceecf1884a522daf5ed237b9684a",
+        "bytes": 1030,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "test_build_single_lang_override",
+        "test_eval_lang_override_json"
+      ],
+      "imports": [
+        "json",
+        "ssc_universe.cli",
+        "support"
+      ],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/test_cli_manifest.py:ab40e3740f1a37df",
+      "source": {
+        "path": "tests/test_cli_manifest.py",
+        "sha256": "ab40e3740f1a37df169a596d525c294f8c777fcdf4e8113139ff961726a12f90",
+        "bytes": 1502,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "test_build_single_html_writes_manifest_next_to_file",
+        "test_build_site_static_writes_manifest"
+      ],
+      "imports": [
+        "json",
+        "pathlib",
+        "ssc_universe.cli",
+        "support"
+      ],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/test_eval_sscu_minimal.py:bfe782558fc7bf93",
+      "source": {
+        "path": "tests/test_eval_sscu_minimal.py",
+        "sha256": "bfe782558fc7bf932f8b62beabef38745b47b7d2294bcb93c257b65f78d96871",
+        "bytes": 820,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "test_failure_fragment_collapse"
+      ],
+      "imports": [
+        "pathlib",
+        "ssc_universe.config",
+        "ssc_universe.eval_core"
+      ],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/test_html_sanitization.py:98e5b1209c411c67",
+      "source": {
+        "path": "tests/test_html_sanitization.py",
+        "sha256": "98e5b1209c411c6741df6945a1d50f2c3fbfc8770f2e8e9cc614b3f4a1e3e45b",
+        "bytes": 1386,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "test_default_sanitization_strips_scripts",
+        "test_sanitization_can_be_disabled"
+      ],
+      "imports": [
+        "pathlib",
+        "ssc_universe.config",
+        "ssc_universe.eval_core",
+        "ssc_universe.projections.single_html",
+        "support"
+      ],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/test_ingest_without_frontmatter.py:b0817e5b15511908",
+      "source": {
+        "path": "tests/test_ingest_without_frontmatter.py",
+        "sha256": "b0817e5b15511908b80f6669a21b14f096c15009f4e604a11fa26f40b9bffc7f",
+        "bytes": 844,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "test_ingests_markdown_without_frontmatter"
+      ],
+      "imports": [
+        "pathlib",
+        "ssc_universe.config",
+        "ssc_universe.eval_core"
+      ],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/test_publish_filters.py:cbae235cd8fe9a27",
+      "source": {
+        "path": "tests/test_publish_filters.py",
+        "sha256": "cbae235cd8fe9a27c9e79c0b38f135587f4e85e4d1b485d767b62e922a81ffc1",
+        "bytes": 4396,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "test_publish_filters_allow_drafts_for_channel",
+        "test_publish_filters_limit_static_site"
+      ],
+      "imports": [
+        "pathlib",
+        "ssc_universe.cli",
+        "ssc_universe.config",
+        "ssc_universe.eval_core",
+        "ssc_universe.projections.filtering",
+        "ssc_universe.projections.site_static",
+        "support"
+      ],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/test_publish_single_html.py:17507e056db3f8e3",
+      "source": {
+        "path": "tests/test_publish_single_html.py",
+        "sha256": "17507e056db3f8e3d73fe5fdcf718b0b74a5007b742cd2c3e2dbdcf798607b07",
+        "bytes": 6005,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "test_single_html_contains_anchor",
+        "test_single_html_lang_from_config",
+        "test_single_html_manual_fallback_keeps_style",
+        "test_single_html_minify_inline_styles"
+      ],
+      "imports": [
+        "pathlib",
+        "ssc_universe.config",
+        "ssc_universe.delta",
+        "ssc_universe.eval_core",
+        "ssc_universe.projections",
+        "ssc_universe.projections.single_html",
+        "ssc_universe.projections.styles",
+        "support"
+      ],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/test_publish_site_static.py:b2bef1b95718ade2",
+      "source": {
+        "path": "tests/test_publish_site_static.py",
+        "sha256": "b2bef1b95718ade20defb0e76b7d5fa3f3b4bd06521a186de0507aa6e89161ba",
+        "bytes": 10517,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "test_site_static_emits_hashed_stylesheet_when_not_inline",
+        "test_site_static_includes_delta_panel",
+        "test_site_static_lang_from_config",
+        "test_site_static_manual_fallback_keeps_style",
+        "test_site_static_ordering_and_aliases",
+        "test_site_static_outputs"
+      ],
+      "imports": [
+        "json",
+        "pathlib",
+        "ssc_universe.config",
+        "ssc_universe.delta",
+        "ssc_universe.eval_core",
+        "ssc_universe.projections",
+        "ssc_universe.projections.site_static",
+        "support"
+      ],
+      "signals": [
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/test_same_as_canonicalization.py:46edc0ec7e3d903a",
+      "source": {
+        "path": "tests/test_same_as_canonicalization.py",
+        "sha256": "46edc0ec7e3d903af336ca8eccdec089d30b8d977dc10ffdf2c32c4c38f7d627",
+        "bytes": 2212,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "_write_concept",
+        "test_same_as_concepts_merge_to_representative"
+      ],
+      "imports": [
+        "pathlib",
+        "ssc_universe.config",
+        "ssc_universe.eval_core",
+        "ssc_universe.projections.site_static",
+        "support"
+      ],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:tests/test_unresolved_refs_strict_vs_permissive.py:687951303e11ef5a",
+      "source": {
+        "path": "tests/test_unresolved_refs_strict_vs_permissive.py",
+        "sha256": "687951303e11ef5a12c1f27eae487d53268e043587b7186f0a9dce0316da121e",
+        "bytes": 1052,
+        "extension": ".py",
+        "kind": "code-module"
+      },
+      "exports": [
+        "test_permissive_allows_unresolved",
+        "test_strict_rejects_unresolved"
+      ],
+      "imports": [
+        "pathlib",
+        "pytest",
+        "ssc_universe.config",
+        "ssc_universe.eval_core",
+        "support"
+      ],
+      "signals": [
+        "markdown",
+        "publication"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:what-is-semiotics.md:aaa7605645c922b2",
+      "source": {
+        "path": "what-is-semiotics.md",
+        "sha256": "aaa7605645c922b2ad76bfc0d1650a19739a4429aaf71b8676d7748025e5b7e3",
+        "bytes": 5957,
+        "extension": ".md",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown",
+        "network",
+        "publication",
+        "orchestration",
+        "research"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section",
+          "reason": "Transport follows admitted carrier data.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/operations-services-section",
+          "reason": "Named multi-step execution belongs to operations.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/science-services-section",
+          "reason": "Scientific subject ownership is separate from the upstream Markdown carrier.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section"
+          ]
+        }
+      ]
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "semiotic-markdown-concept-declarations",
+      "sourcePaths": [
+        "examples/content/a.md",
+        "examples/content/b.md",
+        "examples/content/html.md",
+        "src/ssc_universe/ingest.py",
+        "src/ssc_universe/markdown_parse.py",
+        "src/ssc_universe/yaml_loader.py"
+      ],
+      "effect": "Decode Markdown frontmatter and body as declared concepts with stable identifiers, annotations, aliases, and publication intent.",
+      "carrier": "markdown-concept-declaration",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+        "rationale": "Markdown and YAML decoding are already canonical data services; the semiotic mapping is now a pure downstream projection rather than a private reader or filesystem scan.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section/src/project-markdown-semiotic-concept-universe.mjs",
+            "effect": "Projects canonical Markdown documents into declared concept carriers and admits their universe without file-system ownership."
+          }
+        ]
+      }
+    },
+    {
+      "id": "semiotic-concept-universe",
+      "sourcePaths": [
+        "src/ssc_universe/annterm.py",
+        "src/ssc_universe/delta.py",
+        "src/ssc_universe/eval_core.py",
+        "src/ssc_universe/identity.py",
+        "src/ssc_universe/provenance.py",
+        "src/ssc_universe/serialization.py",
+        "src/ssc_universe/sscu_model.py"
+      ],
+      "effect": "Carry concept declarations, aliases, annotation failures, resolved and unresolved references, provenance, and deterministic changes between two universe cuts.",
+      "carrier": "content-addressed-semiotic-concept-universe",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/apps/signcell/src",
+        "rationale": "The useful semantic carrier is immutable declared data. The legacy evaluator's claimed closure and scoring were not implemented; its mutable models and serializers do not survive as a second semantic engine.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/apps/signcell/src/semiotic-concept-universe.mjs",
+            "effect": "Admits an immutable SignCell, derives identity classes and reference diagnostics, selects publication records, and differentiates universe cuts."
+          }
+        ]
+      }
+    },
+    {
+      "id": "semiotic-concept-publication-html",
+      "sourcePaths": [
+        "src/ssc_universe/manifest.py",
+        "src/ssc_universe/projections/__init__.py",
+        "src/ssc_universe/projections/filtering.py",
+        "src/ssc_universe/projections/ordering.py",
+        "src/ssc_universe/projections/single_html.py",
+        "src/ssc_universe/projections/site_static.py",
+        "src/ssc_universe/projections/styles.py",
+        "src/ssc_universe/sinks.py",
+        "src/ssc_universe/templates/base.html",
+        "src/ssc_universe/templates/index.html",
+        "src/ssc_universe/templates/page.html",
+        "src/ssc_universe/templates/single.html",
+        "src/ssc_universe/templates/tag.html"
+      ],
+      "effect": "Select publishable concepts and project them as escaped single or multi-page static HTML artifacts.",
+      "carrier": "static-web-artifact-projection",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-knowledge-systems-services-section/apps/static-site-publisher",
+        "rationale": "Publication is a system-level projection: VICTOR owns artifact combination, output, conformance, and release manifests, while the new projector owns only this concept view.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-tufte-gui-services-section/apps/web-page-tiling-engine/src/publication/project-semiotic-concept-universe.mjs",
+            "effect": "Contributes a single HTML view plus selected index and concept page artifacts through VICTOR's existing projector contract."
+          }
+        ]
+      }
+    },
+    {
+      "id": "semiotic-repository-observation",
+      "sourcePaths": [
+        "src/ssc_universe/repo.py"
+      ],
+      "effect": "Observe repository state as contextual evidence without making a concept universe or cache depend on a private fingerprint.",
+      "carrier": "git-repository-observation",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section",
+        "rationale": "Repository observation is an independent version-control concern; it is not part of Markdown decoding, concept identity, or publication.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-protocol-services-section/services/version-control-services-section/services/git-services-section/services/observing-git-repository-service/scripts/observe-git-repository.mjs",
+            "effect": "Observes a repository's root, branch, head, and working state as a separate read-only carrier."
+          }
+        ]
+      }
+    },
+    {
+      "id": "semiotic-package-and-runtime-apparatus",
+      "sourcePaths": [
+        ".gitignore",
+        "examples/universe.yaml",
+        "pyproject.toml",
+        "README.md",
+        "src/ssc_universe/__init__.py",
+        "src/ssc_universe/cache.py",
+        "src/ssc_universe/cli.py",
+        "src/ssc_universe/config.py",
+        "src/ssc_universe/console.py"
+      ],
+      "effect": "Provide a runnable package boundary, local configuration, cache, and command-line workflow around the old private implementation.",
+      "carrier": "obsolete-application-apparatus",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/legacy-capability-reallocation-service",
+        "rationale": "No independent capability remains after the data and static-publishing carriers are established. A second CLI, cache, configuration language, and package boundary would recreate the scattered downstream system the migration removes.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/content/text/documents/articles/notes/2025/12/08/2025-12-08-semiotic-concept-publication-reallocation.md",
+            "effect": "Records the retired apparatus and names the existing owners of source parsing, semantic data, repository observation, artifacts, and release."
+          }
+        ]
+      }
+    },
+    {
+      "id": "semiotic-science-and-engineering-notes",
+      "sourcePaths": [
+        "semantics-syntax-and-semiotics.md",
+        "semiotic-publisher.md",
+        "signs-signals-and-systems.md",
+        "what-is-semiotics.md"
+      ],
+      "effect": "Preserve the scientific discussion of semiotics while accurately recording which historical publishing claims were exploratory rather than executable.",
+      "carrier": "science-and-engineering-note",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/content/text/documents/articles/notes",
+        "rationale": "Abstract semiotics remains in the science corpus with its exploratory status. The implementation boundary and retirement decision are engineering practice, not a system feature or a Markdown parser responsibility.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/content/text/documents/articles/notes/2025/12/08/2025-12-08-semiotic-concept-publication-reallocation.md",
+            "effect": "Separates demonstrated implementation from the old aspirational publisher specification."
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/science-services-section/services/philosophy-services-section/services/relationality-services-section/content/text/documents/articles/notes/what-is-semiotics.md",
+            "effect": "Retains semiotic theory while marking publisher-specific passages as historical and exploratory."
+          }
+        ]
+      }
+    },
+    {
+      "id": "semiotic-legacy-verification",
+      "sourcePaths": [
+        "tests/support.py",
+        "tests/test_cache_behavior.py",
+        "tests/test_cli_cache_clear.py",
+        "tests/test_cli_eval_json.py",
+        "tests/test_cli_lang_override.py",
+        "tests/test_cli_manifest.py",
+        "tests/test_eval_sscu_minimal.py",
+        "tests/test_html_sanitization.py",
+        "tests/test_ingest_without_frontmatter.py",
+        "tests/test_publish_filters.py",
+        "tests/test_publish_single_html.py",
+        "tests/test_publish_site_static.py",
+        "tests/test_same_as_canonicalization.py",
+        "tests/test_unresolved_refs_strict_vs_permissive.py"
+      ],
+      "effect": "Demonstrate concept admission, identity resolution, unresolved-reference visibility, publication selection, and HTML projection.",
+      "carrier": "capability-verification",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/legacy-capability-reallocation-service",
+        "rationale": "The old tests only exercised the retired Python application. The replacement verifies retained effects at the new carrier boundaries instead of preserving a duplicate runtime.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/test/semiotic-concept-universe.test.mjs",
+            "effect": "Verifies identity, provenance, reference diagnostics, publication selection, and universe differentiation."
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section/test/project-markdown-semiotic-concept-universe.test.mjs",
+            "effect": "Verifies Markdown declaration decoding and SignCell admission."
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-tufte-gui-services-section/apps/web-page-tiling-engine/test/project-semiotic-concept-universe.test.mjs",
+            "effect": "Verifies projector-mediated static HTML artifacts."
+          }
+        ]
+      }
+    }
+  ],
+  "archiveDisposition": "purged"
+}

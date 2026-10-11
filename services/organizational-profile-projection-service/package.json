@@ -1,0 +1,25 @@
+{
+  "name": "@red-cup-engineering/organizational-profile-projection-service",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Projects explicit organizational journals and topology into witness-sheaf, bilattice, and coordination readings.",
+  "exports": {
+    ".": "./src/organizational-profile.mjs"
+  },
+  "bin": {
+    "project-organizational-profile": "./scripts/project-organizational-profile.mjs"
+  },
+  "files": [
+    "README.md",
+    "src",
+    "scripts"
+  ],
+  "scripts": {
+    "check": "node --check src/*.mjs scripts/*.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "sideEffects": false
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "legacy-capability-allocation-declarations/v1",
+  "capabilities": [
+    {
+      "id": "jsonl-sequence-commitment",
+      "sourcePaths": ["canonicalization.md", "conformance.md", "integrity.md", "registry.md", "specification.md", "test-vectors.md"],
+      "effect": "Commit an ordered sequence of JSON values to reproducible canonical bytes, SHA-256 item digests, a prefix-verifiable rolling digest, and an explicitly constructed Merkle root, while reporting a verifier's first divergence.",
+      "carrier": "ordered-jsonl-sequence-commitment",
+      "state": "retired",
+      "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section",
+      "rationale": "The draft's generic event envelope has no adopter and conflicts with EAVT's witness-row carrier. Its reusable byte-level integrity effect is now one profile in the upstream JSONL data service; source feeds, append traces, witness time, and semiotic meaning remain consumers' separate concerns.",
+      "modernEvidence": [
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/scripts/commit-jsonl-records.mjs",
+          "effect": "Produces canonical JSON bytes, SHA-256 item and rolling commitments, and deterministic Merkle roots from ordered JSON records."
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/scripts/verify-jsonl-commitment.mjs",
+          "effect": "Recomputes a declared commitment and reports the first mismatching field and record ordinal instead of accepting unreproducible integrity claims."
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/test/jsonl.test.mjs",
+          "effect": "Contains executable canonical-byte, rolling-digest, Merkle-root, and tamper-refusal vectors for EAVT-shaped JSON values."
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section/content/text/documents/articles/notes/2026/09/25/2026-09-25-jsonl-sequence-commitment.md",
+          "effect": "Explains the profile, EAVT and SEAVT boundary, integrity limits, and why the historical event envelope and vectors are superseded."
+        }
+      ]
+    }
+  ]
+}

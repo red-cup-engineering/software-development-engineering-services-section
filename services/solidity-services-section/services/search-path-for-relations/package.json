@@ -1,0 +1,16 @@
+{
+  "name": "@red-cup-engineering/search-path-for-relations",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Solidity parameterization of the language-neutral path relation search.",
+  "exports": "./src/search-solidity-path-for-relations.mjs",
+  "bin": {
+    "search-solidity-path-for-relations": "./scripts/search-path-for-relations.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/computer-filepath-engineering-services-section": "workspace:*"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "kind": "legacy-capability-allocation-declarations/v1",
+  "capabilities": [
+    {
+      "id": "git-history-provenance-interpretation-frontmatter-revision",
+      "sourcePaths": [
+        "semiotic-git.md"
+      ],
+      "effect": "Retain the later metadata-wrapped Git provenance interpretation while rejecting its unsupported claim that the document defines an enforceable tooling contract.",
+      "carrier": "engineering-markdown-note",
+      "state": "retired",
+      "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+      "rationale": "The revision adds presentation metadata and prospective validator framing, not a distinct Git or semiotic capability. The current Markdown note retains only claims grounded in an observed repository graph.",
+      "modernEvidence": [
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section/content/text/documents/articles/notes/2026/09/25/2026-09-25-git-history-observation-and-provenance.md",
+          "effect": "Records the common provenance, valid Git evidence, interpretation limits, and the reason no semiotic-git contract survives."
+        }
+      ]
+    },
+    {
+      "id": "git-tag-reachability-observation-frontmatter-revision",
+      "sourcePaths": [
+        "measure-git-semantics.sh"
+      ],
+      "effect": "Observe the same annotated-tag and selected-history reachability facts without presenting them as stable-modal measurements.",
+      "carrier": "git-graph-observation",
+      "state": "retired",
+      "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section",
+      "rationale": "This shell source is unchanged from the earlier archive. Its generic Git observation effect has one upstream realization, not a second command or protocol.",
+      "modernEvidence": [
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-code-development-system-services-section/apps/computer-code-development-engine/src/git/observation.mjs",
+          "effect": "Provides the current annotated-tag and reachability observation with exact object IDs and no embedded release-policy claim."
+        }
+      ]
+    },
+    {
+      "id": "large-artifact-carrier-selection-guidance-frontmatter-revision",
+      "sourcePaths": [
+        "practices/large-files.md"
+      ],
+      "effect": "Retain the later metadata-wrapped large-artifact carrier guidance without making GitHub releases or Git LFS an unqualified default.",
+      "carrier": "engineering-markdown-note",
+      "state": "retired",
+      "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+      "rationale": "The later copy adds only frontmatter. The active note preserves the underlying carrier-selection decision and remote-availability distinction.",
+      "modernEvidence": [
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section/content/text/documents/articles/notes/2026/09/25/2026-09-25-git-history-observation-and-provenance.md",
+          "effect": "Explains evidence-preserving artifact carrier selection and refers to the Git LFS observer's local-versus-remote distinction."
+        }
+      ]
+    }
+  ]
+}

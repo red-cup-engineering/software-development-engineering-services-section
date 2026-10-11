@@ -1,0 +1,24 @@
+{
+  "kind": "legacy-capability-allocation-declarations/v1",
+  "capabilities": [
+    {
+      "id": "jsonl-sequence-commitment-frontmatter-revision",
+      "sourcePaths": ["canonicalization.md", "conformance.md", "integrity.md", "registry.md", "specification.md", "test-vectors.md"],
+      "effect": "Carry the later frontmatter-wrapped revision of the same canonical JSON sequence-integrity proposal into one current, reproducible JSONL commitment profile.",
+      "carrier": "ordered-jsonl-sequence-commitment",
+      "state": "retired",
+      "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section",
+      "rationale": "The later archive changes metadata only. It does not establish a distinct capability, format, or valid vector set, so keeping it would duplicate a retired event protocol rather than preserve information.",
+      "modernEvidence": [
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/scripts/commit-jsonl-records.mjs",
+          "effect": "Realizes the retained canonical-byte, rolling, and Merkle commitment effects in the upstream JSONL data carrier."
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section/content/text/documents/articles/notes/2026/09/25/2026-09-25-jsonl-sequence-commitment.md",
+          "effect": "Records the common provenance and the supersession of both event-stream archives."
+        }
+      ]
+    }
+  ]
+}

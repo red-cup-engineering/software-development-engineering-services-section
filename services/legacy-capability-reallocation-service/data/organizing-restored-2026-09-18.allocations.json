@@ -1,0 +1,203 @@
+{
+  "kind": "legacy-capability-allocation-declarations/v1",
+  "capabilities": [
+    {
+      "id": "organizing-accounting-topology",
+      "sourcePaths": [
+        "src/accounting/topology/ledger.mts",
+        "src/accounting/topology/market.mts",
+        "src/accounting/topology/financial.mts",
+        "src/accounting/topology/settle-utterances.mts",
+        "src/accounting/ledger.mts",
+        "src/accounting/commodity.mts"
+      ],
+      "effect": "double-entry ledger, market and financial topologies as settled meme-topologies over articulated utterances, with per-cell charge readers",
+      "carrier": "@red-cup-engineering/organizing",
+      "state": "retired",
+      "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/accounting/topology",
+      "rationale": "Living organizing (owned by red-cup-engineering/computer-services-section services/organizing; mounted here as agent-organization-engine/lib/organizing) carries the same topologies with the same terms, predicates and utterance constructors; the per-cell *Charge readers became *Reading (ledger) and *Evidence (market) readers. Judged already landed.",
+      "modernEvidence": [
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/accounting/topology/ledger.mjs",
+          "effect": "ledger terms, utterances and readings"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/accounting/topology/market.mjs",
+          "effect": "market terms, utterances and evidence readers"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/accounting/topology/financial.mjs",
+          "effect": "the financial topology the ledger and market specialize"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/accounting/commodity.mjs",
+          "effect": "commodity reading over the financial topology"
+        }
+      ]
+    },
+    {
+      "id": "organizing-accountable-transaction",
+      "sourcePaths": [
+        "src/writing/accountable-transaction/index.mts",
+        "test/accountable-transaction.test.mjs"
+      ],
+      "effect": "an accountable transaction: capability invocation, x402 receipt and attestation legs over one witness, and whether they cohere",
+      "carrier": "@red-cup-engineering/farolfi",
+      "state": "retired",
+      "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-accounting-systems-engineering-services-section/services/computer-ledger-system-services-section/apps/farolfi/src/accountable-transaction",
+      "rationale": "farolfi (computer-ledger-system-services-section) carries the protocol as statement rows rather than RWIL witnesses: accountableTransaction/FromRow, attestTransaction, verifyAccountableTransaction, sameAccountableTransaction and the leg wires, plus the accountability-report projection. Judged already landed.",
+      "modernEvidence": [
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-accounting-systems-engineering-services-section/services/computer-ledger-system-services-section/apps/farolfi/src/accountable-transaction/codec.mjs",
+          "effect": "transaction row codec, attestation, coherence verification and the leg wires"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-accounting-systems-engineering-services-section/services/computer-ledger-system-services-section/apps/farolfi/src/accountable-transaction/projection.mjs",
+          "effect": "accountability report over a transaction log"
+        }
+      ]
+    },
+    {
+      "id": "organizing-federation",
+      "sourcePaths": [
+        "src/writing/activitypub/index.mts",
+        "src/federate-graded.mts",
+        "src/writing/matrix/index.mts",
+        "test/activitypub.test.mjs",
+        "test/rwil-merge.test.mjs",
+        "test/federate-graded.test.mjs",
+        "test/matrix.test.mjs"
+      ],
+      "effect": "federation of agent camps: ActivityPub delivery and camp membership, the CRDT merge of activity collections holding contradiction as top, contradiction-aware graded federation, and Matrix state resolution over a signed event DAG",
+      "carrier": "@red-cup-engineering/feltos",
+      "state": "retired",
+      "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src",
+      "rationale": "The founder's 2026-09-22 relational-chain change (bare-cedar-fog 2e37bc7) moved every protocol projection and effectful module out of the faculties into the FeltOS module named for what it does; FeltOS (red-cup-engineering/feltos, pinned here at bef1f86) carries it in src/federation.mjs (mergeActivities, federateActivities, federateGraded, the Matrix event DAG), with the legacy tests carried as test/organizing-activitypub, organizing-rwil-merge, organizing-federate-graded and organizing-matrix. S2S HTTP delivery with shared inboxes is in activitypub-services-section's provider, and office investiture, relief and rotation are socializing's office moves. Judged already landed.",
+      "modernEvidence": [
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src/federation.mjs",
+          "effect": "activity merge, camp federation, graded federation and Matrix state resolution"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/test/organizing-federate-graded.test.mjs",
+          "effect": "the legacy federate-graded test, carried"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/test/organizing-matrix.test.mjs",
+          "effect": "the legacy Matrix test, carried"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/activitypub-services-section/src/provider.mjs",
+          "effect": "ActivityPub provider, delivery and shared-inbox endpoints"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/socializing/src/socialize/office.mjs",
+          "effect": "invest, relieve and rotate an office"
+        }
+      ]
+    },
+    {
+      "id": "organizing-control-plane-views",
+      "sourcePaths": [
+        "src/default-jupyter-views.mts",
+        "src/substrate/index.mts",
+        "test/default-jupyter-views.test.mjs",
+        "test/substrate.test.mjs",
+        "test/cockpit-coordination.test.mjs",
+        "scripts/serve.mts"
+      ],
+      "effect": "the operator's views and substrate: default Jupyter notebooks over instance carriers, the directory substrate read as packages, chronicles and work items, cockpit coordination (held capability as accountable claim), and the HTTP/OpenAPI/MCP serve transport",
+      "carrier": "@red-cup-engineering/feltos",
+      "state": "retired",
+      "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src",
+      "rationale": "The founder's 2026-09-22 relational-chain change (bare-cedar-fog 2e37bc7) moved every protocol projection and effectful module out of the faculties into the FeltOS module named for what it does; FeltOS (red-cup-engineering/feltos, pinned here at bef1f86) carries it: the directory substrate and the Jupyter views in src/operations.mjs, cockpit coordination in src/control-plane.mjs and src/theatre.mjs, and HTTP serving in src/http.mjs, with the legacy tests carried as test/directory-substrate, organizing-default-jupyter-views and organizing-cockpit-coordination. Judged already landed.",
+      "modernEvidence": [
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src/operations.mjs",
+          "effect": "directory substrate and default Jupyter views"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src/control-plane.mjs",
+          "effect": "cockpit coordination over held capabilities"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src/http.mjs",
+          "effect": "HTTP transport"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/test/directory-substrate.test.mjs",
+          "effect": "the legacy substrate test, carried"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/test/organizing-cockpit-coordination.test.mjs",
+          "effect": "the legacy cockpit test, carried"
+        }
+      ]
+    },
+    {
+      "id": "organizing-x402-settlement",
+      "sourcePaths": [
+        "test/x402.test.mjs"
+      ],
+      "effect": "an HTTP 402 challenge settled as a payment and read back as a receipt over the witness ledger, value conserved",
+      "carrier": "@red-cup-engineering/feltos",
+      "state": "retired",
+      "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src",
+      "rationale": "The founder's 2026-09-22 relational-chain change (bare-cedar-fog 2e37bc7) moved every protocol projection and effectful module out of the faculties into the FeltOS module named for what it does; FeltOS (red-cup-engineering/feltos, pinned here at bef1f86) carries it in src/market.mjs; the protocol's living ledger form is farolfi's accountable transaction. Judged already landed.",
+      "modernEvidence": [
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src/market.mjs",
+          "effect": "x402 payment settlement"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-accounting-systems-engineering-services-section/services/computer-ledger-system-services-section/apps/farolfi/src/accountable-transaction/codec.mjs",
+          "effect": "x402 receipt wire within the accountable transaction"
+        }
+      ]
+    },
+    {
+      "id": "organizing-faculty-core",
+      "sourcePaths": [
+        "src/authority.mts",
+        "src/nix.mts",
+        "src/reproducible-reasoning.mts",
+        "src/work.mts",
+        "test/host-neutral-carriers.test.mjs",
+        "package.json",
+        "package-lock.json",
+        "pnpm-workspace.yaml"
+      ],
+      "effect": "organizing's own faculty: office authority and eligibility, Nix witnesses, reproducible-reasoning builds, work items and their charge status, host-neutral carriers, and the package manifest",
+      "carrier": "@red-cup-engineering/organizing",
+      "state": "retired",
+      "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing",
+      "rationale": "Living organizing carries each module under the same name (authority, nix, reproducible-reasoning, work, host-neutral-carriers); the legacy workChargeStatus is workReadingStatus (complete as potential, blocked as top, proposed as bottom). The manifest is the living package's. Judged already landed.",
+      "modernEvidence": [
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/authority.mjs",
+          "effect": "office authority and eligibility"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/nix.mjs",
+          "effect": "Nix witness carriers"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/reproducible-reasoning.mjs",
+          "effect": "reproducible-reasoning builds"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/work.mjs",
+          "effect": "work items and workReadingStatus"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/host-neutral-carriers.mjs",
+          "effect": "host-neutral carriers"
+        },
+        {
+          "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/package.json",
+          "effect": "the living organizing package"
+        }
+      ]
+    }
+  ]
+}

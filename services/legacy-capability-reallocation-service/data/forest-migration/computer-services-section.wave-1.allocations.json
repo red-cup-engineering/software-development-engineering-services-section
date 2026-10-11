@@ -1,0 +1,1071 @@
+{
+ "kind": "legacy-capability-allocation-declarations/v1",
+ "capabilities": [
+  {
+   "id": "@causeway-services/turntide-islands-discord-com",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/.env.example",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/.gitignore",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/content/climate-breakdown/_index.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/content/orchestration.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/content/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/scripts/capital-measurement.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/scripts/membership.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/scripts/orchestration.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/scripts/summary.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/scripts/vault.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/src/index.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/src/ingest-history.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/src/serve.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/discord-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/src/steward.mjs"
+   ],
+   "effect": "the package @causeway-services/turntide-islands-discord-com",
+   "carrier": "@causeway-services/turntide-islands-discord-com",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/turntide-islands-discord-platform/dev/content/triage/prior-app/old-turntide-islands.discord.com/package.json",
+     "effect": "@causeway-services/turntide-islands-discord-com as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/account-abstraction-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/account-abstraction-services-section/package.json"
+   ],
+   "effect": "the package @red-cup-engineering/account-abstraction-services-section",
+   "carrier": "@red-cup-engineering/account-abstraction-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/blockchain-services-section/services/ethereum-services-section/services/account-abstraction-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/blockchain-services-section/services/ethereum-services-section/services/account-abstraction-services-section/package.json",
+     "effect": "@red-cup-engineering/account-abstraction-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/arcgis-rest-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/arcgis-rest-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/arcgis-rest-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/arcgis-rest-services-section/src/client.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/arcgis-rest-services-section",
+   "carrier": "@red-cup-engineering/arcgis-rest-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/arcgis-rest-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/arcgis-rest-services-section/package.json",
+     "effect": "@red-cup-engineering/arcgis-rest-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/assisted-browser-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/assisted-browser-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/assisted-browser-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/assisted-browser-services-section/scripts/assisted-sign-in.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/assisted-browser-services-section/scripts/portal-discover.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/assisted-browser-services-section/src/accounts.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/assisted-browser-services-section/src/assist.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/assisted-browser-services-section/src/discovery.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/assisted-browser-services-section/src/person.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/assisted-browser-services-section/src/recaptcha.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/assisted-browser-services-section/src/window.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/assisted-browser-services-section",
+   "carrier": "@red-cup-engineering/assisted-browser-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/assisted-browser-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/assisted-browser-services-section/package.json",
+     "effect": "@red-cup-engineering/assisted-browser-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/cloudflare-d1-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-services-section/services/cloudflare-d1-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-services-section/services/cloudflare-d1-service/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-services-section/services/cloudflare-d1-service/src/apply-migrations.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-services-section/services/cloudflare-d1-service/src/sqlite-d1.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-services-section/services/cloudflare-d1-service/test/apply-migrations.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/cloudflare-services-section/services/cloudflare-d1-service/test/sqlite-d1.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/cloudflare-d1-service",
+   "carrier": "@red-cup-engineering/cloudflare-d1-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/cloudflare-d1-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/cloudflare-d1-service/package.json",
+     "effect": "@red-cup-engineering/cloudflare-d1-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/code-websocket-frame-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/websocket-services-section/services/code-websocket-frame-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/websocket-services-section/services/code-websocket-frame-service/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/websocket-services-section/services/code-websocket-frame-service/src/code-websocket-frame.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/websocket-services-section/services/code-websocket-frame-service/test/code-websocket-frame.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/code-websocket-frame-service",
+   "carrier": "@red-cup-engineering/code-websocket-frame-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/code-websocket-frame-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/code-websocket-frame-service/package.json",
+     "effect": "@red-cup-engineering/code-websocket-frame-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/codex-harness-projection-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/actuators/authority-bounded-integration.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/actuators/capacity-fabrication-obligation.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/actuators/character-face-composition.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/actuators/codex-harness-parity-monitor.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/actuators/contextual-duty-selection.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/actuators/fresh-verification.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/actuators/immunitas-observation.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/actuators/office-obligation-projection.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/actuators/relevant-history-selection.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/actuators/requirement-trajectory.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/actuators/source-pinned-analysis.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/scripts/project-office-context.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/src/projector.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/test/office-context.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/codex-harness-projection-service",
+   "carrier": "@red-cup-engineering/codex-harness-projection-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/agent-harness-computer-system-engineering-services-section/services/codex-harness-services-section/services/codex-harness-projection-service/package.json",
+     "effect": "@red-cup-engineering/codex-harness-projection-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/consumer-dependency-closure-installation-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/semiotic-npm-registry-services-section/services/consumer-dependency-closure-installation-service/.gitignore",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/semiotic-npm-registry-services-section/services/consumer-dependency-closure-installation-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/semiotic-npm-registry-services-section/services/consumer-dependency-closure-installation-service/scripts/install-consumer-dependency-closure.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/semiotic-npm-registry-services-section/services/consumer-dependency-closure-installation-service/src/install-consumer-dependency-closure.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/semiotic-npm-registry-services-section/services/consumer-dependency-closure-installation-service/test/committed-closure.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/consumer-dependency-closure-installation-service",
+   "carrier": "@red-cup-engineering/consumer-dependency-closure-installation-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/software-development-services-section/services/consumer-dependency-closure-installation-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/software-development-services-section/services/consumer-dependency-closure-installation-service/package.json",
+     "effect": "@red-cup-engineering/consumer-dependency-closure-installation-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/cron-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/cron-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/cron-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/cron-services-section/src/schedule.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/cron-services-section/test/schedule.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/cron-services-section",
+   "carrier": "@red-cup-engineering/cron-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/cron-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/cron-services-section/package.json",
+     "effect": "@red-cup-engineering/cron-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/deno-deploy-free-compute-provider",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/deno-deploy-free-compute-provider/.gitignore",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/deno-deploy-free-compute-provider/content/assay-deno-from-github.yml",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/deno-deploy-free-compute-provider/content/config/deno-free-compute.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/deno-deploy-free-compute-provider/deno.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/deno-deploy-free-compute-provider/main.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/deno-deploy-free-compute-provider/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/deno-deploy-free-compute-provider/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/deno-deploy-free-compute-provider/scripts/invoke-deno-free-compute.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/deno-deploy-free-compute-provider/src/plan-admission.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/deno-deploy-free-compute-provider/test/invocation.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/deno-deploy-free-compute-provider/test/main.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/deno-deploy-free-compute-provider",
+   "carrier": "@red-cup-engineering/deno-deploy-free-compute-provider",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/deno-deploy-free-compute-provider",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/deno-deploy-free-compute-provider/package.json",
+     "effect": "@red-cup-engineering/deno-deploy-free-compute-provider as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/computer-documents-engineering-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-documents-engineering-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-documents-engineering-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-documents-engineering-services-section/services/research-source-packet-admission-service/README.md"
+   ],
+   "effect": "the package @red-cup-engineering/computer-documents-engineering-services-section",
+   "carrier": "@red-cup-engineering/computer-documents-engineering-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/services/file-services-section/services/data-services-section/services/content-services-section/services/documents-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/services/file-services-section/services/data-services-section/services/content-services-section/services/documents-services-section/package.json",
+     "effect": "@red-cup-engineering/computer-documents-engineering-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/erc-4337-bundler-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/account-abstraction-services-section/services/erc-4337-bundler-service/.gitignore",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/account-abstraction-services-section/services/erc-4337-bundler-service/data/records/systemd/bare-cedar-fog-erc4337-bundler-eip155-5615610.service",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/account-abstraction-services-section/services/erc-4337-bundler-service/data/records/systemd/bare-cedar-fog-erc4337-bundler.service",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/account-abstraction-services-section/services/erc-4337-bundler-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/account-abstraction-services-section/services/erc-4337-bundler-service/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/account-abstraction-services-section/services/erc-4337-bundler-service/scripts/serve-bundler.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/account-abstraction-services-section/services/erc-4337-bundler-service/src/kms-handle-ops-submitter.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/erc-4337-bundler-service",
+   "carrier": "@red-cup-engineering/erc-4337-bundler-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/blockchain-services-section/services/ethereum-services-section/services/account-abstraction-services-section/services/erc-4337-bundler-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/blockchain-services-section/services/ethereum-services-section/services/account-abstraction-services-section/services/erc-4337-bundler-service/package.json",
+     "effect": "@red-cup-engineering/erc-4337-bundler-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/git-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/content/customer-interface.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/content/text/glossary/terms/git.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/content/text/glossary/topics/git.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/lib/ownership.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/src/git-command-codec.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/src/git-object-id.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/src/gitmodules.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/src/source-working-copy-schema.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/test/command-interface.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/test/fixtures/sample.gitmodules",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/test/git-command-codec.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/test/gitmodules.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/git-services-section",
+   "carrier": "@red-cup-engineering/git-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-protocol-services-section/services/version-control-services-section/services/git-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-protocol-services-section/services/version-control-services-section/services/git-services-section/package.json",
+     "effect": "@red-cup-engineering/git-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/github-semioverse-settler-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/scripts/observe-github.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/scripts/reconcile-github.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/scripts/settle-github-event.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/src/file-receipt-store.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/src/github-poll.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/src/metroplat-http-admit.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/src/native-work-receiving.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/src/reconcile.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/src/settler.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/test/durable-claim.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/test/github-poll.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/test/native-work-receiving.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/test/observe-provider-recovery.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/test/observe-selected-repositories.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/test/receipt-store-lock.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/test/reconcile.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/test/runtime-edge.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/test/settler.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/github-semioverse-settler-service",
+   "carrier": "@red-cup-engineering/github-semioverse-settler-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-protocol-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-protocol-services-section/services/version-control-services-section/services/git-services-section/services/github-semioverse-settler-service/package.json",
+     "effect": "@red-cup-engineering/github-semioverse-settler-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/google-drive-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/google-drive-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/google-drive-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/google-drive-services-section/src/media.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/google-drive-services-section/src/publish-media.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/google-drive-services-section",
+   "carrier": "@red-cup-engineering/google-drive-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/google-drive-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/google-drive-services-section/package.json",
+     "effect": "@red-cup-engineering/google-drive-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/hashkings-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/hashkings-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/hashkings-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/hashkings-services-section/src/recovery.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/hashkings-services-section/test/recovery.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/hashkings-services-section",
+   "carrier": "@red-cup-engineering/hashkings-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/hashkings-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/hashkings-services-section/package.json",
+     "effect": "@red-cup-engineering/hashkings-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/hive-ledger-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-ledger-services-section/content/text/documents/articles/notes/recovered/history/2026/06/11/hive-financial-design-memo.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-ledger-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-ledger-services-section/README.md"
+   ],
+   "effect": "the package @red-cup-engineering/hive-ledger-services-section",
+   "carrier": "@red-cup-engineering/hive-ledger-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/blockchain-services-section/services/hive-engineering-services-section/services/hive-ledger-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/blockchain-services-section/services/hive-engineering-services-section/services/hive-ledger-services-section/package.json",
+     "effect": "@red-cup-engineering/hive-ledger-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/holozing-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/holozing-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/holozing-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/holozing-services-section/src/rewards.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/holozing-services-section/test/rewards.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/holozing-services-section",
+   "carrier": "@red-cup-engineering/holozing-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/holozing-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/holozing-services-section/package.json",
+     "effect": "@red-cup-engineering/holozing-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/hugging-face-cpu-compute-provider",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/hugging-face-cpu-compute-provider/.dockerignore",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/hugging-face-cpu-compute-provider/Dockerfile",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/hugging-face-cpu-compute-provider/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/hugging-face-cpu-compute-provider/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/hugging-face-cpu-compute-provider/src/server.py",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/hugging-face-cpu-compute-provider/test/test_server.py"
+   ],
+   "effect": "the package @red-cup-engineering/hugging-face-cpu-compute-provider",
+   "carrier": "@red-cup-engineering/hugging-face-cpu-compute-provider",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/hugging-face-cpu-compute-provider",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/hugging-face-cpu-compute-provider/package.json",
+     "effect": "@red-cup-engineering/hugging-face-cpu-compute-provider as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/icalendar-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/icalendar-services-section/content/text/documents/specifications/derive-set-of-due-events-work-order.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/icalendar-services-section/content/text/documents/specifications/expand-recurrence-rule-work-order.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/icalendar-services-section/data/logs/2026/09/06/witness-journal-seavt.jsonl",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/icalendar-services-section/data/records/2026-09-05-scheduling-consumers.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/icalendar-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/icalendar-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/icalendar-services-section/scripts/derive-set-of-due-events.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/icalendar-services-section/scripts/expand-recurrence-rule.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/icalendar-services-section/test/derive-set-of-due-events-faces.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/icalendar-services-section/test/derive-set-of-due-events.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/icalendar-services-section/test/expand-recurrence-rule-faces.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/icalendar-services-section/test/expand-recurrence-rule.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/icalendar-services-section",
+   "carrier": "@red-cup-engineering/icalendar-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/icalendar-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/icalendar-services-section/package.json",
+     "effect": "@red-cup-engineering/icalendar-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/javascript-algebra",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-code-analysis-services-section/services/javascript-algebra/.gitignore",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-code-analysis-services-section/services/javascript-algebra/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-code-analysis-services-section/services/javascript-algebra/src/algebra.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-code-analysis-services-section/services/javascript-algebra/src/catalog.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-code-analysis-services-section/services/javascript-algebra/src/index.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-code-analysis-services-section/services/javascript-algebra/src/morphism.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-code-analysis-services-section/services/javascript-algebra/src/type.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/javascript-algebra",
+   "carrier": "@red-cup-engineering/javascript-algebra",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-algebra",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-algebra/package.json",
+     "effect": "@red-cup-engineering/javascript-algebra as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/javascript-node-code-fabrication-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-code-fabrication-services-section/services/javascript-node-code-fabrication-services-section/content/text/glossary/topics/javascript-node-code-fabrication.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-code-fabrication-services-section/services/javascript-node-code-fabrication-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-code-fabrication-services-section/services/javascript-node-code-fabrication-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-code-fabrication-services-section/services/javascript-node-code-fabrication-services-section/scripts/transform-json-schema-to-typescript.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-code-fabrication-services-section/services/javascript-node-code-fabrication-services-section/test/index.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/javascript-node-code-fabrication-services-section",
+   "carrier": "@red-cup-engineering/javascript-node-code-fabrication-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-node-code-fabrication-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-node-code-fabrication-services-section/package.json",
+     "effect": "@red-cup-engineering/javascript-node-code-fabrication-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/jsnode-function-movement-cloud-provider",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/jsnode-function-movement-cloud-provider/content/deployment.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/jsnode-function-movement-cloud-provider/deno.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/jsnode-function-movement-cloud-provider/main.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/jsnode-function-movement-cloud-provider/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/deno-services-section/services/jsnode-function-movement-cloud-provider/test/main.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/jsnode-function-movement-cloud-provider",
+   "carrier": "@red-cup-engineering/jsnode-function-movement-cloud-provider",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/jsnode-function-movement-cloud-provider",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/jsnode-function-movement-cloud-provider/package.json",
+     "effect": "@red-cup-engineering/jsnode-function-movement-cloud-provider as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/jsnode-packaging-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/package.json"
+   ],
+   "effect": "the package @red-cup-engineering/jsnode-packaging-services-section",
+   "carrier": "@red-cup-engineering/jsnode-packaging-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/package.json",
+     "effect": "@red-cup-engineering/jsnode-packaging-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/model-tournament-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package-lock.json",
+    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package.json",
+    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/src/tournament.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/model-tournament-service",
+   "carrier": "@red-cup-engineering/model-tournament-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/model-tournament-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/model-tournament-service/package.json",
+     "effect": "@red-cup-engineering/model-tournament-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/node-package-authority-assay-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-runtime-authority-services-section/services/node-package-authority-assay-service/package-lock.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-runtime-authority-services-section/services/node-package-authority-assay-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-runtime-authority-services-section/services/node-package-authority-assay-service/scripts/assay-node-package-authority.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-runtime-authority-services-section/services/node-package-authority-assay-service/src/assay-package-authority.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-runtime-authority-services-section/services/node-package-authority-assay-service/test/assay-package-authority.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/node-package-authority-assay-service",
+   "carrier": "@red-cup-engineering/node-package-authority-assay-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/software-development-services-section/services/node-package-authority-assay-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/software-development-services-section/services/node-package-authority-assay-service/package.json",
+     "effect": "@red-cup-engineering/node-package-authority-assay-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/node-process-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/src/clock.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/src/command.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/src/config.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/src/entropy.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/src/entrypoint.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/src/environment.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/src/lifecycle-schema-schema.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/src/lifecycle.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/src/main-runner.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/src/stdio.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/test/command.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/test/config.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/node-process-services-section/test/environment.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/node-process-services-section",
+   "carrier": "@red-cup-engineering/node-process-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/node-process-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/node-process-services-section/package.json",
+     "effect": "@red-cup-engineering/node-process-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/normalize-earning-opportunity-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/financial-engineering-services-section/services/normalize-earning-opportunity-service/package.json",
+    "services/engineering-services-section/services/financial-engineering-services-section/services/normalize-earning-opportunity-service/src/index.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/normalize-earning-opportunity-service",
+   "carrier": "@red-cup-engineering/normalize-earning-opportunity-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/normalize-earning-opportunity-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/normalize-earning-opportunity-service/package.json",
+     "effect": "@red-cup-engineering/normalize-earning-opportunity-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/notes-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-documents-engineering-services-section/services/computer-article-engineering-services-section/services/notes-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-documents-engineering-services-section/services/computer-article-engineering-services-section/services/notes-services-section/README.md"
+   ],
+   "effect": "the package @red-cup-engineering/notes-services-section",
+   "carrier": "@red-cup-engineering/notes-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/services/file-services-section/services/data-services-section/services/content-services-section/services/documents-services-section/services/articles-services-section/services/notes-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/services/file-services-section/services/data-services-section/services/content-services-section/services/documents-services-section/services/articles-services-section/services/notes-services-section/package.json",
+     "effect": "@red-cup-engineering/notes-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/npm-registry-read-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-registry-read-service/deploy/npm-registry-read.service",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-registry-read-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-registry-read-service/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-registry-read-service/scripts/serve-npm-registry-read.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-registry-read-service/src/npm-registry-read-service.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-registry-read-service/test/npm-registry-read-service.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-registry-read-service/test/serve-npm-registry-read.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/npm-registry-read-service",
+   "carrier": "@red-cup-engineering/npm-registry-read-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/npm-registry-read-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/npm-registry-read-service/package.json",
+     "effect": "@red-cup-engineering/npm-registry-read-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/npm-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/README.md"
+   ],
+   "effect": "the package @red-cup-engineering/npm-services-section",
+   "carrier": "@red-cup-engineering/npm-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/services/npm-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/services/npm-services-section/package.json",
+     "effect": "@red-cup-engineering/npm-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/onchain-data-resource-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/smart-contract-services-section/services/onchain-data-resource-service/.gitignore",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/smart-contract-services-section/services/onchain-data-resource-service/foundry.toml",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/smart-contract-services-section/services/onchain-data-resource-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/smart-contract-services-section/services/onchain-data-resource-service/src/OnchainDataResource.sol",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/smart-contract-services-section/services/onchain-data-resource-service/test/OnchainDataResource.t.sol"
+   ],
+   "effect": "the package @red-cup-engineering/onchain-data-resource-service",
+   "carrier": "@red-cup-engineering/onchain-data-resource-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/blockchain-services-section/services/ethereum-services-section/services/smart-contract-services-section/services/onchain-data-resource-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/blockchain-services-section/services/ethereum-services-section/services/smart-contract-services-section/services/onchain-data-resource-service/package.json",
+     "effect": "@red-cup-engineering/onchain-data-resource-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/openfda-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/openfda-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/openfda-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/openfda-services-section/src/client.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/openfda-services-section",
+   "carrier": "@red-cup-engineering/openfda-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/openfda-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/openfda-services-section/package.json",
+     "effect": "@red-cup-engineering/openfda-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/operation-witness-admission-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/scripts/admit-hook-event-witness.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/scripts/admit-trace-operation-witnesses.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/scripts/project-hook-budget-guard.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/scripts/project-operation-ledger.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/scripts/record-operation.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/src/hook-budget-guard.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/src/hook-event-witness.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/src/operation-ledger.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/src/operation-witness.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/src/trace-operation-witnesses.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/test/hook-budget-guard.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/test/hook-event-witness.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/test/operation-ledger.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/test/operation-witness.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/test/trace-operation-witnesses.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/operation-witness-admission-service",
+   "carrier": "@red-cup-engineering/operation-witness-admission-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service/package.json",
+     "effect": "@red-cup-engineering/operation-witness-admission-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/optimism-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/optimism-services-section/lib/union-op-stack/.gitignore",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/optimism-services-section/lib/union-op-stack/images.lock",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/optimism-services-section/lib/union-op-stack/intent.toml.template",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/optimism-services-section/lib/union-op-stack/op-deployer.lock",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/optimism-services-section/lib/union-op-stack/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/optimism-services-section/lib/union-op-stack/roles.env.example",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/optimism-services-section/lib/union-op-stack/scripts/apply.sh",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/optimism-services-section/lib/union-op-stack/scripts/bootstrap.sh",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/optimism-services-section/lib/union-op-stack/scripts/common.sh",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/optimism-services-section/lib/union-op-stack/scripts/inspect.sh",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/optimism-services-section/lib/union-op-stack/scripts/test-cli-compatibility.sh",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/optimism-services-section/lib/union-op-stack/scripts/validate.sh",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/optimism-services-section/package.json"
+   ],
+   "effect": "the package @red-cup-engineering/optimism-services-section",
+   "carrier": "@red-cup-engineering/optimism-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/blockchain-services-section/services/ethereum-services-section/services/optimism-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/blockchain-services-section/services/ethereum-services-section/services/optimism-services-section/package.json",
+     "effect": "@red-cup-engineering/optimism-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/pnpm-workspace-fabrication-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/pnpm-services-section/services/pnpm-workspace-services-section/services/pnpm-workspace-fabrication-service/package-lock.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/pnpm-services-section/services/pnpm-workspace-services-section/services/pnpm-workspace-fabrication-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/pnpm-services-section/services/pnpm-workspace-services-section/services/pnpm-workspace-fabrication-service/scripts/fabricate-pnpm-workspace.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/pnpm-services-section/services/pnpm-workspace-services-section/services/pnpm-workspace-fabrication-service/src/fabricate-pnpm-workspace.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/pnpm-services-section/services/pnpm-workspace-services-section/services/pnpm-workspace-fabrication-service/test/fabricate-pnpm-workspace.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/pnpm-workspace-fabrication-service",
+   "carrier": "@red-cup-engineering/pnpm-workspace-fabrication-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/software-development-services-section/services/pnpm-workspace-fabrication-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/software-development-services-section/services/pnpm-workspace-fabrication-service/package.json",
+     "effect": "@red-cup-engineering/pnpm-workspace-fabrication-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/project-browser-asset-tree-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section/services/project-browser-asset-tree-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section/services/project-browser-asset-tree-service/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section/services/project-browser-asset-tree-service/src/browser-buffer.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section/services/project-browser-asset-tree-service/src/project-browser-asset-tree.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section/services/project-browser-asset-tree-service/test/project-browser-asset-tree.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/project-browser-asset-tree-service",
+   "carrier": "@red-cup-engineering/project-browser-asset-tree-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-systems-publishing-engineering-services-section/services/project-browser-asset-tree-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-systems-publishing-engineering-services-section/services/project-browser-asset-tree-service/package.json",
+     "effect": "@red-cup-engineering/project-browser-asset-tree-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/propublica-nonprofit-explorer-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/propublica-nonprofit-explorer-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/propublica-nonprofit-explorer-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/propublica-nonprofit-explorer-services-section/src/client.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/propublica-nonprofit-explorer-services-section",
+   "carrier": "@red-cup-engineering/propublica-nonprofit-explorer-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/propublica-nonprofit-explorer-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/propublica-nonprofit-explorer-services-section/package.json",
+     "effect": "@red-cup-engineering/propublica-nonprofit-explorer-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/semiotic-voxel-package-conformance-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/semiotic-voxel-package-conformance-service/package-lock.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/semiotic-voxel-package-conformance-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/semiotic-voxel-package-conformance-service/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/semiotic-voxel-package-conformance-service/scripts/assay-semiotic-voxel-package-body.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/semiotic-voxel-package-conformance-service/src/assay-semiotic-voxel-package-body.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/services/semiotic-voxel-package-conformance-service/test/assay-semiotic-voxel-package-body.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/semiotic-voxel-package-conformance-service",
+   "carrier": "@red-cup-engineering/semiotic-voxel-package-conformance-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/semiotic-software-services-section/services/semiotic-voxel-package-conformance-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/semiotic-software-services-section/services/semiotic-voxel-package-conformance-service/package.json",
+     "effect": "@red-cup-engineering/semiotic-voxel-package-conformance-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/smart-contract-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/ethereum-engineering-services-section/services/smart-contract-services-section/package.json"
+   ],
+   "effect": "the package @red-cup-engineering/smart-contract-services-section",
+   "carrier": "@red-cup-engineering/smart-contract-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/blockchain-services-section/services/ethereum-services-section/services/smart-contract-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/blockchain-services-section/services/ethereum-services-section/services/smart-contract-services-section/package.json",
+     "effect": "@red-cup-engineering/smart-contract-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/solidity-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/solidity-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/solidity-services-section/README.md"
+   ],
+   "effect": "the package @red-cup-engineering/solidity-services-section",
+   "carrier": "@red-cup-engineering/solidity-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/software-development-services-section/services/solidity-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/software-development-services-section/services/solidity-services-section/package.json",
+     "effect": "@red-cup-engineering/solidity-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/splinterlands-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/splinterlands-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/splinterlands-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/splinterlands-services-section/src/collection.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/splinterlands-services-section/src/market.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/splinterlands-services-section/src/queue-readiness.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/splinterlands-services-section/test/collection.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/splinterlands-services-section/test/market.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-application-integration-services-section/hive-games-services-section/services/splinterlands-services-section/test/queue-readiness.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/splinterlands-services-section",
+   "carrier": "@red-cup-engineering/splinterlands-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/splinterlands-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/splinterlands-services-section/package.json",
+     "effect": "@red-cup-engineering/splinterlands-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/text-comparison-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/text-comparison-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/text-comparison-service/scripts/compare-strings.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/text-comparison-service/src/compare-strings.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/text-comparison-service/src/match-names.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/text-comparison-service/test/compare-strings.test.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/text-comparison-service/test/match-names.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/text-comparison-service",
+   "carrier": "@red-cup-engineering/text-comparison-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/services/text-comparison-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/services/text-comparison-service/package.json",
+     "effect": "@red-cup-engineering/text-comparison-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/transaction-cost-replay-service",
+   "sourcePaths": [
+    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package-lock.json",
+    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package.json",
+    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/src/replay.mjs",
+    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/test/replay.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/transaction-cost-replay-service",
+   "carrier": "@red-cup-engineering/transaction-cost-replay-service",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/transaction-cost-replay-service",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/transaction-cost-replay-service/package.json",
+     "effect": "@red-cup-engineering/transaction-cost-replay-service as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/union-public-compute-assay",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-software-platform-services-section/services/github-services-section/services/github-actions-public-compute-provider/content/assay-target/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-software-platform-services-section/services/github-services-section/services/github-actions-public-compute-provider/content/assay-target/test/compute.test.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/union-public-compute-assay",
+   "carrier": "@red-cup-engineering/union-public-compute-assay",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-software-platform-services-section/services/github-services-section/services/github-actions-public-compute-provider/content/assay-target",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-software-platform-services-section/services/github-services-section/services/github-actions-public-compute-provider/content/assay-target/package.json",
+     "effect": "@red-cup-engineering/union-public-compute-assay as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/usaspending-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/usaspending-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/usaspending-services-section/README.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/usaspending-services-section/src/client.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/usaspending-services-section",
+   "carrier": "@red-cup-engineering/usaspending-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/usaspending-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/usaspending-services-section/package.json",
+     "effect": "@red-cup-engineering/usaspending-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/web3-gambling-platform-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web3-platform-services-section/web3-gambling-platform-services-section/lib/agency/skills/executing-admitted-venue-orders/SKILL.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web3-platform-services-section/web3-gambling-platform-services-section/lib/agency/skills/keeping-venue-account-custody/SKILL.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web3-platform-services-section/web3-gambling-platform-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-web-engineering-services-section/services/web-platform-services-section/services/web3-platform-services-section/web3-gambling-platform-services-section/scripts/orders.mjs"
+   ],
+   "effect": "the package @red-cup-engineering/web3-gambling-platform-services-section",
+   "carrier": "@red-cup-engineering/web3-gambling-platform-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web3-gambling-platform-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web3-gambling-platform-services-section/package.json",
+     "effect": "@red-cup-engineering/web3-gambling-platform-services-section as its owner defines it"
+    }
+   ]
+  },
+  {
+   "id": "@red-cup-engineering/witness-journal-services-section",
+   "sourcePaths": [
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/content/text/documents/articles/reference-articles/canonical-seavt-logging-and-journal-kernel.md",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/data/logs/2026/09/04/witness-journal-seavt.jsonl",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/data/logs/2026/09/08/witness-journal-seavt.jsonl",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/data/logs/2026/09/09/witness-journal-seavt.jsonl",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/data/records/2026-08-31-witness-journal-log-service-vendored-copies-finding.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/README.md"
+   ],
+   "effect": "the package @red-cup-engineering/witness-journal-services-section",
+   "carrier": "@red-cup-engineering/witness-journal-services-section",
+   "state": "retired",
+   "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section",
+   "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
+   "modernEvidence": [
+    {
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-data-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/package.json",
+     "effect": "@red-cup-engineering/witness-journal-services-section as its owner defines it"
+    }
+   ]
+  }
+ ]
+}

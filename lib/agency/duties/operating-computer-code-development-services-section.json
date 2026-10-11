@@ -1,0 +1,15 @@
+{
+  "id": "operating-computer-code-development-services-section",
+  "name": "operating computer code development services",
+  "authority": "founder",
+  "work": "operating-computer-code-development-services-section",
+  "claim": "chief-technology-officer",
+  "skills": [
+    "operating-computer-code-development-services-section"
+  ],
+  "delegation": true,
+  "x-provenance": {
+    "source": "Existing provider operating obligation, normalized to emsenn/schema/duty under the Founder-directed CTO reporting relationship.",
+    "prior-description": "Operate SDSS customer contracts, supplier chains, capability disposition, receipts, guarded causal RSI cycles, and truthful handoff without crossing customer or foreign settlement authority. Lack of consumers is not justification to remove a capability."
+  }
+}

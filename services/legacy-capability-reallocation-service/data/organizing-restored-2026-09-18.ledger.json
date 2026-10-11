@@ -1,0 +1,987 @@
+{
+  "kind": "legacy-capability-reallocation-ledger/v3",
+  "repositoryRoot": "/home/user/bare-cedar-fog",
+  "legacyRoot": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/lib/legacy/restored-from-main/2026-09-18-e9c2a9e/apps/organizing",
+  "inventory": {
+    "sourceFiles": 30,
+    "excluded": []
+  },
+  "records": [
+    {
+      "id": "legacy-source:package-lock.json:ee71f9715ae91d62",
+      "source": {
+        "path": "package-lock.json",
+        "sha256": "ee71f9715ae91d62284dcbc0cc977f5bde7864c478bab1ce217d11ee254c795e",
+        "bytes": 66563,
+        "extension": ".json",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown",
+        "signcell",
+        "git",
+        "network",
+        "publication",
+        "research"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section",
+          "reason": "Git observations belong to version-control services.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section",
+          "reason": "Transport follows admitted carrier data.",
+          "dependencies": []
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section",
+          "reason": "Audience-facing release assembly belongs to publishing systems.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:package.json:da14b2bf098029c1",
+      "source": {
+        "path": "package.json",
+        "sha256": "da14b2bf098029c1bcb820bcf66ed31f5dd17756af73be6ad109e6bba93a4e85",
+        "bytes": 5544,
+        "extension": ".json",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "markdown",
+        "git",
+        "research"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        },
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section",
+          "reason": "Git observations belong to version-control services.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:pnpm-workspace.yaml:3964a38d37d03a1d",
+      "source": {
+        "path": "pnpm-workspace.yaml",
+        "sha256": "3964a38d37d03a1dd35a341a42977ecc6c9aa6b42b6952df4480ce40e2d040fd",
+        "bytes": 507,
+        "extension": ".yaml",
+        "kind": "text-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [
+        "research"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:scripts/serve.mts:8860ddda5203dc7a",
+      "source": {
+        "path": "scripts/serve.mts",
+        "sha256": "8860ddda5203dc7a4d1c18822cf80c29d1d57b73ba2ab84d0088dcebde90ca41",
+        "bytes": 1543,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/accounting/commodity.mts:aa6d3f4d251af5af",
+      "source": {
+        "path": "src/accounting/commodity.mts",
+        "sha256": "aa6d3f4d251af5af06bee91bf0da8f9cb7c846fe093597acfb3ab71a7a70cec5",
+        "bytes": 11539,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/accounting/ledger.mts:0788e5cfd2f5e066",
+      "source": {
+        "path": "src/accounting/ledger.mts",
+        "sha256": "0788e5cfd2f5e0665fa94bb76d6def9f8afab3a1a3ef364e34bc7f8d327683fb",
+        "bytes": 43035,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/accounting/topology/financial.mts:2d4659f435799cfc",
+      "source": {
+        "path": "src/accounting/topology/financial.mts",
+        "sha256": "2d4659f435799cfcd67bd61cb89165f5932aa944d3a3af6c15b6b6499bb06d85",
+        "bytes": 17049,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/accounting/topology/ledger.mts:a06020400a403257",
+      "source": {
+        "path": "src/accounting/topology/ledger.mts",
+        "sha256": "a06020400a40325756e246089a6ee0ab075990bfe0c720f306bca3811bdb75f3",
+        "bytes": 14964,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/accounting/topology/market.mts:3761286ec4c85e30",
+      "source": {
+        "path": "src/accounting/topology/market.mts",
+        "sha256": "3761286ec4c85e307971390fb5ebe204862065aff9d497a1a795f03e8a02b501",
+        "bytes": 18758,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/accounting/topology/settle-utterances.mts:98c6d5d5af839614",
+      "source": {
+        "path": "src/accounting/topology/settle-utterances.mts",
+        "sha256": "98c6d5d5af839614bf172fe0080db81ad85c9da45436196e4e386b743fdee6f5",
+        "bytes": 2794,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/authority.mts:2649e8ef95eab05b",
+      "source": {
+        "path": "src/authority.mts",
+        "sha256": "2649e8ef95eab05bded2f20d0bda724e14e7550731f776b756705ede7aeba646",
+        "bytes": 4732,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/default-jupyter-views.mts:5ebcebd84cc17e6a",
+      "source": {
+        "path": "src/default-jupyter-views.mts",
+        "sha256": "5ebcebd84cc17e6af8aeb6a65c2720e4b18d04ea36aef0fd27bb9a0d9079dd26",
+        "bytes": 32498,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/federate-graded.mts:7f1a8c03ea5e2ca2",
+      "source": {
+        "path": "src/federate-graded.mts",
+        "sha256": "7f1a8c03ea5e2ca248e11c71f4321e83df483841fea943486c9a836ab7c8402b",
+        "bytes": 16280,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/nix.mts:81c6b0de0776f815",
+      "source": {
+        "path": "src/nix.mts",
+        "sha256": "81c6b0de0776f815c277336473813482bb24a988f8e7838ee4b41eb3e53a0db8",
+        "bytes": 9786,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/reproducible-reasoning.mts:de13509e2ce01cf7",
+      "source": {
+        "path": "src/reproducible-reasoning.mts",
+        "sha256": "de13509e2ce01cf72d098fd8fd68109795176f174fc973e8c89c5a061c7ad472",
+        "bytes": 7133,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/substrate/index.mts:9a3f43b8976c2699",
+      "source": {
+        "path": "src/substrate/index.mts",
+        "sha256": "9a3f43b8976c2699ef74af25c026b05badbc5ba7e53bedd0fdf079095fcd3a9a",
+        "bytes": 18563,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/work.mts:537df85ef7fcb86f",
+      "source": {
+        "path": "src/work.mts",
+        "sha256": "537df85ef7fcb86f531e4b60480c1f11d7d837b6ccd170dc120ac94c768e6138",
+        "bytes": 20815,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/writing/accountable-transaction/index.mts:50f513152ec74e46",
+      "source": {
+        "path": "src/writing/accountable-transaction/index.mts",
+        "sha256": "50f513152ec74e46e2d4c53aacf629a916da1d020e3bbef34807519805bfc374",
+        "bytes": 19053,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/writing/activitypub/index.mts:c83f15482148d19d",
+      "source": {
+        "path": "src/writing/activitypub/index.mts",
+        "sha256": "c83f15482148d19d59c6364d4b13fc18ee019e496aacd8788b09d05fbaec53d8",
+        "bytes": 19796,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:src/writing/matrix/index.mts:8037298f961f83fb",
+      "source": {
+        "path": "src/writing/matrix/index.mts",
+        "sha256": "8037298f961f83fb53b4f91c2fc20d6407f59d19b5dc4a41cdc226d1f56f4acb",
+        "bytes": 13141,
+        "extension": ".mts",
+        "kind": "binary-carrier"
+      },
+      "exports": [],
+      "imports": [],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:test/accountable-transaction.test.mjs:54b84a83aa7aafcf",
+      "source": {
+        "path": "test/accountable-transaction.test.mjs",
+        "sha256": "54b84a83aa7aafcf3490ce434aa17d07444d944a1322f74b6633c0a2c45180ba",
+        "bytes": 5261,
+        "extension": ".mjs",
+        "kind": "code-module"
+      },
+      "exports": [
+        "capability",
+        "challenge",
+        "payment",
+        "receipt",
+        "transaction",
+        "witnessedAt"
+      ],
+      "imports": [
+        "../dist/writing/accountable-transaction/index.mjs",
+        "../dist/writing/x402/index.mjs",
+        "@red-cup-engineering/animating",
+        "@red-cup-engineering/relating/ledger",
+        "node:assert/strict",
+        "node:test"
+      ],
+      "signals": [
+        "network"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section",
+          "reason": "Transport follows admitted carrier data.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:test/activitypub.test.mjs:61ff02105b422957",
+      "source": {
+        "path": "test/activitypub.test.mjs",
+        "sha256": "61ff02105b4229571b8493e01cf771e29ce5b5adba75534e14158b555702d16f",
+        "bytes": 10747,
+        "extension": ".mjs",
+        "kind": "code-module"
+      },
+      "exports": [
+        "actorOf",
+        "base",
+        "create",
+        "luna",
+        "mara",
+        "post",
+        "sol",
+        "undo"
+      ],
+      "imports": [
+        "../dist/index.mjs",
+        "@red-cup-engineering/animating",
+        "node:assert/strict",
+        "node:test"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:test/cockpit-coordination.test.mjs:d9498827da7e5554",
+      "source": {
+        "path": "test/cockpit-coordination.test.mjs",
+        "sha256": "d9498827da7e5554b4d0bbba613ed5fe89f17a42b5b504207cda6dce0c878a0a",
+        "bytes": 6630,
+        "extension": ".mjs",
+        "kind": "code-module"
+      },
+      "exports": [
+        "activeClaim"
+      ],
+      "imports": [
+        "../dist/index.mjs",
+        "@red-cup-engineering/animating",
+        "@red-cup-engineering/relating/ledger",
+        "node:assert/strict",
+        "node:test"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:test/default-jupyter-views.test.mjs:72dc58ebb3cd54c1",
+      "source": {
+        "path": "test/default-jupyter-views.test.mjs",
+        "sha256": "72dc58ebb3cd54c14a7335d6c75c0108cfa5c85d4bf2ab7c4e38725007aa1d43",
+        "bytes": 9542,
+        "extension": ".mjs",
+        "kind": "code-module"
+      },
+      "exports": [
+        "activeClaim",
+        "federation",
+        "fixtureInput",
+        "pythonStack"
+      ],
+      "imports": [
+        "../dist/index.mjs",
+        "../dist/jupyter.mjs",
+        "@red-cup-engineering/animating",
+        "node:assert/strict",
+        "node:child_process",
+        "node:fs",
+        "node:os",
+        "node:path",
+        "node:test"
+      ],
+      "signals": [
+        "research",
+        "cli"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:test/federate-graded.test.mjs:25cbeb5b08263a85",
+      "source": {
+        "path": "test/federate-graded.test.mjs",
+        "sha256": "25cbeb5b08263a8563ad6750cd29b39bfc4485a8a7cd7e1cce24f26c88007454",
+        "bytes": 2844,
+        "extension": ".mjs",
+        "kind": "code-module"
+      },
+      "exports": [
+        "evidence",
+        "source"
+      ],
+      "imports": [
+        "../dist/index.mjs",
+        "@red-cup-engineering/relating",
+        "node:assert/strict",
+        "node:test"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:test/host-neutral-carriers.test.mjs:e1370ae33f299b78",
+      "source": {
+        "path": "test/host-neutral-carriers.test.mjs",
+        "sha256": "e1370ae33f299b7878c0e6bf6480a22e0b7ad95c9f0f54c2e8aa1b2bec12a123",
+        "bytes": 6596,
+        "extension": ".mjs",
+        "kind": "code-module"
+      },
+      "exports": [
+        "relMathFixture",
+        "roundTrip"
+      ],
+      "imports": [
+        "../dist/index.mjs",
+        "@red-cup-engineering/computing",
+        "@red-cup-engineering/relating/codecs/text/json",
+        "node:assert/strict",
+        "node:fs",
+        "node:os",
+        "node:path",
+        "node:test"
+      ],
+      "signals": [
+        "research"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:test/matrix.test.mjs:550c12d93a422406",
+      "source": {
+        "path": "test/matrix.test.mjs",
+        "sha256": "550c12d93a422406e43b0dd1aec1532c90ec75c029116f69bd02e51813466965",
+        "bytes": 5851,
+        "extension": ".mjs",
+        "kind": "code-module"
+      },
+      "exports": [
+        "actorOf",
+        "base",
+        "luna",
+        "room",
+        "sol",
+        "stateEvent"
+      ],
+      "imports": [
+        "../dist/index.mjs",
+        "@red-cup-engineering/animating",
+        "node:assert/strict",
+        "node:test"
+      ],
+      "signals": [
+        "git"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section",
+          "reason": "Git observations belong to version-control services.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:test/rwil-merge.test.mjs:93dfa034fabf49e3",
+      "source": {
+        "path": "test/rwil-merge.test.mjs",
+        "sha256": "93dfa034fabf49e3655c1394d827a3489a478907247800307066a718d5c76ed1",
+        "bytes": 4085,
+        "extension": ".mjs",
+        "kind": "code-module"
+      },
+      "exports": [
+        "create",
+        "keysOf",
+        "LUNA",
+        "SOL",
+        "standingSet",
+        "undo"
+      ],
+      "imports": [
+        "../dist/index.mjs",
+        "@red-cup-engineering/animating",
+        "node:assert/strict",
+        "node:test"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:test/substrate.test.mjs:507b855853b5d49e",
+      "source": {
+        "path": "test/substrate.test.mjs",
+        "sha256": "507b855853b5d49e1a7d7b91db71c7ad0bdf382f19cab40d888a88bd15c57fb5",
+        "bytes": 3652,
+        "extension": ".mjs",
+        "kind": "code-module"
+      },
+      "exports": [
+        "fixtureRoot",
+        "workspaceFixture"
+      ],
+      "imports": [
+        "../dist/index.mjs",
+        "@red-cup-engineering/relating",
+        "node:assert/strict",
+        "node:fs",
+        "node:os",
+        "node:path",
+        "node:test"
+      ],
+      "signals": [
+        "markdown",
+        "signcell"
+      ],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section",
+          "reason": "Markdown syntax and evidence are carried by canonical Markdown data services downstream of SignCell.",
+          "dependencies": [
+            "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legacy-source:test/x402.test.mjs:826400816e501461",
+      "source": {
+        "path": "test/x402.test.mjs",
+        "sha256": "826400816e50146169bd277a1fe001784bf4c23002c0bcd07f352a9cd43fc862",
+        "bytes": 3482,
+        "extension": ".mjs",
+        "kind": "code-module"
+      },
+      "exports": [
+        "challenge"
+      ],
+      "imports": [
+        "../dist/writing/x402/index.mjs",
+        "@red-cup-engineering/relating/ledger",
+        "node:assert/strict",
+        "node:test"
+      ],
+      "signals": [],
+      "candidateHomes": [
+        {
+          "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section",
+          "reason": "Executable adapters belong to code development until a lower carrier is established.",
+          "dependencies": []
+        }
+      ]
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "organizing-accounting-topology",
+      "sourcePaths": [
+        "src/accounting/topology/ledger.mts",
+        "src/accounting/topology/market.mts",
+        "src/accounting/topology/financial.mts",
+        "src/accounting/topology/settle-utterances.mts",
+        "src/accounting/ledger.mts",
+        "src/accounting/commodity.mts"
+      ],
+      "effect": "double-entry ledger, market and financial topologies as settled meme-topologies over articulated utterances, with per-cell charge readers",
+      "carrier": "@red-cup-engineering/organizing",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/accounting/topology",
+        "rationale": "Living organizing (owned by red-cup-engineering/computer-services-section services/organizing; mounted here as agent-organization-engine/lib/organizing) carries the same topologies with the same terms, predicates and utterance constructors; the per-cell *Charge readers became *Reading (ledger) and *Evidence (market) readers. Judged already landed.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/accounting/topology/ledger.mjs",
+            "effect": "ledger terms, utterances and readings"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/accounting/topology/market.mjs",
+            "effect": "market terms, utterances and evidence readers"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/accounting/topology/financial.mjs",
+            "effect": "the financial topology the ledger and market specialize"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/accounting/commodity.mjs",
+            "effect": "commodity reading over the financial topology"
+          }
+        ]
+      }
+    },
+    {
+      "id": "organizing-accountable-transaction",
+      "sourcePaths": [
+        "src/writing/accountable-transaction/index.mts",
+        "test/accountable-transaction.test.mjs"
+      ],
+      "effect": "an accountable transaction: capability invocation, x402 receipt and attestation legs over one witness, and whether they cohere",
+      "carrier": "@red-cup-engineering/farolfi",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-accounting-systems-engineering-services-section/services/computer-ledger-system-services-section/apps/farolfi/src/accountable-transaction",
+        "rationale": "farolfi (computer-ledger-system-services-section) carries the protocol as statement rows rather than RWIL witnesses: accountableTransaction/FromRow, attestTransaction, verifyAccountableTransaction, sameAccountableTransaction and the leg wires, plus the accountability-report projection. Judged already landed.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-accounting-systems-engineering-services-section/services/computer-ledger-system-services-section/apps/farolfi/src/accountable-transaction/codec.mjs",
+            "effect": "transaction row codec, attestation, coherence verification and the leg wires"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-accounting-systems-engineering-services-section/services/computer-ledger-system-services-section/apps/farolfi/src/accountable-transaction/projection.mjs",
+            "effect": "accountability report over a transaction log"
+          }
+        ]
+      }
+    },
+    {
+      "id": "organizing-federation",
+      "sourcePaths": [
+        "src/writing/activitypub/index.mts",
+        "src/federate-graded.mts",
+        "src/writing/matrix/index.mts",
+        "test/activitypub.test.mjs",
+        "test/rwil-merge.test.mjs",
+        "test/federate-graded.test.mjs",
+        "test/matrix.test.mjs"
+      ],
+      "effect": "federation of agent camps: ActivityPub delivery and camp membership, the CRDT merge of activity collections holding contradiction as top, contradiction-aware graded federation, and Matrix state resolution over a signed event DAG",
+      "carrier": "@red-cup-engineering/feltos",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src",
+        "rationale": "The founder's 2026-09-22 relational-chain change (bare-cedar-fog 2e37bc7) moved every protocol projection and effectful module out of the faculties into the FeltOS module named for what it does; FeltOS (red-cup-engineering/feltos, pinned here at bef1f86) carries it in src/federation.mjs (mergeActivities, federateActivities, federateGraded, the Matrix event DAG), with the legacy tests carried as test/organizing-activitypub, organizing-rwil-merge, organizing-federate-graded and organizing-matrix. S2S HTTP delivery with shared inboxes is in activitypub-services-section's provider, and office investiture, relief and rotation are socializing's office moves. Judged already landed.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src/federation.mjs",
+            "effect": "activity merge, camp federation, graded federation and Matrix state resolution"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/test/organizing-federate-graded.test.mjs",
+            "effect": "the legacy federate-graded test, carried"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/test/organizing-matrix.test.mjs",
+            "effect": "the legacy Matrix test, carried"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-networking-engineering-services-section/services/activitypub-services-section/src/provider.mjs",
+            "effect": "ActivityPub provider, delivery and shared-inbox endpoints"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/socializing/src/socialize/office.mjs",
+            "effect": "invest, relieve and rotate an office"
+          }
+        ]
+      }
+    },
+    {
+      "id": "organizing-control-plane-views",
+      "sourcePaths": [
+        "src/default-jupyter-views.mts",
+        "src/substrate/index.mts",
+        "test/default-jupyter-views.test.mjs",
+        "test/substrate.test.mjs",
+        "test/cockpit-coordination.test.mjs",
+        "scripts/serve.mts"
+      ],
+      "effect": "the operator's views and substrate: default Jupyter notebooks over instance carriers, the directory substrate read as packages, chronicles and work items, cockpit coordination (held capability as accountable claim), and the HTTP/OpenAPI/MCP serve transport",
+      "carrier": "@red-cup-engineering/feltos",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src",
+        "rationale": "The founder's 2026-09-22 relational-chain change (bare-cedar-fog 2e37bc7) moved every protocol projection and effectful module out of the faculties into the FeltOS module named for what it does; FeltOS (red-cup-engineering/feltos, pinned here at bef1f86) carries it: the directory substrate and the Jupyter views in src/operations.mjs, cockpit coordination in src/control-plane.mjs and src/theatre.mjs, and HTTP serving in src/http.mjs, with the legacy tests carried as test/directory-substrate, organizing-default-jupyter-views and organizing-cockpit-coordination. Judged already landed.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src/operations.mjs",
+            "effect": "directory substrate and default Jupyter views"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src/control-plane.mjs",
+            "effect": "cockpit coordination over held capabilities"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src/http.mjs",
+            "effect": "HTTP transport"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/test/directory-substrate.test.mjs",
+            "effect": "the legacy substrate test, carried"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/test/organizing-cockpit-coordination.test.mjs",
+            "effect": "the legacy cockpit test, carried"
+          }
+        ]
+      }
+    },
+    {
+      "id": "organizing-x402-settlement",
+      "sourcePaths": [
+        "test/x402.test.mjs"
+      ],
+      "effect": "an HTTP 402 challenge settled as a payment and read back as a receipt over the witness ledger, value conserved",
+      "carrier": "@red-cup-engineering/feltos",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src",
+        "rationale": "The founder's 2026-09-22 relational-chain change (bare-cedar-fog 2e37bc7) moved every protocol projection and effectful module out of the faculties into the FeltOS module named for what it does; FeltOS (red-cup-engineering/feltos, pinned here at bef1f86) carries it in src/market.mjs; the protocol's living ledger form is farolfi's accountable transaction. Judged already landed.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/apps/feltos/src/market.mjs",
+            "effect": "x402 payment settlement"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-accounting-systems-engineering-services-section/services/computer-ledger-system-services-section/apps/farolfi/src/accountable-transaction/codec.mjs",
+            "effect": "x402 receipt wire within the accountable transaction"
+          }
+        ]
+      }
+    },
+    {
+      "id": "organizing-faculty-core",
+      "sourcePaths": [
+        "src/authority.mts",
+        "src/nix.mts",
+        "src/reproducible-reasoning.mts",
+        "src/work.mts",
+        "test/host-neutral-carriers.test.mjs",
+        "package.json",
+        "package-lock.json",
+        "pnpm-workspace.yaml"
+      ],
+      "effect": "organizing's own faculty: office authority and eligibility, Nix witnesses, reproducible-reasoning builds, work items and their charge status, host-neutral carriers, and the package manifest",
+      "carrier": "@red-cup-engineering/organizing",
+      "allocation": {
+        "state": "retired",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing",
+        "rationale": "Living organizing carries each module under the same name (authority, nix, reproducible-reasoning, work, host-neutral-carriers); the legacy workChargeStatus is workReadingStatus (complete as potential, blocked as top, proposed as bottom). The manifest is the living package's. Judged already landed.",
+        "modernEvidence": [
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/authority.mjs",
+            "effect": "office authority and eligibility"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/nix.mjs",
+            "effect": "Nix witness carriers"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/reproducible-reasoning.mjs",
+            "effect": "reproducible-reasoning builds"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/work.mjs",
+            "effect": "work items and workReadingStatus"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/src/host-neutral-carriers.mjs",
+            "effect": "host-neutral carriers"
+          },
+          {
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/apps/agent-organization-engine/lib/organizing/package.json",
+            "effect": "the living organizing package"
+          }
+        ]
+      }
+    }
+  ]
+}
