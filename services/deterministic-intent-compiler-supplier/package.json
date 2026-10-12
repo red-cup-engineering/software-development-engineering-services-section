@@ -27,6 +27,6 @@
     "@red-cup-engineering/relation-model-notation-typing": "workspace:*",
     "@red-cup-engineering/semantic-content-identify-service": "workspace:*",
     "@lenticule-science/witness-journal-rdf-projection-service": "workspace:*",
-    "@lenticule-science/software-change-proposal-assay": "0.1.1"
+    "@lenticule-science/software-change-proposal-assay": "0.1.3"
   }
 }
