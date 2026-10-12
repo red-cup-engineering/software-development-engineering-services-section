@@ -37,7 +37,7 @@ export const auditTypedResourceCatalogAction = operation({
 
 export const checkLanguageConeAction = operation({
   verb: "check-language-cone", inputFormat: "json", outputFormat: "json",
-  summary: "Classify a language cone and distinguish witnessed, contradicted, and unknown leg agreement.",
+  summary: "Check a catalog and 1..64 declared cone legs (JSON input at most 1,048,576 UTF-8 bytes). Return separate classification, apex, literal slash-delimited locator seating, and caller-supplied normal-form evidence: supplied-equal, partial, unknown, or contradicted, with per-leg missingness and obligations. Equality checks declarations only; it does not derive resource normal forms, execute codecs, or prove cross-language equivalence. Invalid cone shapes use existing TypeError refusals.",
   run: (input) => { const value = record(input, "check-language-cone"); return checkLanguageCone(compileCatalog(value.catalog, { closed: value.closed !== false }), value.cone); },
 });
 

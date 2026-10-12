@@ -37,6 +37,23 @@ test("one action apex projects matching discovery, CLI, and MCP faces", async ()
     ] } } },
   }, {});
   assert.equal(JSON.parse(territoryCall.result.content[0].text).packages[0].name, "@test/cell");
+
+  const coneCall = actionMcpHandle(trcApex, {
+    jsonrpc: "2.0", id: 4, method: "tools/call",
+    params: { name: "check-language-cone", arguments: { input: { catalog, cone: {
+      apex: "urn:example", region: "repo://spore", requiredLegs: ["one", "two"],
+      legs: [
+        { name: "one", declaredApex: "urn:example", normalForm: { operation: "mark" }, resource: input.resource },
+        { name: "two", declaredApex: "urn:example", resource: { path: "repo://spore/other.rmn", content: "mark" } },
+      ],
+    } } } },
+  }, {});
+  const coneReceipt = JSON.parse(coneCall.result.content[0].text);
+  assert.equal(coneReceipt.agreement, "partial");
+  assert.equal(coneReceipt.agreementScope, "caller-supplied-normal-forms");
+  assert.equal(coneReceipt.disposition, "unproven");
+  assert.deepEqual(coneReceipt.missingNormalForms, ["two"]);
+  assert.deepEqual(coneReceipt.obligations, [{ kind: "missing-normal-form", leg: "two" }]);
 });
 
 test("CLI is a thin stateless projection of the same action apex", () => {
