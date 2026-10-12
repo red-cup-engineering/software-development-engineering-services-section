@@ -53,6 +53,8 @@ export function observeCurrentArticulatingCone() {
   const rmnPath = resolve(boundaryRoot, "src/rmn-face.mjs");
   const a2aPath = resolve(boundaryRoot, "src/a2a-face.mjs");
   const mcpPath = resolve(boundaryRoot, "src/mcp-face.mjs");
+  // These three boundary declarations are supplied values, not normal forms
+  // derived from the resource bytes. The other six legs remain unproven.
   const boundaryNormalForm = { apex: ARTICULATING_APEX, operation: "articulate-utterance" };
   return checkLanguageCone(compileCatalog(articulatingCatalogDeclaration, { closed: true }), {
     apex: ARTICULATING_APEX,

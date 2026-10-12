@@ -12,6 +12,32 @@ function requireLeg(leg, names) {
   if (leg.resource === null || typeof leg.resource !== "object") throw new TypeError(`${leg.name}.resource must be an object`);
 }
 
+/**
+ * Domain: a catalog declaration (or compileCatalog result) and a declaration
+ * with a nonempty apex and 1..64 uniquely named legs. Each leg supplies its
+ * declared apex and a catalog resource: a verbatim nonempty locator of at most
+ * 16,384 characters and text of at most 1,048,576 UTF-8 bytes. Optional normalForm
+ * values use canonical.mjs's JSON domain; undefined means no supplied value,
+ * while null is a supplied JSON value. requiredLegs names absent from the cone
+ * remain obligations. The action boundary additionally bounds total JSON input.
+ *
+ * Codomain: an immutable language-cone-check.v1 declaration receipt, with
+ * separate registration, apex binding, literal locator seating, and supplied
+ * normal-form evidence. agreement is supplied-equal only when every present
+ * leg supplies the same semanticId; partial means some values are missing,
+ * unknown means all are missing, and contradicted means supplied values differ
+ * (even when other values are missing). coherent means complete declaration
+ * equality with no structural obligations; it is not semantic proof.
+ *
+ * Locators retain the catalog's verbatim identity: seating is exact equality or
+ * slash-delimited descent from a nonempty string region; absent, empty, or
+ * non-string regions leave seating unconstrained, as before. A trailing slash
+ * in region supplies that delimiter. No URL decoding, dot-segment normalization,
+ * filesystem/symlink resolution, or resource derivation is performed. Supplied
+ * values are declarations, not authenticated normalizations of resource bytes,
+ * codec execution, or a cross-language coincidence theorem. Malformed inputs
+ * retain the catalog/canonical/leg TypeError refusal boundary.
+ */
 export function checkLanguageCone(compiledOrDeclaration, cone, options = {}) {
   const compiled = compiledOrDeclaration?.projectors ? compiledOrDeclaration : compileCatalog(compiledOrDeclaration, options);
   if (cone === null || typeof cone !== "object" || Array.isArray(cone)) throw new TypeError("language cone must be an object");
@@ -23,7 +49,9 @@ export function checkLanguageCone(compiledOrDeclaration, cone, options = {}) {
     const classification = classifyResource(compiled, leg.resource);
     const apexDisposition = leg.declaredApex === cone.apex ? "at-apex" : "misbound";
     const registration = classification.disposition === "classified" ? "registered" : "unregistered";
-    const placement = typeof cone.region !== "string" || cone.region.length === 0 || leg.resource.path.startsWith(cone.region)
+    const placement = typeof cone.region !== "string" || cone.region.length === 0
+      || leg.resource.path === cone.region
+      || leg.resource.path.startsWith(cone.region.endsWith("/") ? cone.region : `${cone.region}/`)
       ? "seated"
       : "scattered";
     const normalForm = leg.normalForm === undefined ? null : semanticId(leg.normalForm);
@@ -34,6 +62,7 @@ export function checkLanguageCone(compiledOrDeclaration, cone, options = {}) {
       registration,
       placement,
       normalForm,
+      normalFormEvidence: normalForm === null ? "missing" : "supplied",
       resource: classification.resource,
       classification,
     });
@@ -43,18 +72,23 @@ export function checkLanguageCone(compiledOrDeclaration, cone, options = {}) {
   const unregistered = legs.filter((leg) => leg.registration === "unregistered").map((leg) => leg.name);
   const misbound = legs.filter((leg) => leg.apexDisposition === "misbound").map((leg) => leg.name);
   const scattered = legs.filter((leg) => leg.placement === "scattered").map((leg) => leg.name);
-  const witnessedNormalForms = [...new Set(legs.filter((leg) => leg.normalForm !== null).map((leg) => leg.normalForm))];
-  const agreement = witnessedNormalForms.length === 0 ? "unknown" : witnessedNormalForms.length === 1 ? "witnessed" : "contradicted";
+  const missingNormalForms = legs.filter((leg) => leg.normalForm === null).map((leg) => leg.name);
+  const suppliedNormalForms = [...new Set(legs.filter((leg) => leg.normalForm !== null).map((leg) => leg.normalForm))].sort();
+  const agreement = suppliedNormalForms.length > 1 ? "contradicted"
+    : suppliedNormalForms.length === 0 ? "unknown"
+    : missingNormalForms.length > 0 ? "partial" : "supplied-equal";
   const disposition = missing.length > 0 || unregistered.length > 0 || misbound.length > 0 || scattered.length > 0 || agreement === "contradicted"
     ? "open"
-    : agreement === "witnessed" ? "coherent" : "unproven";
+    : agreement === "supplied-equal" ? "coherent" : "unproven";
   const receipt = {
     profile: "org.red-cup-engineering.language-cone-check.v1",
     catalog: compiled.id,
     apex: cone.apex,
     disposition,
     agreement,
-    normalForms: witnessedNormalForms.sort(),
+    agreementScope: "caller-supplied-normal-forms",
+    normalForms: suppliedNormalForms,
+    missingNormalForms,
     missing,
     unregistered,
     misbound,
@@ -65,8 +99,9 @@ export function checkLanguageCone(compiledOrDeclaration, cone, options = {}) {
       ...unregistered.map((leg) => ({ kind: "unregistered-leg", leg })),
       ...misbound.map((leg) => ({ kind: "misbound-leg", leg })),
       ...scattered.map((leg) => ({ kind: "scattered-leg", leg, expectedRegion: cone.region })),
+      ...missingNormalForms.map((leg) => ({ kind: "missing-normal-form", leg })),
       ...(agreement === "unknown" ? [{ kind: "leg-agreement-unwitnessed" }] : []),
-      ...(agreement === "contradicted" ? [{ kind: "leg-agreement-contradicted", normalForms: witnessedNormalForms.sort() }] : []),
+      ...(agreement === "contradicted" ? [{ kind: "leg-agreement-contradicted", normalForms: suppliedNormalForms }] : []),
     ],
   };
   return immutable({ ...receipt, id: semanticId(receipt) });

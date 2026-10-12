@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { observeCurrentArticulatingCone, OBS_REGION } from "../examples/obsmetrologia-articulating-catalog.mjs";
 
-test("actual Obsmetrologia articulating legs are seated at one witnessed language apex", () => {
+test("actual Obsmetrologia articulating legs are seated with partial declared agreement", () => {
   const receipt = observeCurrentArticulatingCone();
   const byName = new Map(receipt.legs.map((leg) => [leg.name, leg]));
   assert.equal(byName.get("lean").classification.classification, "articulating-lean-reading");
@@ -17,9 +17,13 @@ test("actual Obsmetrologia articulating legs are seated at one witnessed languag
   for (const leg of receipt.legs) assert.equal(leg.placement, "seated");
   assert.deepEqual(receipt.missing, []);
   assert.deepEqual(receipt.scattered, []);
-  assert.equal(receipt.agreement, "witnessed");
-  assert.equal(receipt.disposition, "coherent");
-  assert.deepEqual(receipt.obligations, []);
+  assert.equal(receipt.agreement, "partial");
+  assert.equal(receipt.agreementScope, "caller-supplied-normal-forms");
+  assert.equal(receipt.disposition, "unproven");
+  assert.deepEqual(receipt.missingNormalForms, ["lean", "solidity", "package", "node", "schema", "evm-deployment"]);
+  assert.deepEqual(receipt.obligations, receipt.missingNormalForms.map((leg) => ({ kind: "missing-normal-form", leg })));
+  for (const name of receipt.missingNormalForms) assert.equal(byName.get(name).normalFormEvidence, "missing");
+  for (const name of ["rmn", "a2a", "mcp"]) assert.equal(byName.get(name).normalFormEvidence, "supplied");
   assert.ok(!receipt.obligations.some((item) => item.kind === "scattered-leg" && item.leg === "node" && item.expectedRegion === OBS_REGION));
   assert.ok(!JSON.stringify(receipt).includes("/home/emsenn/"));
 });
