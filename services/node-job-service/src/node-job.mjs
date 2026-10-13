@@ -219,18 +219,19 @@ export function nodeJobsAt({ runtimeRoot, jobsDirectory, stateRoot, unitPrefix, 
 /** The exact JavaScript programs and preloads named by the installed job declarations. */
 export function nodeJobProgramEntries({ runtimeRoot, jobsDirectory } = {}) {
   if (typeof runtimeRoot !== "string" || !isAbsolute(runtimeRoot) || typeof jobsDirectory !== "string" || isAbsolute(jobsDirectory) || normalize(jobsDirectory).startsWith("..")) throw new TypeError("job compilation requires a runtime and its relative declaration directory");
-  const entries = new Set();
+  const entries = new Set(), failures = [];
   for (const job of declaredJobs(resolve(runtimeRoot, jobsDirectory)).values()) {
     const directory = resolve(runtimeRoot, job.directory);
-    if (!existsSync(directory)) throw new TypeError("the job's owning package is not installed: " + job.id);
+    if (!existsSync(directory)) { failures.push("owning package not installed: " + job.id); continue; }
     for (const argument of [...job.node, ...(job.finally ?? [])]) {
       if (argument.startsWith("-") || !/\.[cm]?[jt]s$/u.test(argument)) continue;
       const file = resolve(directory, expand(argument, runtimeRoot));
       if (file !== runtimeRoot && !file.startsWith(runtimeRoot + "/")) throw new TypeError("job program escapes the installed runtime: " + job.id);
-      if (!existsSync(file)) throw new TypeError("the job program is not installed: " + job.id + " " + argument);
+      if (!existsSync(file)) { failures.push("program not installed: " + job.id + " " + argument); continue; }
       entries.add(file);
     }
   }
+  if (failures.length) throw new TypeError("Incomplete installed job programs:\n" + failures.join("\n"));
   return [...entries];
 }
 
