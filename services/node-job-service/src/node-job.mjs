@@ -216,6 +216,24 @@ export function nodeJobsAt({ runtimeRoot, jobsDirectory, stateRoot, unitPrefix, 
   return Object.freeze({ runtimeRoot, releaseRoot: stateRoot, unitPrefix, artifact, jobs: declaredJobs(resolve(runtimeRoot, jobsDirectory)) });
 }
 
+/** The exact JavaScript programs and preloads named by the installed job declarations. */
+export function nodeJobProgramEntries({ runtimeRoot, jobsDirectory } = {}) {
+  if (typeof runtimeRoot !== "string" || !isAbsolute(runtimeRoot) || typeof jobsDirectory !== "string" || isAbsolute(jobsDirectory) || normalize(jobsDirectory).startsWith("..")) throw new TypeError("job compilation requires a runtime and its relative declaration directory");
+  const entries = new Set();
+  for (const job of declaredJobs(resolve(runtimeRoot, jobsDirectory)).values()) {
+    const directory = resolve(runtimeRoot, job.directory);
+    if (!existsSync(directory)) throw new TypeError("the job's owning package is not installed: " + job.id);
+    for (const argument of [...job.node, ...(job.finally ?? [])]) {
+      if (argument.startsWith("-") || !/\.[cm]?[jt]s$/u.test(argument)) continue;
+      const file = resolve(directory, expand(argument, runtimeRoot));
+      if (file !== runtimeRoot && !file.startsWith(runtimeRoot + "/")) throw new TypeError("job program escapes the installed runtime: " + job.id);
+      if (!existsSync(file)) throw new TypeError("the job program is not installed: " + job.id + " " + argument);
+      entries.add(file);
+    }
+  }
+  return [...entries];
+}
+
 const receiptOf = (home, releaseRoot, id) => resolve(home, releaseRoot, "jobs", `${id}.json`);
 // What a run says it left, written by the job (writeNodeJobDemand) and folded into its receipt.
 const demandOf = (receipt) => `${receipt.slice(0, -".json".length)}.demand.json`;
