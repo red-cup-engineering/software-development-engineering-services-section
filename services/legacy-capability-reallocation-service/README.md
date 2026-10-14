@@ -1,6 +1,8 @@
 # Legacy capability reallocation service
 
 This service prevents an archive being called “processed” merely because it was read or described.
+Integration flows from legacy into living owners. `retire-wave --write` uses the
+existing reconciler to integrate its selected wave into those owners.
 It inventories every source carrier below a supplied legacy root, derives explicit carrier and destination candidates from the source itself, and writes a ledger whose records begin `unallocated`.
 
 A record becomes `retired` only when it names a modern, non-legacy implementation witness and the verifier finds no remaining non-legacy route to that archive source.
@@ -33,7 +35,7 @@ Allocation declarations name an effect, carrier, destination, state, and the one
 The allocation command rejects unknown source paths, and the verifier rejects any archive source that is not covered by a declaration; an agent cannot mark a whole package complete while leaving one of its source effects unaccounted.
 
 `purge-legacy-capability-archive` is destructive.
-It refuses to run unless the archive is currently fully reallocated, deletes that exact ledger-root, and records `archiveDisposition: "purged"`.
+It verifies the current ledger, deletes that exact ledger-root, and records `archiveDisposition: "purged"`. Source verification alone does not establish useful consumer receiving.
 The verifier then continues to check the ledger's original source hashes, retired witnesses, and any required byte-preserved materializations; an absent archive without that disposition is still a verification failure.
 
 ## Restorations from history
@@ -53,7 +55,7 @@ reconcile-wave --census data/forest-migration/<owner>.census.json --wave <n> --c
 
 The census names each shared package's owner (repository and path), each copy here, whether it is byte-identical, its dependency level, and the open pull requests that touch it (such a copy is held until they are rehomed).
 Waves are whole dependency levels, leaves first.
-`reconcile-copy-with-owner` decides each file of a copy by content address against the file's own history on both sides, followed through renames: `identical`; `owner-newer` (the copy holds a blob the owner already moved past); `copy-newer` (the owner holds a blob the copy already moved past); `merged` (both moved on from a blob they both held, and `git merge-file` applies cleanly); `conflict` (left for a person); `copy-added`; `owner-removed`; `owner-added`.
-With `--apply` it writes `copy-newer`, `merged` and `copy-added` files into the owner's working tree and nothing else: nothing is deleted from an owner, and a `lib/legacy` subtree inside a copy stays where its restoration ledger names it.
-After the owner has merged a wave, each copy moves under a `lib/legacy/retired-for-<owner>` directory and is inventoried, allocated `retired` with modern evidence in the owner, and verified with the commands above.
+`reconcile-copy-with-owner` reads exact Git blobs and path histories. Selected copy-only source is integrated even when the owner previously deleted it. `--copy-revision <commit>` reads historical source directly, avoiding another `restored-from-main` copy. `--resolutions` supplies per-path `{keep: "owner" | "copy", because: "the sourced judgment"}` decisions.
+With `--apply`, clean files proceed independently of other conflicts. Concurrent owner edits are merged with the selected changes; overlapping edits remain intact and appear as `worktree-conflict`. Executable and symbolic-link modes are preserved. A wave may supply each copy's `revision` in its existing census.
+`retire-wave --write` composes that same integration operation for the selected wave. It writes into the mounted living owners rather than moving files into legacy or rewriting workspace admission. Remaining conflicting source stays available for continued integration.
 `data/forest-migration/computer-services-section.census.json` is the census of the computer-services-section forest mounted at `engineering-services-section/services/computer-services-section`.

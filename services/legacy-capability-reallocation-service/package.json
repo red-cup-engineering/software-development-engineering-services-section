@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/legacy-capability-reallocation-service",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "description": "Inventories every legacy source carrier and refuses a reallocation claim until modern realization and legacy-route retirement are evidenced.",
   "exports": {
@@ -14,7 +14,8 @@
     "purge-legacy-capability-archive": "./scripts/purge-legacy-capability-archive.mjs",
     "census-owned-copies": "./scripts/census-owned-copies.mjs",
     "reconcile-copy-with-owner": "./scripts/reconcile-copy-with-owner.mjs",
-    "reconcile-wave": "./scripts/reconcile-wave.mjs"
+    "reconcile-wave": "./scripts/reconcile-wave.mjs",
+    "retire-wave": "./scripts/retire-wave.mjs"
   },
   "files": [
     "README.md",
