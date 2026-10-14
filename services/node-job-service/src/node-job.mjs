@@ -189,6 +189,10 @@ export function nodeJobsOf(deploymentRoot) {
   // machine the release lands on, which is where its node reads this directory.
   if (typeof spec.releaseRoot !== "string" || spec.releaseRoot === "") throw new TypeError(`${jobsFile}: its release.json names no releaseRoot`);
   if (typeof spec.unit?.name !== "string" || !spec.unit.name.endsWith(".service")) throw new TypeError(`${jobsFile}: its release.json names no service unit`);
+  return Object.freeze({ releaseRoot: spec.releaseRoot, unitPrefix: spec.unit.name.slice(0, -".service".length), jobs: declaredJobs(jobsFile) });
+}
+
+function declaredJobs(jobsFile) {
   const declared = readNodeJobDeclarations(jobsFile);
   const jobs = new Map();
   for (const job of declared) {
@@ -200,7 +204,35 @@ export function nodeJobsOf(deploymentRoot) {
     }
     jobs.set(declaration.id, declaration);
   }
-  return Object.freeze({ releaseRoot: spec.releaseRoot, unitPrefix: spec.unit.name.slice(0, -".service".length), jobs });
+  return jobs;
+}
+
+/** One Guix runtime supplies the job programs; each host binds its receipts and unit identity. */
+export function nodeJobsAt({ runtimeRoot, jobsDirectory, stateRoot, unitPrefix, artifact } = {}) {
+  if (![runtimeRoot, stateRoot].every(value => typeof value === "string" && isAbsolute(value))) throw new TypeError("node jobs require installed runtime and host state roots");
+  if (typeof jobsDirectory !== "string" || isAbsolute(jobsDirectory) || normalize(jobsDirectory).startsWith("..")) throw new TypeError("job declarations must be runtime-relative");
+  if (typeof unitPrefix !== "string" || !JOB_ID.test(unitPrefix)) throw new TypeError("node jobs require the host's unit prefix");
+  if (typeof artifact !== "string" || !artifact.startsWith("/gnu/store/")) throw new TypeError("node jobs require their installed Guix artifact identity");
+  return Object.freeze({ runtimeRoot, releaseRoot: stateRoot, unitPrefix, artifact, jobs: declaredJobs(resolve(runtimeRoot, jobsDirectory)) });
+}
+
+/** The exact JavaScript programs and preloads named by the installed job declarations. */
+export function nodeJobProgramEntries({ runtimeRoot, jobsDirectory } = {}) {
+  if (typeof runtimeRoot !== "string" || !isAbsolute(runtimeRoot) || typeof jobsDirectory !== "string" || isAbsolute(jobsDirectory) || normalize(jobsDirectory).startsWith("..")) throw new TypeError("job compilation requires a runtime and its relative declaration directory");
+  const entries = new Set(), failures = [];
+  for (const job of declaredJobs(resolve(runtimeRoot, jobsDirectory)).values()) {
+    const directory = resolve(runtimeRoot, job.directory);
+    if (!existsSync(directory)) { failures.push("owning package not installed: " + job.id); continue; }
+    for (const argument of [...job.node, ...(job.finally ?? [])]) {
+      if (argument.startsWith("-") || !/\.[cm]?[jt]s$/u.test(argument)) continue;
+      const file = resolve(directory, expand(argument, runtimeRoot));
+      if (file !== runtimeRoot && !file.startsWith(runtimeRoot + "/")) throw new TypeError("job program escapes the installed runtime: " + job.id);
+      if (!existsSync(file)) { failures.push("program not installed: " + job.id + " " + argument); continue; }
+      entries.add(file);
+    }
+  }
+  if (failures.length) throw new TypeError("Incomplete installed job programs:\n" + failures.join("\n"));
+  return [...entries];
 }
 
 const receiptOf = (home, releaseRoot, id) => resolve(home, releaseRoot, "jobs", `${id}.json`);
@@ -211,10 +243,10 @@ const demandOf = (receipt) => `${receipt.slice(0, -".json".length)}.demand.json`
  * The clock schedules a deployment's jobs declare: one `node-job-run` schedule per job with a
  * trigger, run as `account`, in the clock's admission shape (organizing work/recurring).
  */
-export function nodeJobSchedulesOf({ deploymentRoot, deployment, account, home = homedir() }) {
+export function nodeJobSchedulesOf({ deploymentRoot, configuration, deployment, account, home = homedir() }) {
   if (typeof deployment !== "string" || deployment === "") throw new TypeError("node-job schedules name their deployment");
   if (typeof account !== "string" || account === "") throw new TypeError("node-job schedules name the account they run as");
-  const declared = nodeJobsOf(deploymentRoot);
+  const declared = configuration === undefined ? nodeJobsOf(deploymentRoot) : nodeJobsAt(configuration);
   if (declared === undefined) return Object.freeze([]);
   return Object.freeze([...declared.jobs.values()]
     .filter((job) => job.trigger.schedule !== undefined || job.trigger.everySeconds !== undefined || job.trigger.demand === true)
@@ -227,8 +259,8 @@ export function nodeJobSchedulesOf({ deploymentRoot, deployment, account, home =
 }
 
 /** Each declared job with its last run's receipt (undefined before its first run ends). */
-export function nodeJobReadings({ deploymentRoot, home = homedir() }) {
-  const declared = nodeJobsOf(deploymentRoot);
+export function nodeJobReadings({ deploymentRoot, configuration, home = homedir() }) {
+  const declared = configuration === undefined ? nodeJobsOf(deploymentRoot) : nodeJobsAt(configuration);
   if (declared === undefined) return [];
   return [...declared.jobs.values()].map((job) => {
     const receipt = receiptOf(home, declared.releaseRoot, job.id);
@@ -249,8 +281,8 @@ const expand = (value, release) => value.replaceAll("{release}", release);
  * Returns { kind, job, unit, state: running | started, release?, startedAt?, last }, where last is
  * the receipt of the job's last run to end. A run's outcome is its receipt, not this call's.
  */
-export async function runNodeJob({ deploymentRoot, job: id, workingTree, credentialsDirectory = process.env.CREDENTIALS_DIRECTORY ?? process.env.NODE_JOB_CREDENTIALS_DIRECTORY, home = homedir(), node = process.execPath, now = () => new Date() }) {
-  const declared = nodeJobsOf(deploymentRoot);
+export async function runNodeJob({ deploymentRoot, configuration, job: id, workingTree, credentialsDirectory = process.env.CREDENTIALS_DIRECTORY ?? process.env.NODE_JOB_CREDENTIALS_DIRECTORY, home = homedir(), node = process.execPath, now = () => new Date() }) {
+  const declared = configuration === undefined ? nodeJobsOf(deploymentRoot) : nodeJobsAt(configuration);
   const job = declared?.jobs.get(id);
   if (job === undefined) throw new TypeError(`node-job: ${deploymentRoot} declares no job ${JSON.stringify(id)}`);
   if (job.workingTree !== undefined && (typeof workingTree !== "string" || !isAbsolute(workingTree) || !existsSync(workingTree))) {
@@ -267,8 +299,8 @@ export async function runNodeJob({ deploymentRoot, job: id, workingTree, credent
   // A job that has never ended has no last receipt: the field is absent, never undefined (an RPC value is JSON).
   if (HOLDING.has(shown.stdout.trim())) return Object.freeze({ kind: "node-job-run.v1", job: job.id, unit, state: "running", ...(last === undefined ? {} : { last }) });
   // The run keeps the release it started on, whatever the node promotes while it runs.
-  const release = await realpath(resolve(home, declared.releaseRoot, "current"));
-  const commit = readJson(resolve(release, ".metadata/release.json"))?.machineCommit ?? readJson(resolve(release, "release-receipt.json"))?.source?.commit ?? null;
+  const release = await realpath(declared.runtimeRoot ?? resolve(home, declared.releaseRoot, "current"));
+  const commit = declared.artifact ?? readJson(resolve(release, ".metadata/release.json"))?.machineCommit ?? readJson(resolve(release, "release-receipt.json"))?.source?.commit ?? null;
   const startedAt = now().toISOString();
   mkdirSync(dirname(receipt), { recursive: true });
   // A run's demand is its own: what an earlier run said it left never stands for this one.
@@ -276,7 +308,7 @@ export async function runNodeJob({ deploymentRoot, job: id, workingTree, credent
   const environment = {
     PATH: `${dirname(node)}:/usr/local/bin:/usr/bin:/bin`,
     METROPLAT_REPOSITORY_ROOT: release,
-    METROPLAT_AUTHORITY_ROOT: resolve(home, declared.releaseRoot, "current"),
+    METROPLAT_AUTHORITY_ROOT: declared.runtimeRoot ?? resolve(home, declared.releaseRoot, "current"),
     ...Object.fromEntries(Object.entries(job.environment).map(([name, value]) => [name, expand(value, release)])),
     NODE_JOB_ID: job.id,
     NODE_JOB_UNIT: unit,
