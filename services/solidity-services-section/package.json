@@ -6,16 +6,5 @@
   "scripts": {
     "check": "node --check services/search-path-for-relations/src/search-solidity-path-for-relations.mjs && node --check services/search-path-for-relations/scripts/search-path-for-relations.mjs",
     "test": "node --test services/search-path-for-relations/test/*.test.mjs"
-  },
-  "exports": {
-    "./compile": "./src/compile-solidity.mjs"
-  },
-  "files": [
-    "src",
-    "services"
-  ],
-  "dependencies": {
-    "solc": "0.8.28",
-    "@red-cup-engineering/json-services-section": "workspace:*"
   }
 }
