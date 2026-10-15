@@ -1,4 +1,4 @@
-# search-path-for-relations
+# solidity-search-path-for-relations
 
 Find where a Solidity contract, interface, library, or function is referenced
 across a directory tree, and classify each reference by kind: declaration,

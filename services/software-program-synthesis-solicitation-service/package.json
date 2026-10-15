@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/software-program-synthesis-solicitation-service",
-  "version": "0.2.0",
+  "version": "1.1.1",
   "type": "module",
   "description": "Deterministic software-program-synthesis offer and contract-validation actuator.",
   "exports": {
@@ -13,14 +13,15 @@
   ],
   "scripts": {
     "check": "node --check src/semantic-content.mjs && node --check src/design-inputs.mjs && node --check src/solicitation.mjs",
-    "test": "node --test test/solicitation.test.mjs"
+    "test": "node --test test/solicitation.test.mjs",
+    "verify": "npm run check && npm test"
   },
   "engines": {
     "node": ">=22"
   },
   "dependencies": {
     "@red-cup-engineering/computer-code-engineering-services-section": "workspace:*",
-    "@red-cup-engineering/computer-content-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/computer-content-address-engineering-services-section": "workspace:*",
     "@red-cup-engineering/computer-filepath-engineering-services-section": "workspace:*",
     "@red-cup-engineering/eavt-services-section": "workspace:*"
   }

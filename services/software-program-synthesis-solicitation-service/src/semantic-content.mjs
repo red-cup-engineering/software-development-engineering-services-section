@@ -3,7 +3,7 @@ import {
   IDENTITY_SETTLEMENT_PROFILE,
   identifyJsonSemanticContent,
   SEN_NORMALIZATION_PROFILE,
-} from "@red-cup-engineering/computer-content-engineering-services-section/semantic-content-identity";
+} from "@red-cup-engineering/computer-content-address-engineering-services-section/semantic-content-identity";
 
 export function addressDesignMaterial(objectKind, value) {
   if (typeof objectKind !== "string" || objectKind.length === 0) throw new TypeError("design material requires an object kind");
