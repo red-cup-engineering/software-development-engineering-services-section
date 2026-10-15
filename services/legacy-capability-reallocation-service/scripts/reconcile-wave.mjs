@@ -8,7 +8,6 @@
 // (repository and path) and copy paths. A package whose copy still has open pull requests against it is held:
 // it is reported as held and not reconciled. --resolutions names a person's decision on each conflict:
 // {"<package>": {"<file>": {"keep": "owner" | "copy", "because": "<why>"}}}.
-import { execFileSync } from "node:child_process";
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { primeHistory, reconcile } from "./reconcile-copy-with-owner.mjs";
@@ -24,11 +23,6 @@ const owners = new Map(all("--owner-root").map((pair) => pair.split("=")));
 const reports = take("--reports");
 const resolutions = take("--resolutions") ? JSON.parse(readFileSync(take("--resolutions"), "utf8")) : {};
 mkdirSync(reports, { recursive: true });
-
-/** Package directories strictly inside `path` at HEAD: reconciled as their own packages, never as files of this one. */
-const nestedPackages = (repository, path) => execFileSync("git", ["-C", repository, "ls-tree", "-r", "--name-only", "--full-tree", "HEAD", "--", path || "."], { encoding: "utf8", maxBuffer: 1 << 30 })
-  .split("\n").filter((file) => file.endsWith("/package.json") && file !== (path ? `${path}/package.json` : "package.json") && !file.includes("/node_modules/"))
-  .map((file) => file.slice(0, -"/package.json".length));
 
 /** The deepest directory holding every path: one history read under it answers every package of the wave. */
 function commonRoot(paths) {
@@ -58,7 +52,7 @@ for (const name of wave.names) {
   for (const copy of entry.copies) {
     const report = reconcile({
       copyRepository, copyPath: copy.path, ownerRepository, ownerPath: entry.owner.path,
-      nestedCopy: nestedPackages(copyRepository, copy.path), nestedOwner: nestedPackages(ownerRepository, entry.owner.path),
+      copyRevision: copy.revision ?? "HEAD",
       apply: args.includes("--apply"), resolutions: resolutions[name] ?? {},
     });
     const file = join(reports, `${name.replace(/^@/u, "").replace(/\//gu, "__")}.json`);
