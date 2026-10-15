@@ -1,0 +1,16 @@
+[project]
+name = "research-citations-tools"
+version = "0.1.0"
+description = "Frontmatter-canonical citation toolkit for research libraries."
+requires-python = ">=3.11"
+dependencies = [
+    "research-citations",
+    "cite-tool",
+]
+
+[tool.uv.sources]
+research-citations = { path = "research-citations", editable = true }
+cite-tool = { path = "cite-tool", editable = true }
+
+[tool.uv.workspace]
+members = ["research-citations", "cite-tool"]
