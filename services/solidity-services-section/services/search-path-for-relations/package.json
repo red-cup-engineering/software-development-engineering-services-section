@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Solidity parameterization of the language-neutral path relation search.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-code-engineering-services-section.git",
+    "directory": "services/computer-code-development-services-section/services/solidity-services-section/services/search-path-for-relations"
+  },
   "exports": "./src/search-solidity-path-for-relations.mjs",
   "bin": {
     "search-solidity-path-for-relations": "./scripts/search-path-for-relations.mjs"

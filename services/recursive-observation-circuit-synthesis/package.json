@@ -4,6 +4,11 @@
   "private": true,
   "type": "module",
   "description": "Pure bounded-arity synthesis die for recursive observation circuit families and sovereign assemblies.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-code-engineering-services-section.git",
+    "directory": "services/computer-code-development-services-section/services/recursive-observation-circuit-synthesis"
+  },
   "exports": {
     ".": "./src/synthesis.mjs",
     "./client": "./src/client.mjs",

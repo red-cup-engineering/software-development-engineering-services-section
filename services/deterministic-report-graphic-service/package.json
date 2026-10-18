@@ -3,6 +3,11 @@
   "type": "module",
   "private": true,
   "description": "Deterministic FOUR-valued report-graphic die with canonical RMN/A2A and witness-journal RDF evidence.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-code-engineering-services-section.git",
+    "directory": "services/computer-code-development-services-section/services/deterministic-report-graphic-service"
+  },
   "exports": {
     ".": "./src/client.mjs",
     "./client": "./src/client.mjs",
