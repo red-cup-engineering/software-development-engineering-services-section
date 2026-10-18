@@ -4,6 +4,11 @@
   "private": true,
   "type": "module",
   "description": "Actor-readable package apexes, typed content discovery, proof-path classification, and witnessed predication over one addressed substrate.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-code-engineering-services-section.git",
+    "directory": "services/computer-code-development-services-section/services/typed-resource-catalog-service"
+  },
   "license": "Apache-2.0",
   "exports": {
     ".": "./src/index.mjs",

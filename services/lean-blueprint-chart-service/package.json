@@ -2,6 +2,11 @@
   "name": "@red-cup-engineering/lean-blueprint-chart-service",
   "version": "0.0.2",
   "description": "Reads Lean declarations and Blueprint claim graphs for deterministic cross-surface charts.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-code-engineering-services-section.git",
+    "directory": "services/computer-code-development-services-section/services/lean-blueprint-chart-service"
+  },
   "type": "module",
   "license": "LicenseRef-561Group-1.0",
   "exports": "./src/lean-blueprint-chart.mjs",

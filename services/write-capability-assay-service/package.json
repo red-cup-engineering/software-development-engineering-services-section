@@ -4,6 +4,11 @@
   "private": true,
   "type": "module",
   "description": "Checks one finite write-authorization bundle — office identity, scope, dispatch, digests — without touching any filesystem. Use when an office must prove it may write before writing.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-code-engineering-services-section.git",
+    "directory": "services/computer-code-development-services-section/services/write-capability-assay-service"
+  },
   "bin": {
     "serve-write-capability-assay-a2a": "./scripts/server.mjs"
   },
