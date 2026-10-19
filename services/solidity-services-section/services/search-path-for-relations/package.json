@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/solidity-search-path-for-relations",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Solidity parameterization of the language-neutral path relation search.",
   "repository": {
@@ -18,6 +18,6 @@
     "verify": "npm run check && npm test"
   },
   "dependencies": {
-    "@red-cup-engineering/computer-filepath-engineering-services-section": "workspace:*"
+    "@red-cup-engineering/computer-filepath-engineering-services-section": "0.1.0"
   }
 }
