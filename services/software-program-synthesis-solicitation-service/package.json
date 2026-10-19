@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/software-program-synthesis-solicitation-service",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "module",
   "description": "Deterministic software-program-synthesis offer and contract-validation actuator.",
   "repository": {
@@ -25,9 +25,9 @@
     "node": ">=22"
   },
   "dependencies": {
-    "@red-cup-engineering/computer-code-engineering-services-section": "workspace:*",
-    "@red-cup-engineering/computer-content-address-engineering-services-section": "workspace:*",
-    "@red-cup-engineering/computer-filepath-engineering-services-section": "workspace:*",
-    "@red-cup-engineering/eavt-services-section": "workspace:*"
+    "@red-cup-engineering/computer-code-engineering-services-section": "0.2.1",
+    "@red-cup-engineering/computer-data-engineering-services-section": "0.5.1",
+    "@red-cup-engineering/computer-filepath-engineering-services-section": "0.1.0",
+    "@red-cup-engineering/eavt-services-section": "0.11.2"
   }
 }
