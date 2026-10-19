@@ -4,5 +4,9 @@
   "private": true,
   "type": "module",
   "description": "Circuit board whose independently contractible software-development dies are seated under services/; the board owns no aggregate runtime.",
-  "exports": {}
+  "exports": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/software-development-services-section.git"
+  }
 }
