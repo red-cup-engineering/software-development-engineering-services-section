@@ -1,0 +1,91 @@
+[submodule "node-job-service"]
+	path = services/node-job-service
+	url = https://github.com/red-cup-engineering/node-job-service.git
+[submodule "git-services-section"]
+	path = services/version-control-services-section/services/git-services-section
+	url = https://github.com/red-cup-engineering/git-services-section.git
+	branch = main
+[submodule "software-forge-services-section"]
+	path = services/version-control-services-section/services/software-forge-services-section
+	url = https://github.com/red-cup-engineering/software-forge-services-section.git
+	branch = main
+[submodule "write-capability-assay-service"]
+	path = services/write-capability-assay-service
+	url = https://github.com/red-cup-engineering/write-capability-assay-service.git
+	branch = main
+[submodule "workspace-content-graph-service"]
+	path = services/workspace-content-graph-service
+	url = https://github.com/red-cup-engineering/workspace-content-graph-service.git
+	branch = main
+[submodule "typed-resource-catalog"]
+	path = services/typed-resource-catalog-service
+	url = https://github.com/red-cup-engineering/typed-resource-catalog.git
+	branch = main
+[submodule "solidity-services-section"]
+	path = services/solidity-services-section
+	url = https://github.com/red-cup-engineering/solidity-services-section.git
+	branch = main
+[submodule "software-trajectory-memory-service"]
+	path = services/software-trajectory-memory-service
+	url = https://github.com/red-cup-engineering/software-trajectory-memory-service.git
+	branch = main
+[submodule "software-solve-loop-service"]
+	path = services/software-solve-loop-service
+	url = https://github.com/red-cup-engineering/software-solve-loop-service.git
+	branch = main
+[submodule "software-program-synthesis-solicitation-service"]
+	path = services/software-program-synthesis-solicitation-service
+	url = https://github.com/red-cup-engineering/software-program-synthesis-solicitation-service.git
+	branch = main
+[submodule "search-path-for-relations"]
+	path = services/search-path-for-relations
+	url = https://github.com/red-cup-engineering/search-path-for-relations.git
+	branch = main
+[submodule "repository-state-observation-service"]
+	path = services/repository-state-observation-service
+	url = https://github.com/red-cup-engineering/repository-state-observation-service.git
+	branch = main
+[submodule "recursive-observation-circuit-synthesis"]
+	path = services/recursive-observation-circuit-synthesis
+	url = https://github.com/red-cup-engineering/recursive-observation-circuit-synthesis.git
+	branch = main
+[submodule "organizational-profile-projection-service"]
+	path = services/organizational-profile-projection-service
+	url = https://github.com/red-cup-engineering/organizational-profile-projection-service.git
+	branch = main
+[submodule "legacy-capability-reallocation-service"]
+	path = services/legacy-capability-reallocation-service
+	url = https://github.com/red-cup-engineering/legacy-capability-reallocation-service.git
+	branch = main
+[submodule "lean-blueprint-chart-service"]
+	path = services/lean-blueprint-chart-service
+	url = https://github.com/red-cup-engineering/lean-blueprint-chart-service.git
+	branch = main
+[submodule "future-work-topology-projection-service"]
+	path = services/future-work-topology-projection-service
+	url = https://github.com/red-cup-engineering/future-work-topology-projection-service.git
+	branch = main
+[submodule "deterministic-report-graphic-service"]
+	path = services/deterministic-report-graphic-service
+	url = https://github.com/red-cup-engineering/deterministic-report-graphic-service.git
+	branch = main
+[submodule "deterministic-intent-compiler-supplier"]
+	path = services/deterministic-intent-compiler-supplier
+	url = https://github.com/red-cup-engineering/deterministic-intent-compiler-supplier.git
+	branch = main
+[submodule "deployment-services-section"]
+	path = services/deployment-services-section
+	url = https://github.com/red-cup-engineering/deployment-services-section.git
+	branch = main
+[submodule "campaign-rollup-projection-service"]
+	path = services/campaign-rollup-projection-service
+	url = https://github.com/red-cup-engineering/campaign-rollup-projection-service.git
+	branch = main
+[submodule "accepted-software-delivery-receiver-service"]
+	path = services/accepted-software-delivery-receiver-service
+	url = https://github.com/red-cup-engineering/accepted-software-delivery-receiver-service.git
+	branch = main
+[submodule "acceptance-oracle-assay-service"]
+	path = services/acceptance-oracle-assay-service
+	url = https://github.com/red-cup-engineering/acceptance-oracle-assay-service.git
+	branch = main
