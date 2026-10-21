@@ -1,13 +1,9 @@
 [submodule "node-job-service"]
 	path = services/node-job-service
 	url = https://github.com/red-cup-engineering/node-job-service.git
-[submodule "git-services-section"]
-	path = services/version-control-services-section/services/git-services-section
-	url = https://github.com/red-cup-engineering/git-services-section.git
-	branch = main
-[submodule "software-forge-services-section"]
-	path = services/version-control-services-section/services/software-forge-services-section
-	url = https://github.com/red-cup-engineering/software-forge-services-section.git
+[submodule "version-control-services-section"]
+	path = services/version-control-services-section
+	url = https://github.com/red-cup-engineering/version-control-services-section.git
 	branch = main
 [submodule "write-capability-assay-service"]
 	path = services/write-capability-assay-service

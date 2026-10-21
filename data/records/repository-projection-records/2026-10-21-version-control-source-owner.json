@@ -1,0 +1,47 @@
+{
+  "kind": "ActualStandaloneServicesSectionSourceComposition",
+  "source": {
+    "repository": "red-cup-engineering/software-development-services-section",
+    "commit": "17fd40e81f915bd23da5b6d40f06bfe93bba49e9",
+    "path": "services/version-control-services-section",
+    "tree": "a034b7edd1d6fb0a13d7fae15bb28f33eb7563bf",
+    "originalSnapshot": {
+      "commit": "da3829977fab35cf2af5b4ba84720e24fc30dd4d",
+      "tree": "e5b4938579124cf35793fbccc680c8bf766c5dcb",
+      "regularMembers": 13,
+      "regularBytes": 157173,
+      "gitlinks": 2
+    }
+  },
+  "child": {
+    "repository": "red-cup-engineering/version-control-services-section",
+    "repositoryId": 1428771823,
+    "visibility": "public",
+    "publicFromCreation": true,
+    "defaultBranch": "main",
+    "commit": "6ff87e893379db4927b13ab9b4c61922e529d2c1",
+    "tree": "6abc7fae8841882357bea352d30951c3762b316e",
+    "entries": 17,
+    "regularMembers": 15,
+    "gitlinks": [
+      {
+        "path": "services/git-services-section",
+        "commit": "d58ad98d486998e1fbe22db44ecd6b63f9ab470f"
+      },
+      {
+        "path": "services/software-forge-services-section",
+        "commit": "d5ea38205be0ab45f52f098cbb615769307bd74e"
+      }
+    ],
+    "sourceOrigin": "https://github.com/red-cup-engineering/version-control-services-section/blob/6ff87e893379db4927b13ab9b4c61922e529d2c1/data/records/repository-origin-records/2026-10-21-source-origin.json",
+    "actualAllMemberReadbackSha256": "fd58e40a4621ab88ce8cd4bad23097bcb65b329c4c14f7ff9e222c5fe8a32157"
+  },
+  "preservation": "All13 original regular members and Git child selection unchanged; current parent Software Forge advance is preserved. The original dated legacy code/tests/ownership/activation requirements remain intact and inactive; entire parent history remains at original owner.",
+  "parentChange": "Replace exact embedded section tree with this qualified public source gitlink; move only two nested Git/Forge declarations into the new section root and retain all21 other module blocks.",
+  "receivingGrade": "Source ownership/composition and actual public source delivery only; no native tests were required or rerun for this exact source projection.",
+  "remaining": [
+    "Historical implementation and ordinary native/current service receiving remain unresolved.",
+    "No package version, installation, host activation or runtime behavior is invented.",
+    "Parent integration must be received through the ordinary authenticated source-handoff bridge; source formation is not merge."
+  ]
+}
