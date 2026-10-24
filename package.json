@@ -1,5 +1,5 @@
 {
-  "name": "@red-cup-engineering/software-development-services-section",
+  "name": "@red-cup-engineering/software-development-engineering-services-section",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -7,7 +7,7 @@
   "exports": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/software-development-services-section.git"
+    "url": "git+https://github.com/red-cup-engineering/software-development-engineering-services-section.git"
   },
   "license": "MIT",
   "funding": {
