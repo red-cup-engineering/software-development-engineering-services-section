@@ -3,11 +3,11 @@
 	url = https://github.com/red-cup-engineering/node-job-service.git
 [submodule "git-services-section"]
 	path = services/version-control-services-section/services/git-services-section
-	url = https://github.com/red-cup-engineering/git-services-section.git
+	url = https://github.com/red-cup-engineering/git-engineering-services-section.git
 	branch = main
 [submodule "software-forge-services-section"]
 	path = services/version-control-services-section/services/software-forge-services-section
-	url = https://github.com/red-cup-engineering/software-forge-services-section.git
+	url = https://github.com/red-cup-engineering/software-forge-engineering-services-section.git
 	branch = main
 [submodule "write-capability-assay-service"]
 	path = services/write-capability-assay-service
@@ -23,7 +23,7 @@
 	branch = main
 [submodule "solidity-services-section"]
 	path = services/solidity-services-section
-	url = https://github.com/red-cup-engineering/solidity-services-section.git
+	url = https://github.com/red-cup-engineering/solidity-engineering-services-section.git
 	branch = main
 [submodule "software-trajectory-memory-service"]
 	path = services/software-trajectory-memory-service
@@ -75,7 +75,7 @@
 	branch = main
 [submodule "deployment-services-section"]
 	path = services/deployment-services-section
-	url = https://github.com/red-cup-engineering/deployment-services-section.git
+	url = https://github.com/red-cup-engineering/deployment-engineering-services-section.git
 	branch = main
 [submodule "campaign-rollup-projection-service"]
 	path = services/campaign-rollup-projection-service
