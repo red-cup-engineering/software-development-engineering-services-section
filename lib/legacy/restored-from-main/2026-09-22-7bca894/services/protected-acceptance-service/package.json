@@ -1,0 +1,25 @@
+{
+  "name": "@red-cup-engineering/protected-acceptance-service",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Sovereign die that assays and seals one protected software-acceptance capsule.",
+  "exports": {
+    ".": "./src/client.mjs",
+    "./client": "./src/client.mjs",
+    "./acceptance-capsule": "./src/acceptance-capsule.mjs"
+  },
+  "files": [
+    "src/acceptance-capsule.mjs",
+    "src/client.mjs"
+  ],
+  "scripts": {
+    "test": "node --test test/acceptance-capsule.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@red-cup-engineering/javascript-node-services-section": "0.3.0",
+    "@red-cup-engineering/relation-model-notation": "0.3.0"
+  }
+}

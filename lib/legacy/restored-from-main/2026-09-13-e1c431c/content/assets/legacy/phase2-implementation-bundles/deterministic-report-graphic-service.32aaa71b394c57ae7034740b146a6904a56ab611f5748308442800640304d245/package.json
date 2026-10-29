@@ -1,0 +1,13 @@
+{
+  "name": "@emsenn/deterministic-report-graphic",
+  "version": "0.0.0",
+  "description": "Renders a claim-status report as a deterministic bar-chart SVG and PNG.",
+  "type": "module",
+  "main": "src/deterministic-report-graphic.mjs",
+  "bin": {
+    "render-report-graphic": "./scripts/render-report-graphic.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/deterministic-report-graphic.test.mjs"
+  }
+}

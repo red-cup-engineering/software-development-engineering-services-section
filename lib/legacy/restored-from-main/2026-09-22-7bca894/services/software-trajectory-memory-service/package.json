@@ -1,0 +1,22 @@
+{
+  "name": "@red-cup-engineering/software-trajectory-memory-service",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Sovereign stateful die for the append, recall, induction, and customer foldback ports of software trajectory memory.",
+  "exports": {
+    ".": "./src/client.mjs",
+    "./client": "./src/client.mjs",
+    "./memory": "./src/memory.mjs"
+  },
+  "files": [
+    "src/client.mjs",
+    "src/memory.mjs"
+  ],
+  "scripts": {},
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@red-cup-engineering/relation-model-notation": "0.3.0"
+  }
+}

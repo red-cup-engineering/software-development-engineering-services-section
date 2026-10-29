@@ -1,0 +1,8 @@
+{
+  "type": "ExecutableSourceSelection",
+  "selected": "lib/emsenn/services/561-group/services/red-cup-engineering/services/software-services-section/services/deterministic-intent-compiler-supplier/content/templates/bounded-inference-intent-compiler.mjs",
+  "sha256": "sha256:ec33e1cbe3c86b713dccd84a26b136dfe41748d1b18b6cc1937a9ab40e2b9381",
+  "operation": "compileBoundedInferenceIntent",
+  "adaptation": "The selected deterministic algorithm is preserved; UTF-8 byte measurement uses TextEncoder so the kernel runs in Node, Deno, and standards-based worker runtimes."
+}
+

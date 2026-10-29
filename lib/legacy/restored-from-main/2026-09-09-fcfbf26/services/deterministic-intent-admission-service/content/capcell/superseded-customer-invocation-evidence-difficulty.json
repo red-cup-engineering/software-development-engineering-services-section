@@ -1,0 +1,18 @@
+{
+  "type": "SupersededCapCellCustomerInvocationEvidence",
+  "version": 1,
+  "cell": "ni:///sha-256;rmK5XQZSvlm3ppsx7dXzkAr2KWs6qQsMhsOYWtHCaFI",
+  "actor": "urn:ame:deterministic-intent-admission-service",
+  "law": "ni:///sha-256;HAcRDiYWxdR1xEdQN53cuKO_2Oac4brWQyxfRBgaSAY",
+  "offer": "ni:///sha-256;9xgyq_XRaHQGBEnr0x0PYiqRXO9JUxA3A1Aaf4ziuEk",
+  "protocol": "A2A",
+  "protocolVersion": "1.0",
+  "agentCard": "https://bare-cedar-fog.561.group/a2a/deterministic-intent-admission/.well-known/agent-card.json",
+  "task": "b1c74d68-b083-453a-ac42-7f3803f5cb6d",
+  "input": "ni:///sha-256;lgJ6OLhzt9Zq3ExpCcVr9FWqAvgNEsFMsUnp23JpO1A",
+  "output": "ni:///sha-256;Dcx6yf9biIRKXxN3t-j6M4XCt5gYmAgjRhluG78Lr6o",
+  "disposition": "accepted",
+  "agentCardSignatureVerified": true,
+  "supersededByCell": "ni:///sha-256;MJTt4OP4-nZ5VVL6DMop2Au-OK5rOqJziYhqNX0I4Po",
+  "supersessionReason": "The predecessor law carried an artificial difficulty ceiling with no calibrated unit, observer, or downstream enforcement."
+}

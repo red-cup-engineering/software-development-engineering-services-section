@@ -1,0 +1,9 @@
+{
+  "name": "observe-git-repository-skill",
+  "private": true,
+  "type": "module",
+  "description": "Skill-script wrapper delegating to the canonical @red-cup-engineering/observing-git-repository-service.",
+  "dependencies": {
+    "@red-cup-engineering/observing-git-repository-service": "0.1.0"
+  }
+}

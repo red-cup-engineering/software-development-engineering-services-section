@@ -1,0 +1,28 @@
+{
+  "profile": "org.emsenn.evm.sovereign-enterprise-account.v3",
+  "enterprise": {
+    "nodeId": "deterministic-intent-admission-service",
+    "urn": "urn:ame:deterministic-intent-admission-service",
+    "enterpriseId": "0x438c76463ad0e6e8bd062e916467c48d13365de7e5ec8d66813ff54acaec83db"
+  },
+  "chain": {
+    "chainId": 5615610,
+    "caip2": "eip155:5615610"
+  },
+  "account": {
+    "address": "0x85e13494678eca8edf90cc0131bb0e5947bc9ce1",
+    "caip10": "eip155:5615610:0x85e13494678eca8edf90cc0131bb0e5947bc9ce1"
+  },
+  "factory": {
+    "address": "0xe7f1725e7734ce288f8367e1bb143e90bb3f0512",
+    "userSalt": "0xeb7f6df9ae88c51de9800ed4128b55242ab14cfc6fc68467db4e75bb1ca60868"
+  },
+  "policy": {
+    "signer": "0x541ab6cd05425ef3457c9ba4f07ca33181e70afc",
+    "custody": "settlement-private"
+  },
+  "deployment": {
+    "transaction": "0x43f02430eee01b9e5ad0802a3f2ed9d2aeac91893a1ce971b1e319aee2e38e2e",
+    "block": 22
+  }
+}

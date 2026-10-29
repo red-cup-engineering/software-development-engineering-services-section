@@ -1,0 +1,16 @@
+{
+  "type": "CapCellCustomerInvocationEvidence",
+  "version": 1,
+  "cell": "ni:///sha-256;MJTt4OP4-nZ5VVL6DMop2Au-OK5rOqJziYhqNX0I4Po",
+  "actor": "urn:ame:deterministic-intent-admission-service",
+  "law": "ni:///sha-256;n2M3wraRzuLhGXlu3yoKB1QfiimnQercb1kTthYdhaE",
+  "offer": "ni:///sha-256;pe7kVD77b0sADDlSsbVTlPmmVZMsBX_kAkfosza9ffA",
+  "protocol": "A2A",
+  "protocolVersion": "1.0",
+  "agentCard": "https://bare-cedar-fog.561.group/a2a/deterministic-intent-admission/.well-known/agent-card.json",
+  "task": "4f7c5fab-a7b3-47d1-94cc-f99c2868f674",
+  "input": "ni:///sha-256;40bAfMTdoMg_buLKIeafwunFP4AOWH1nwBelJ8EtubY",
+  "output": "ni:///sha-256;PR_b52PQjg5Dy2dwd-5akKJGscqk3Nqf7Kn-VswFUZs",
+  "disposition": "accepted",
+  "agentCardSignatureVerified": true
+}

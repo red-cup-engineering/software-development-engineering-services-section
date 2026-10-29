@@ -1,0 +1,23 @@
+{
+  "name": "@red-cup-engineering/artifact-fabrication-requirements-basis-admission-service",
+  "version": "0.1.0",
+  "description": "Purely admits accountable requirements bases for artifact specification fabrication.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "exports": "./src/admit-artifact-fabrication-requirements-basis.mjs",
+  "files": [
+    "src",
+    "specification",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "check": "node --check src/admit-artifact-fabrication-requirements-basis.mjs",
+    "test": "node --test test/*.test.mjs",
+    "pack:dry-run": "npm pack --dry-run --ignore-scripts"
+  },
+  "engines": {
+    "node": ">=24.2.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "taskType": "analysis",
+  "objective": "determine the bounded answer",
+  "desiredUse": "produce a customer-assayable result",
+  "context": {
+    "sourceDigests": [
+      "sha256:example"
+    ]
+  },
+  "outputSchema": {
+    "type": "object"
+  },
+  "considerationPolicy": {
+    "type": "ConsiderationPolicy",
+    "acceptableAlternatives": [
+      {
+        "id": "internal-credit"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@red-cup-engineering/recursive-observation-circuit-synthesis",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Pure bounded-arity synthesis die for recursive observation circuit families and sovereign assemblies.",
+  "exports": {
+    ".": "./src/synthesis.mjs",
+    "./client": "./src/client.mjs",
+    "./pinout": "./src/circuit-family.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/circuit-family.mjs && node --check src/synthesis.mjs && node --check src/client.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@red-cup-engineering/a2a-services-section": "1.0.0",
+    "@red-cup-engineering/hierarchical-circuit-law": "0.1.7",
+    "@red-cup-engineering/relation-model-notation-graph-services-section": "0.1.0",
+    "@red-cup-engineering/relation-model-notation": "0.3.0"
+  }
+}
