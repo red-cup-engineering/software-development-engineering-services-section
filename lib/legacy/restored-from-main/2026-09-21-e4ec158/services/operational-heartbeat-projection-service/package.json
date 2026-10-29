@@ -1,0 +1,24 @@
+{
+  "name": "@red-cup-engineering/operational-heartbeat-projection-service",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Projects supplied operating carriers into a bounded heartbeat and next-work view.",
+  "exports": {
+    ".": "./scripts/project-operational-heartbeat.mjs"
+  },
+  "bin": {
+    "project-operational-heartbeat": "./scripts/project-operational-heartbeat.mjs"
+  },
+  "files": [
+    "README.md",
+    "scripts",
+    "src"
+  ],
+  "scripts": {
+    "check": "node --check src/*.mjs scripts/*.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

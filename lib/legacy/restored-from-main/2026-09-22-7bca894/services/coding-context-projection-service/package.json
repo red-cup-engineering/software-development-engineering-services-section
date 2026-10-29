@@ -1,0 +1,22 @@
+{
+  "name": "@red-cup-engineering/coding-context-projection-service",
+  "version": "0.3.4",
+  "type": "module",
+  "exports": {
+    ".": "./src/coding-context.mjs",
+    "./context-relevance": "./src/context-relevance.mjs",
+    "./read-coding-context": "./src/read-coding-context.mjs"
+  },
+  "bin": {
+    "derive-context-relevance": "scripts/derive-context-relevance.mjs",
+    "read-coding-context": "scripts/read-coding-context.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "0.3.0",
+    "@red-cup-engineering/javascript-computer": "0.2.6",
+    "@red-cup-engineering/javascript-node-services-section": "0.3.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "@red-cup-engineering/deterministic-intent-admission-service",
+  "version": "0.1.5",
+  "private": false,
+  "type": "module",
+  "description": "A deterministic service that admits a bounded agentic request as an exact executable intent contract.",
+  "keywords": [
+    "agentic-orchestration",
+    "intent-admission",
+    "deterministic",
+    "capability-cell"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/deterministic-intent-admission-service.git"
+  },
+  "homepage": "https://deterministic-intent-admission.actions.561.group/",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "scripts/",
+    "content/",
+    "src/",
+    "types/"
+  ],
+  "bin": {
+    "admit-goal-document": "./scripts/admit-goal-document.mjs",
+    "admit-bounded-agentic-intent": "./scripts/admit-bounded-agentic-intent.mjs"
+  },
+  "exports": {
+    ".": {
+      "types": "./types/index.d.mts",
+      "import": "./src/admit-bounded-agentic-intent.mjs"
+    },
+    "./goal-document": "./src/admit-goal-document.mjs",
+    "./scripts/admit-goal-document.mjs": "./scripts/admit-goal-document.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@red-cup-engineering/relation-model-notation-cbor-codec": "0.1.1",
+    "@red-cup-engineering/relation-model-notation-runtime": "0.10.0"
+  }
+}

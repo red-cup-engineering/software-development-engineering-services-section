@@ -1,0 +1,10 @@
+{
+  "name": "@red-cup-engineering/search-path-for-relations",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Language-neutral bounded filesystem traversal parameterized by a relation-extraction function.",
+  "exports": "./src/search-path-for-relations.mjs",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

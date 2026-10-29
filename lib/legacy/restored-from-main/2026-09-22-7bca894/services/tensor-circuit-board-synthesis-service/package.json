@@ -1,0 +1,22 @@
+{
+  "name": "@red-cup-engineering/tensor-circuit-board-synthesis-service",
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Pure EDA die that fabricates one sovereign tensor board from independently owned black-box circuit faces.",
+  "exports": {
+    ".": "./src/synthesis.mjs",
+    "./client": "./src/client.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@red-cup-engineering/a2a-services-section": "1.0.0",
+    "@red-cup-engineering/hierarchical-circuit-law": "0.1.7",
+    "@red-cup-engineering/relation-model-notation-graph-services-section": "0.1.0",
+    "@red-cup-engineering/relation-model-notation": "0.3.0"
+  }
+}

@@ -1,8 +1,10 @@
 ---
 name: operating-computer-code-development-services-section
 description: Lead Red Cup Engineering's standing Computer Code Development Services Section improvement campaign through purpose-owned customer demand, provider markets, ActivityStreams contracts, receipts, receiver outcomes, and guarded provider-local change. Use when leading SDSS, handling a “make or run this script” demand, choosing a new campaign phase, exercising a child software service, reviewing SDSS evidence, or preparing succession from the bootstrap Lead.
----
+id: operating-computer-code-development-services-section
+requires-capabilities: []
 
+---
 # Operating Computer Code Development Services Section
 
 **Lack of consumers is not justification to remove a capability.** Consumer

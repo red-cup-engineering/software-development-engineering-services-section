@@ -1,0 +1,43 @@
+{
+  "name": "@red-cup-engineering/software-program-synthesis-service",
+  "version": "0.3.0",
+  "type": "module",
+  "description": "A2A provider that compiles and executes a contracted software program synthesis request against a customer repository.",
+  "exports": {
+    ".": "./src/client.mjs",
+    "./client": "./src/client.mjs",
+    "./protocol": "./src/protocol.mjs",
+    "./executor": "./src/a2a-executor.mjs",
+    "./program-runtime": "./src/program-runtime.mjs",
+    "./execution-circuit": "./src/execution-manifold-circuit.mjs"
+  },
+  "bin": {
+    "execute-software-program-a2a-message": "./scripts/execute-a2a-message.mjs",
+    "serve-software-program-a2a": "./scripts/serve-a2a.mjs"
+  },
+  "files": [
+    "content/",
+    "data/records/",
+    "scripts/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@a2a-js/sdk": "1.0.0-beta.0",
+    "@coesite-operations/enterprise-board-of-directors-executive-office-context-compilation-service": "0.1.5",
+    "@lenticule-science/hierarchical-circuit-equivalence-assay": "0.5.0",
+    "@red-cup-engineering/a2a-services-section": "0.9.0",
+    "@red-cup-engineering/a2a-services-section": "1.0.0",
+    "@red-cup-engineering/computer-code-development-engine": "0.3.0",
+    "@red-cup-engineering/computer-code-engineering-services-section": "0.1.0",
+    "@red-cup-engineering/hierarchical-circuit-law": "0.1.6",
+    "@red-cup-engineering/javascript-node-services-section": "0.3.0",
+    "@red-cup-engineering/planned-transition-admission-service": "0.1.4",
+    "@red-cup-engineering/software-program-synthesis-solicitation-service": "0.2.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
