@@ -1,0 +1,25 @@
+{
+  "name": "@red-cup-engineering/deterministic-report-graphic-service",
+  "type": "module",
+  "description": "Deterministic FOUR-valued report-graphic die with RMN/A2A and witness-journal RDF evidence.",
+  "exports": {
+    ".": "./src/deterministic-report-graphic.mjs",
+    "./client": "./src/client.mjs",
+    "./executor": "./src/a2a-executor.mjs",
+    "./renderer": "./src/deterministic-report-graphic.mjs",
+    "./semantic-content": "./src/semantic-content.mjs",
+    "./src/deterministic-report-graphic.mjs": "./src/deterministic-report-graphic.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/a2a-services-section": "1.0.0",
+    "@red-cup-engineering/computer-code-engineering-services-section": "0.1.0",
+    "@red-cup-engineering/computer-content-engineering-services-section": "0.1.0",
+    "@red-cup-engineering/ethereum-engineering-services-section": "0.15.0",
+    "@red-cup-engineering/uri-services-section": "0.1.0",
+    "@red-cup-engineering/witness-journal-document-service": "0.1.0"
+  },
+  "version": "0.1.2"
+}

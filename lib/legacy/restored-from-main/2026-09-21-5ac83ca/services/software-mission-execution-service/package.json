@@ -1,0 +1,45 @@
+{
+  "name": "@red-cup-engineering/software-mission-execution-service",
+  "version": "0.3.0",
+  "type": "module",
+  "description": "Market-coordinated software mission cell over immutable source, durable trajectory memory, isolated tools, and customer induction.",
+  "exports": {
+    ".": "./src/client.mjs",
+    "./client": "./src/client.mjs"
+  },
+  "bin": {
+    "induce-verified-software-mission-proposal": "./scripts/induce-verified-software-mission-proposal.mjs",
+    "run-software-mission": "./scripts/run-software-mission.mjs"
+  },
+  "files": [
+    "src/agent-tools.mjs",
+    "src/client.mjs",
+    "src/consideration.mjs",
+    "src/market-client.mjs",
+    "src/mission-pipeline.mjs",
+    "src/mission-runtime.mjs",
+    "src/semantic-content.mjs",
+    "scripts/induce-verified-software-mission-proposal.mjs",
+    "scripts/run-software-mission.mjs"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/coding-context-projection-service": "0.3.4",
+    "@red-cup-engineering/eavt": "0.10.4",
+    "@red-cup-engineering/github-services-section": "0.1.0",
+    "@red-cup-engineering/inference-dispatch-service": "0.37.3",
+    "@red-cup-engineering/protected-acceptance-service": "0.1.0",
+    "@red-cup-engineering/sandbox-command-execution-service": "0.0.0",
+    "@red-cup-engineering/software-trajectory-memory-service": "0.1.0",
+    "@red-cup-engineering/computer-code-development-services-section": "0.1.0",
+    "@red-cup-engineering/relation-model-notation": "0.3.0"
+  },
+  "devDependencies": {
+    "@red-cup-engineering/computer-data-engine": "0.11.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

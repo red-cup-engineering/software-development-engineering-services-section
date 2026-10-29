@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://deterministic-intent-admission.actions.561.group/schemas/admission-request.schema.json",
+  "title": "Deterministic intent admission request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["taskType", "objective", "desiredUse", "context", "outputSchema", "considerationPolicy"],
+  "properties": {
+    "taskType": {"type": "string", "minLength": 1},
+    "objective": {"type": "string", "minLength": 1},
+    "desiredUse": {"type": "string", "minLength": 1},
+    "context": {"type": "object"},
+    "outputSchema": {"type": "object"},
+    "considerationPolicy": {
+      "type": "object",
+      "required": ["type", "acceptableAlternatives"],
+      "properties": {
+        "type": {"const": "ConsiderationPolicy"},
+        "acceptableAlternatives": {"type": "array", "minItems": 1}
+      }
+    }
+  }
+}

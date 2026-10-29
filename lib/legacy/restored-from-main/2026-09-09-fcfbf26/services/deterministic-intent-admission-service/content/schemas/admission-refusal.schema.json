@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://deterministic-intent-admission.actions.561.group/schemas/admission-refusal.schema.json",
+  "title": "Deterministic intent admission refusal",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["type", "reason"],
+  "properties": {
+    "type": {"const": "DeterministicIntentAdmissionRefusal"},
+    "reason": {"type": "string", "minLength": 1}
+  }
+}
+

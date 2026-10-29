@@ -1,0 +1,24 @@
+{
+  "name": "@red-cup-engineering/computer-code-development-services-section",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Circuit board whose independently contractible computer-code-development dies are seated under services/; the board owns no aggregate runtime.",
+  "dependencies": {
+    "@red-cup-engineering/filepath-services-section": "0.1.0",
+    "@red-cup-engineering/javascript-node-services-section": "0.3.0",
+    "@red-cup-engineering/relation-model-notation": "0.3.0"
+  },
+  "exports": {
+    "./admit-artifact-fabrication-requirements-basis": "./scripts/admit-artifact-fabrication-requirements-basis.mjs",
+    "./admit-artifact-fabrication-specification": "./scripts/admit-artifact-fabrication-specification.mjs",
+    "./lean-blueprint-chart": "./scripts/lean-blueprint-chart.mjs",
+    "./project-operational-heartbeat": "./scripts/project-operational-heartbeat.mjs",
+    "./search-path-for-relations": "./scripts/search-path-for-relations.mjs",
+    "./edit-language": "./scripts/edit-language.mjs",
+    "./action-record-parser": "./scripts/action-record-parser.mjs",
+    "./customer-induction": "./scripts/customer-induction.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

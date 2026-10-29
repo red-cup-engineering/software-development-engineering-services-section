@@ -1,0 +1,31 @@
+{
+  "name": "@red-cup-engineering/acceptance-oracle-assay-service",
+  "version": "0.3.0",
+  "type": "module",
+  "description": "Deterministic assay of bounded acceptance-oracle evidence.",
+  "exports": {
+    ".": "./src/client.mjs",
+    "./client": "./src/client.mjs"
+  },
+  "bin": {
+    "execute-acceptance-oracle-assay-a2a-task": "scripts/execute-a2a-task.mjs",
+    "serve-acceptance-oracle-assay-a2a": "scripts/server.mjs"
+  },
+  "files": [
+    "content/",
+    "data/",
+    "scripts/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@red-cup-engineering/a2a-services-section": "1.0.0",
+    "@red-cup-engineering/javascript-node-services-section": "0.3.0",
+    "@red-cup-engineering/relation-model-notation": "0.3.0"
+  }
+}

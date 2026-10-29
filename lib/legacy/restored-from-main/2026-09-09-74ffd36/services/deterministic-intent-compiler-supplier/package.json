@@ -1,0 +1,31 @@
+{
+  "name": "@red-cup-engineering/deterministic-intent-compiler-supplier",
+  "version": "0.1.5",
+  "type": "module",
+  "exports": {
+    ".": "./src/client.mjs",
+    "./client": "./src/client.mjs",
+    "./executor": "./src/a2a-executor.mjs"
+  },
+  "bin": {
+    "execute-deterministic-intent-supplier-a2a-message": "scripts/execute-a2a-message.mjs",
+    "serve-deterministic-intent-supplier-a2a": "scripts/serve-a2a.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/supplier.mjs && node --check src/service.mjs && node --check src/record-journal.mjs && node --check src/client.mjs && node --check src/a2a-executor.mjs && node --check scripts/execute-a2a-message.mjs && node --check scripts/serve-a2a.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@a2a-js/sdk": "1.0.0-beta.0",
+    "@red-cup-engineering/a2a-agent-card-discovery-service": "0.5.0",
+    "@red-cup-engineering/a2a-contracted-agent-service": "0.5.0",
+    "@red-cup-engineering/a2a-rmn-part-service": "0.2.0",
+    "@red-cup-engineering/a2a-rmn-task-client-service": "0.5.0",
+    "@red-cup-engineering/activitypub-services-section": "0.4.0",
+    "@red-cup-engineering/relation-model-notation-json-codec": "0.0.6",
+    "@red-cup-engineering/relation-model-notation-typing": "0.0.2",
+    "@red-cup-engineering/semantic-content-identify-service": "0.2.7",
+    "@red-cup-engineering/semantic-record-journal-service": "0.1.6",
+    "@lenticule-science/software-change-proposal-assay": "0.1.4"
+  }
+}

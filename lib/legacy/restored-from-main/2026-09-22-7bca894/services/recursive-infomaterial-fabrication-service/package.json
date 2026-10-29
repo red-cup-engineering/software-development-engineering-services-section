@@ -1,0 +1,39 @@
+{
+  "name": "@red-cup-engineering/recursive-infomaterial-fabrication-service",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Material-free recursive board conductor requiring independent M1/FOUR equivalence before provider execution.",
+  "files": [
+    "README.md",
+    "content/agent-card-signing/",
+    "scripts/",
+    "src/"
+  ],
+  "exports": {
+    ".": "./src/fabricate.mjs",
+    "./client": "./src/client.mjs",
+    "./request": "./src/request.mjs"
+  },
+  "bin": {
+    "fabricate-directory-patch": "./scripts/fabricate-directory-patch.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/client.mjs && node --check src/fabricate.mjs && node --check src/own-circuit-profile.mjs && node --check src/request.mjs && node --check scripts/fabricate-directory-patch.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@red-cup-engineering/a2a-services-section": "1.0.0",
+    "@lenticule-science/hierarchical-circuit-equivalence-assay": "0.6.0",
+    "@lenticule-science/infomaterial-directory-plate-observation": "0.3.0",
+    "@lenticule-science/infomaterial-observation": "0.2.0",
+    "@lenticule-science/infomaterial-patch-cover": "0.1.0",
+    "@red-cup-engineering/recursive-observation-circuit-synthesis": "0.1.0",
+    "@red-cup-engineering/witness-journal-document-service": "0.1.0",
+    "@red-cup-engineering/relation-model-notation-graph-services-section": "0.1.0",
+    "@red-cup-engineering/computer-blockchain-system-services-section": "0.1.0",
+    "@red-cup-engineering/relation-model-notation": "0.3.0"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "@red-cup-engineering/accepted-software-delivery-receiver-service",
+  "version": "0.5.5",
+  "type": "module",
+  "description": "Sovereign SDSS receiver node for separately authorized accepted-delivery staging and admission.",
+  "exports": {
+    ".": "./src/client.mjs",
+    "./client": "./src/client.mjs",
+    "./executor": "./src/a2a-executor.mjs",
+    "./immutable-induction-evidence/executor": "./src/immutable-induction-evidence-a2a-executor.mjs",
+    "./immutable-induction-evidence": "./src/immutable-induction-evidence.mjs",
+    "./receiver": "./src/accepted-software-delivery-receiver.mjs"
+  },
+  "bin": {
+    "execute-accepted-software-delivery-receiver-a2a-message": "./scripts/execute-a2a-message.mjs",
+    "serve-accepted-software-delivery-receiver-a2a": "./scripts/serve-a2a.mjs",
+    "execute-immutable-induction-evidence-a2a-message": "./scripts/execute-immutable-induction-evidence-a2a-message.mjs",
+    "serve-immutable-induction-evidence-a2a": "./scripts/serve-immutable-induction-evidence-a2a.mjs",
+    "solicit-stage-accepted-software-delivery": "./src/accepted-software-delivery-receiver.mjs",
+    "stage-accepted-software-delivery": "./src/accepted-software-delivery-receiver.mjs",
+    "solicit-review-and-admit-staged-software-delivery": "./src/accepted-software-delivery-receiver.mjs",
+    "review-and-admit-staged-software-delivery": "./src/accepted-software-delivery-receiver.mjs",
+    "solicit-stage-accepted-software-delivery-correction": "./src/accepted-software-delivery-receiver.mjs",
+    "stage-accepted-software-delivery-correction": "./src/accepted-software-delivery-receiver.mjs",
+    "solicit-review-and-admit-staged-software-delivery-correction": "./src/accepted-software-delivery-receiver.mjs",
+    "review-and-admit-staged-software-delivery-correction": "./src/accepted-software-delivery-receiver.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@a2a-js/sdk": "1.0.0-beta.0",
+    "@red-cup-engineering/a2a-agent-card-discovery-service": "0.5.0",
+    "@red-cup-engineering/a2a-contracted-agent-service": "0.9.0",
+    "@red-cup-engineering/a2a-rmn-part-service": "0.2.0",
+    "@red-cup-engineering/a2a-rmn-task-client-service": "0.5.0",
+    "@red-cup-engineering/computer-data-engine": "0.10.0",
+    "@red-cup-engineering/filepath-services-section": "0.1.0",
+    "jose": "6.2.3",
+    "@red-cup-engineering/relation-model-notation": "0.3.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

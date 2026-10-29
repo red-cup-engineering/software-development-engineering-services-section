@@ -1,0 +1,37 @@
+{
+  "name": "@red-cup-engineering/acceptance-capsule-procurement-service",
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Sovereign die that procures competing oracle artifacts and settles one protected acceptance capsule.",
+  "exports": {
+    ".": "./src/client.mjs",
+    "./client": "./src/client.mjs"
+  },
+  "bin": {
+    "execute-acceptance-capsule-procurement-a2a-task": "scripts/execute-a2a-task.mjs",
+    "serve-acceptance-capsule-procurement-a2a": "scripts/server.mjs"
+  },
+  "files": [
+    "content/",
+    "scripts/",
+    "src/"
+  ],
+  "scripts": {
+    "check": "node --check src/procurement.mjs && node --check src/market-client.mjs && node --check src/protocol.mjs && node --check src/client.mjs && node --check src/record-journal.mjs && node --check scripts/execute-a2a-task.mjs && node --check scripts/server.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@a2a-js/sdk": "1.0.0-beta.0",
+    "@red-cup-engineering/a2a-contracted-agent-service": "0.5.0",
+    "@red-cup-engineering/a2a-rmn-part-service": "0.2.0",
+    "@red-cup-engineering/a2a-rmn-task-client-service": "0.5.0",
+    "@red-cup-engineering/acceptance-oracle-assay-service": "0.3.0",
+    "@red-cup-engineering/eavt": "0.10.4",
+    "@red-cup-engineering/inference-work-lot-service": "0.5.0",
+    "@red-cup-engineering/protected-acceptance-service": "0.1.0",
+    "@red-cup-engineering/relation-model-notation": "0.3.0"
+  }
+}

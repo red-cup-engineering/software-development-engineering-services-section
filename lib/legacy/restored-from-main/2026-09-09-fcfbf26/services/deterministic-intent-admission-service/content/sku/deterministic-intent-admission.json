@@ -1,0 +1,28 @@
+{
+  "id": "ni:///sha-256;0qhBHTlMIsOY5rIgeK4jKfXwiDvYwLouzytUo8pmlrw",
+  "type": "StockKeepingUnit",
+  "schema": "urn:emsenn:schema:stock-keeping-unit:2026-07-24",
+  "sku": "deterministic-intent-admission-service.deterministic-intent-admission/v1.admit-bounded-agentic-intent.n2M3wraR",
+  "producer": {
+    "actor": "urn:ame:deterministic-intent-admission-service",
+    "nodeId": "deterministic-intent-admission-service",
+    "account": "eip155:5615610:0x85e13494678eca8edf90cc0131bb0e5947bc9ce1"
+  },
+  "product": {
+    "name": "Deterministic bounded agentic intent admission",
+    "kind": "service-invocation",
+    "contract": {
+      "id": "deterministic-intent-admission/v1",
+      "law": "ni:///sha-256;n2M3wraRzuLhGXlu3yoKB1QfiimnQercb1kTthYdhaE"
+    },
+    "operation": "admit-bounded-agentic-intent",
+    "description": "Admit one finite agentic request as an exact downward-bounded inference-work-lot intent."
+  },
+  "denominations": [
+    "USD"
+  ],
+  "pricing": {
+    "intrinsicPrice": null,
+    "priceFormation": "counterparty-border-offer"
+  }
+}

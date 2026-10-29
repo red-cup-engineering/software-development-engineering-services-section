@@ -1,0 +1,37 @@
+{
+  "type": "InteractiveExecutionObservation",
+  "version": 1,
+  "supplyingService": "urn:ame:deterministic-intent-admission-service",
+  "surface": "Codex interactive workspace session",
+  "roleTransition": {
+    "providerSought": "external capability-fabrication provider",
+    "providerAvailable": false,
+    "sessionSubstitutedOwnInference": true
+  },
+  "leaderContribution": {
+    "kind": "human-attention-and-intent",
+    "quantity": "unknown",
+    "transcriptRetained": false
+  },
+  "inferenceProviderReceipt": {
+    "availability": "unavailable-in-current-runtime",
+    "provider": "unknown",
+    "session": "current-interactive-session",
+    "model": "unknown",
+    "cachedInput": "unknown",
+    "cacheCreation": "unknown",
+    "cacheRead": "unknown",
+    "output": "unknown",
+    "reasoning": "unknown",
+    "wallTime": "unknown",
+    "rateLimitPressure": "unknown",
+    "monetaryRate": "unknown",
+    "monetaryRateSource": "unknown"
+  },
+  "excludedClaims": [
+    "tokens-as-money",
+    "tokens-as-value",
+    "tokens-as-entropy",
+    "unwitnessed-Obsmetrologia-measure"
+  ]
+}

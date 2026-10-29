@@ -1,0 +1,25 @@
+{
+  "name": "@red-cup-engineering/write-capability-assay-service",
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Checks one finite write-authorization bundle — office identity, scope, dispatch, digests — without touching any filesystem. Use when an office must prove it may write before writing.",
+  "bin": {
+    "serve-write-capability-assay-a2a": "./scripts/server.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/protocol.mjs && node --check src/assay-write-capability.mjs && node --check src/client.mjs && node --check scripts/execute-a2a-task.mjs && node --check scripts/server.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@a2a-js/sdk": "1.0.0-beta.0",
+    "@red-cup-engineering/a2a-services-section": "0.9.0",
+    "@red-cup-engineering/a2a-services-section": "1.0.0",
+    "@red-cup-engineering/computer-code-engineering-services-section": "0.1.0",
+    "@red-cup-engineering/hierarchical-circuit-law": "0.1.7",
+    "@red-cup-engineering/json-services-section": "1.0.0"
+  },
+  "license": "UNLICENSED"
+}

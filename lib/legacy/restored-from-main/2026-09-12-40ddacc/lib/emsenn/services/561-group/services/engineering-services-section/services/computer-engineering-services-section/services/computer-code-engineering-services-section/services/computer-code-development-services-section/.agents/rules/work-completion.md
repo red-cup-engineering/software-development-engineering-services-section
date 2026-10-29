@@ -1,0 +1,4 @@
+<!-- Generated from @red-cup-engineering/agent-root-instructions-projection-service/content/rules/work-completion.md. Edit the package source. -->
+# Work completion
+
+Complete bounded, verified changes with the shared `commit-git-paths` operator. Supply literal repository-relative file endpoints, including both old and new endpoints for a rename; unrelated dirt neither grants ownership nor blocks closure. Run `node lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/version-control-services-section/services/git-services-section/services/committing-git-paths-service/scripts/commit-git-paths.mjs --repository <repo> --path <file> --message <message>`.
