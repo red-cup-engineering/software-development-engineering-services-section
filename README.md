@@ -103,3 +103,7 @@ load; it does not silently follow the parent's open v3 successor. It requires a
 typed packet, an exact expiring single-use capability, and a later customer
 decision while refusing customer writes, deployment, scheduling, and
 publication.
+
+## Earlier work
+
+- Restored files at `lib/legacy/2026-06-27-baef456` (restore commit baef456), from the 561-group/bare-cedar-fog history.
